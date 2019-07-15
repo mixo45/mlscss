@@ -1,0 +1,10514 @@
+.comment .midcol .arrow.down:hover:after {
+	content: "Please reserve downvotes for comments that add nothing to the discussion.";
+	display: block;
+	width: 100%;
+	padding: 8px 0;
+	margin: 0;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #083b5d;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	z-index: 9999
+}
+
+#sr-header-area {
+	display: block;
+	width: 100%;
+	min-width: 1000px;
+	height: 20px;
+	position: relative;
+	top: 0;
+	left: 0;
+	background: #303030;
+	border-bottom: none!important
+}
+
+#sr-header-area .width-clip {
+	margin: 0;
+	padding: 0
+}
+
+#sr-header-area a,
+div.srdrop span {
+	color: #fff!important
+}
+
+#sr-header-area div.srdrop.drop-choices a.choice {
+	color: #369!important
+}
+
+#sr-header-area #sr-more-link {
+	background-color: #333
+}
+
+a.gold {
+	color: #9a7d2e!important
+}
+
+body table#srList {
+	top: 20px
+}
+
+#srLeftContainer {
+	padding: 0;
+	margin-left: 10px
+}
+
+div#RESShortcutsViewport {
+	padding: 0;
+	margin-right: 60px
+}
+
+#RESShortcutsAdd,
+#RESShortcutsLeft,
+#RESShortcutsRight,
+#RESShortcutsSort,
+#RESShortcutsTrash {
+	width: 10px;
+	cursor: pointer;
+	background: 0 0!important;
+	font-size: 100%!important;
+	color: #fff!important;
+	height: 18px;
+	line-height: 15px;
+	position: absolute;
+	top: 0!important;
+	z-index: 999;
+	background-color: transparent!important
+}
+
+#RESShortcutsEditContainer {
+	width: 48px;
+	position: absolute;
+	right: 5px;
+	top: 0;
+	z-index: 999;
+	background-color: transparent!important;
+	height: 16px
+}
+
+.entry {
+	margin-left: 0!important;
+	padding-left: 3px
+}
+
+.keyHighlight {
+	outline: 0!important;
+	background: #e6effa!important;
+	border-radius: 2px!important
+}
+
+.keyHighlight p.title a.title {
+	text-decoration: underline
+}
+
+.login-form-side {
+	margin: 0 0 10px;
+	padding: 10px 0 0;
+	border: 1px solid #eee;
+	border-width: 1px 0
+}
+
+.login-form-side input[type=password],
+.login-form-side input[type=text] {
+	border-color: #d2d2d2
+}
+
+#header {
+	background: url(%%plain%%);
+	height: 180px;
+	position: relative;
+	width: 100%
+}
+
+#header-bottom-left {
+	line-height: 20px;
+	vertical-align: middle
+}
+
+#header-img {
+	max-width: 600px;
+	max-height: 159px;
+	width: auto;
+	height: auto
+}
+
+#header-img-a {
+	margin-left: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: bottom;
+	position: relative;
+	z-index: 5;
+	overflow: hidden
+}
+
+#header-img-a img {
+	margin: 0;
+	padding: 0;
+	border: 1px solid #fff;
+	box-shadow: #1a1a1a 0 0 3px
+}
+
+#header-img-a:after {
+	content: attr(title);
+	position: absolute;
+	width: inherit;
+	left: 1px;
+	right: 1px;
+	bottom: 0;
+	padding: 0 0 0 5px!important;
+	background: #000;
+	color: #fff;
+	opacity: .7;
+	z-index: 1000;
+	font-size: 12px;
+	margin-bottom: 6px;
+	text-shadow: 1px 1px 0 #000;
+	font-family: calibri, arial, serif;
+	text-align: left
+}
+
+#header .tabmenu {
+	font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+	vertical-align: middle;
+	margin-bottom: 15px
+}
+
+#header .tabmenu li a {
+	background: 0;
+	border: 0;
+	color: #fff;
+	text-transform: uppercase;
+	display: inline-block
+}
+
+#header .tabmenu li a:hover {
+	color: #fff;
+	-webkit-box-shadow: 0 1px 0 #d0d0d0;
+	-moz-box-shadow: 0 1px 0 #d0d0d0
+}
+
+#header .tabmenu .selected a,
+#header .tabmenu .selected a:hover {
+	background: #fff;
+	color: #000;
+	text-shadow: 0 1px 0 #b5b5b5;
+	-webkit-text-shadow: 0 1px 0 #b5b5b5;
+	-moz-text-shadow: 0 1px 0 #b5b5b5;
+	-webkit-box-shadow: 0 1px 0 #d0d0d0;
+	-moz-box-shadow: 0 1px 0 #d0d0d0
+}
+
+.pagename {
+	display: block!important;
+	position: absolute;
+	top: 22px;
+	left: 430px;
+	font-size: 0
+}
+
+.pagename a {
+	display: block!important;
+	text-indent: -99999px;
+	background: url(%%rMLSnext%%) no-repeat;
+	margin: 12px auto 0 auto;
+	width: 245px;
+	height: 76px;
+	opacity: 1!important
+}
+
+#header-bottom-right {
+	position: absolute;
+	top: 19px;
+	right: 5px!important;
+	background: none transparent!important;
+	display: block;
+	height: 23px!important
+}
+
+body.res #header #header-bottom-right {
+	position: absolute;
+	top: 19px!important;
+	right: 5px!important;
+	background: none transparent!important;
+	display: block;
+	height: 23px!important
+}
+
+#userbarToggle {
+	color: #fff!important;
+	background: none transparent!important;
+	border: none!important
+}
+
+#header-bottom-right .user,
+#header-bottom-right a {
+	color: #fff
+}
+
+#userbarToggle:hover,
+#userbarToggle:hover a {
+	color: #89de25!important;
+	background: none transparent!important;
+	border: none!important
+}
+
+#header-bottom-right:hover,
+#header-bottom-right:hover a {
+	color: #89de25
+}
+
+#header-bottom-right .user:hover,
+#header-bottom-right:hover a {
+	color: #89de25
+}
+
+.linkinfo {
+	background: -o-linear-gradient(top, #f8f8f8, #fff);
+	color: #363636;
+	text-align: center;
+	font-size: 11px;
+	padding: 0;
+	border: 1px solid #f1f1f1;
+	width: 270px;
+	border-radius: 3px;
+	box-shadow: 2px 2px 2px #ccc;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.linkinfo .downvotes .number,
+.linkinfo .score .number,
+.linkinfo .upvotes .number {
+	font-size: 20px!important;
+	display: block;
+	font-weight: 400!important
+}
+
+.linkinfo .score .word {
+	display: none
+}
+
+.linkinfo .comment .midcol .arrow.down:hover:after {
+	content: "Please reserve downvotes for comments that add nothing to the discussion.";
+	display: block;
+	width: 100%;
+	padding: 8px 0;
+	margin: 0;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background: #083b5d;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	z-index: 9999
+}
+
+#sr-header-area {
+	display: block;
+	width: 100%;
+	min-width: 1000px;
+	height: 20px;
+	position: relative;
+	top: 0;
+	left: 0;
+	background: #303030;
+	border-bottom: none!important
+}
+
+#sr-header-area .width-clip {
+	margin: 0;
+	padding: 0
+}
+
+#sr-header-area a,
+div.srdrop span {
+	color: #fff!important
+}
+
+#sr-header-area div.srdrop.drop-choices a.choice {
+	color: #369!important
+}
+
+#sr-header-area #sr-more-link {
+	background-color: #333
+}
+
+a.gold {
+	color: #9a7d2e!important
+}
+
+body table#srList {
+	top: 20px
+}
+
+#srLeftContainer {
+	padding: 0;
+	margin-left: 10px
+}
+
+div#RESShortcutsViewport {
+	padding: 0;
+	margin-right: 60px
+}
+
+#RESShortcutsAdd,
+#RESShortcutsLeft,
+#RESShortcutsRight,
+#RESShortcutsSort,
+#RESShortcutsTrash {
+	width: 10px;
+	cursor: pointer;
+	background: 0 0!important;
+	font-size: 100%!important;
+	color: #fff!important;
+	height: 18px;
+	line-height: 15px;
+	position: absolute;
+	top: 0!important;
+	z-index: 999;
+	background-color: transparent!important
+}
+
+#RESShortcutsEditContainer {
+	width: 48px;
+	position: absolute;
+	right: 5px;
+	top: 0;
+	z-index: 999;
+	background-color: transparent!important;
+	height: 16px
+}
+
+.entry {
+	margin-left: 0!important;
+	padding-left: 3px
+}
+
+.keyHighlight {
+	outline: 0!important;
+	background: #e6effa!important;
+	border-radius: 2px!important
+}
+
+.keyHighlight p.title a.title {
+	text-decoration: underline
+}
+
+.login-form-side {
+	margin: 0 0 10px;
+	padding: 10px 0 0;
+	border: 1px solid #eee;
+	border-width: 1px 0
+}
+
+.login-form-side input[type=password],
+.login-form-side input[type=text] {
+	border-color: #d2d2d2
+}
+
+#header {
+	background: url(%%plain%%);
+	height: 180px;
+	position: relative;
+	width: 100%
+}
+
+#header-bottom-left {
+	line-height: 20px;
+	vertical-align: middle
+}
+
+#header-img {
+	max-width: 600px;
+	max-height: 159px;
+	width: auto;
+	height: auto
+}
+
+#header-img-a {
+	margin-left: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: bottom;
+	position: relative;
+	z-index: 5;
+	overflow: hidden
+}
+
+#header-img-a img {
+	margin: 0;
+	padding: 0;
+	border: 1px solid #fff;
+	box-shadow: #1a1a1a 0 0 3px
+}
+
+#header-img-a:after {
+	content: attr(title);
+	position: absolute;
+	width: inherit;
+	left: 1px;
+	right: 1px;
+	bottom: 0;
+	padding: 0 0 0 5px!important;
+	background: #000;
+	color: #fff;
+	opacity: .7;
+	z-index: 1000;
+	font-size: 12px;
+	margin-bottom: 6px;
+	text-shadow: 1px 1px 0 #000;
+	font-family: calibri, arial, serif;
+	text-align: left
+}
+
+#header .tabmenu {
+	font-family: HelveticaNeue, Helvetica, Arial, sans-serif;
+	vertical-align: middle;
+	margin-bottom: 15px
+}
+
+#header .tabmenu li a {
+	background: 0;
+	border: 0;
+	color: #fff;
+	text-transform: uppercase;
+	display: inline-block
+}
+
+#header .tabmenu li a:hover {
+	color: #fff;
+	-webkit-box-shadow: 0 1px 0 #d0d0d0;
+	-moz-box-shadow: 0 1px 0 #d0d0d0
+}
+
+#header .tabmenu .selected a,
+#header .tabmenu .selected a:hover {
+	background: #fff;
+	color: #000;
+	text-shadow: 0 1px 0 #b5b5b5;
+	-webkit-text-shadow: 0 1px 0 #b5b5b5;
+	-moz-text-shadow: 0 1px 0 #b5b5b5;
+	-webkit-box-shadow: 0 1px 0 #d0d0d0;
+	-moz-box-shadow: 0 1px 0 #d0d0d0
+}
+
+.pagename {
+	display: block!important;
+	position: absolute;
+	top: 22px;
+	left: 430px;
+	font-size: 0
+}
+
+.pagename a {
+	display: block!important;
+	text-indent: -99999px;
+	background: url(%%rMLSnext%%) no-repeat;
+	margin: 12px auto 0 auto;
+	width: 245px;
+	height: 76px;
+	opacity: 1!important
+}
+
+#header-bottom-right {
+	position: absolute;
+	top: 19px;
+	right: 5px!important;
+	background: none transparent!important;
+	display: block;
+	height: 23px!important
+}
+
+body.res #header #header-bottom-right {
+	position: absolute;
+	top: 19px!important;
+	right: 5px!important;
+	background: none transparent!important;
+	display: block;
+	height: 23px!important
+}
+
+#userbarToggle {
+	color: #fff!important;
+	background: none transparent!important;
+	border: none!important
+}
+
+#header-bottom-right .user,
+#header-bottom-right a {
+	color: #fff
+}
+
+#userbarToggle:hover,
+#userbarToggle:hover a {
+	color: #89de25!important;
+	background: none transparent!important;
+	border: none!important
+}
+
+#header-bottom-right:hover,
+#header-bottom-right:hover a {
+	color: #89de25
+}
+
+#header-bottom-right .user:hover,
+#header-bottom-right:hover a {
+	color: #89de25
+}
+
+.linkinfo {
+	background: -o-linear-gradient(top, #f8f8f8, #fff);
+	color: #363636;
+	text-align: center;
+	font-size: 11px;
+	padding: 0;
+	border: 1px solid #f1f1f1;
+	width: 270px;
+	border-radius: 3px;
+	box-shadow: 2px 2px 2px #ccc;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.linkinfo .downvotes .number,
+.linkinfo .score .number,
+.linkinfo .upvotes .number {
+	font-size: 20px!important;
+	display: block;
+	font-weight: 400!important
+}
+
+.linkinfo .score .word {
+	display: none
+}
+
+.linkinfo .score {
+	font-size: 11px;
+	color: #aaa;
+	display: block;
+	min-width: 59px;
+	margin-left: 25px!important
+}
+
+.linkinfo .downvotes .word,
+.linkinfo .upvotes .word {
+	font-size: 11px;
+	color: #aaa
+}
+
+.linkinfo .downvotes,
+.linkinfo .score,
+.linkinfo .upvotes {
+	float: left;
+	padding: 5px 10px 5px 0;
+	margin: 8px 10px 10px 0;
+	text-align: center
+}
+
+.linkinfo .score,
+.linkinfo .upvotes {
+	border-right: 1px solid #e8e7e7
+}
+
+.linkinfo .score .number {
+	color: #363636
+}
+
+.linkinfo .upvotes .number {
+	color: #ff4500
+}
+
+.linkinfo .downvotes .number {
+	color: #9494ff
+}
+
+.linkinfo .shortlink {
+	clear: both!important;
+	font-size: 10px;
+	margin-top: 10px;
+	color: #aaa
+}
+
+.linkinfo .shortlink input {
+	background: #fff;
+	border: 2px solid #f2f2f2;
+	padding-left: 8px;
+	font-size: 10px;
+	color: #000;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.sidebox.create {
+	display: none
+}
+
+.morelink:hover,
+.submit .morelink {
+	font-weight: 400;
+	letter-spacing: 0;
+	background: #0f1d42;
+	border-color: #ddd;
+	border-radius: 0;
+	box-shadow: 1px 1px 1px 1px #ccc;
+	margin-left: 2px;
+	margin-right: 2px;
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden
+}
+
+.morelink a:hover,
+.submit .morelink a {
+	color: #fff;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 16px
+}
+
+.submit .morelink:hover a {
+	color: #89de25
+}
+
+.fancy-toggle-button .remove {
+	background-color: #0f1d42!important;
+	border-radius: 2px;
+	color: #fff;
+	border: 1px solid #e4e4e4;
+	background-image: none;
+	font-weight: 400;
+	padding: 3px
+}
+
+.fancy-toggle-button .remove:hover {
+	color: #89de25
+}
+
+.fancy-toggle-button .remove:hover:after {
+	color: #89de25
+}
+
+.fancy-toggle-button .add {
+	background-color: #0f1d42;
+	border-radius: 0;
+	color: #fff;
+	font-weight: 400;
+	font-size: 12px;
+	background-image: none;
+	border: 1px solid #e4e4e4;
+	padding: 3px
+}
+
+.fancy-toggle-button .add:hover {
+	color: #89de25
+}
+
+.RESshortcutside.remove {
+	background-color: #0f1d42!important;
+	color: #fff!important;
+	background-image: none!important;
+	font-weight: 400!important;
+	border: 1px solid #e4e4e4!important;
+	padding: 3px!important
+}
+
+.RESshortcutside {
+	margin-right: 5px!important;
+	margin-top: 2px!important;
+	text-align: center!important;
+	width: 68px!important;
+	font-size: 10px!important;
+	color: #0f1d42!important;
+	border-radius: 0!important;
+	background-color: #fff!important;
+	font-weight: 400!important;
+	background-image: none!important;
+	border: 1px solid #e4e4e4!important;
+	padding: 3px!important
+}
+
+.RESDashboardToggle.remove {
+	background-color: #0f1d42!important;
+	border-radius: 1px!important;
+	color: #fff!important;
+	font-weight: 400!important;
+	background-image: none!important;
+	border: 1px solid #e4e4e4;
+	padding: 3px!important
+}
+
+.RESDashboardToggle {
+	text-align: center!important;
+	width: 68px!important;
+	font-size: 10px!important;
+	color: #0f1d42!important;
+	border-radius: 0!important;
+	background-color: #fff!important;
+	font-weight: 400!important;
+	background-image: none!important;
+	border: 1px solid #e4e4e4!important;
+	padding: 3px!important
+}
+
+body div.side .spacer #search input[type=text] {
+	color: #000
+}
+
+.side form#search input[name="q"] {
+	border: 1px solid #e3e3e3;
+	height: 10px;
+	font-size: 12px;
+	color: #b5b5b5;
+	padding: 10px;
+	width: 260px
+}
+
+.subscribers .word,
+.users-online .word {
+	display: none
+}
+
+.subscribers .number:after {
+	content: " Supporters"
+}
+
+.users-online .number:after {
+	content: " people currently fed-up with Whitecaps FC co-owners Greg Kerfoot and Jeff Mallett enabling child predation for the past ten years"
+}
+
+.side .titlebox .md p:first-of-type {
+	margin: 0;
+	height: 0
+}
+
+.sitetable .thumbnail {
+	margin: 2px 2px 2px 5px;
+	max-height: 60px;
+	width: auto
+}
+
+.sitetable .thumbnail.self {
+	margin: 2px 0
+}
+
+.link .usertext .md {
+	padding: 5px 10px;
+	border: 0 none;
+	background-color: transparent
+}
+
+body div.content {
+	background: #fafafa;
+	width: auto;
+	min-height: 3000px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 15px;
+	border-top: 3px solid #083b5d;
+	box-shadow: 0 1px 6px #7b91a2;
+	z-index: 102
+}
+
+body.comments-page.res div.content>.sitetable {
+	padding-right: 10px
+}
+
+div.content .link .rank {
+	display: none
+}
+
+.thing .title {
+	color: #0e56b0;
+	color: #0073c0;
+	color: #0a519a
+}
+
+.thing .title:visited {
+	color: #623788
+}
+
+.thing .title.click {
+	color: #623788
+}
+
+.thing .title.loggedin {
+	color: #0e56b0;
+	color: #0073c0;
+	color: #0a519a
+}
+
+.thing .title.loggedin:visited {
+	color: #623788
+}
+
+.thing .title.loggedin.click {
+	color: #623788
+}
+
+.thing .title.loggedin.click:visited {
+	color: #623788
+}
+
+#siteTable div.thing ul .first .comments {
+	visibility: visible
+}
+
+#siteTable div.thing ul .first .empty {
+	visibility: visible;
+	color: #888
+}
+
+body div.side {
+	display: inline-block;
+	right: 10px;
+	width: 285px;
+	margin-top: 20px;
+	background-color: #f8f8f8!important;
+	padding: 16px;
+	border-top: 3px solid #89de25;
+	padding-top: 10px;
+	box-shadow: 0 1px 6px #7b91a2;
+	background: #f8f8f9;
+	z-index: 102
+}
+
+body div.side .morelink {
+	border-radius: 2px
+}
+
+body div.side .nub {
+	display: none
+}
+
+.titlebox .bottom {
+	display: none
+}
+
+#siteTable.sitetable.linklisting .tagline .flair {
+	display: none
+}
+
+.footer-parent {
+	padding-top: 180px;
+	background: url(%%logo-3%%) top center no-repeat
+}
+
+.side .redditname a {
+	font-size: 0
+}
+
+.side .redditname a:after {
+	font-size: 19px;
+	color: #303030;
+	content: '/r/MLS'
+}
+
+div.side .linkinfo {
+	position: relative;
+	top: 6px
+}
+
+div.side .login-form-side {
+	position: relative;
+	top: 6px
+}
+
+body div.side .md hr {
+	border: 0;
+	border-bottom: 1px solid #bebebe;
+	box-shadow: 0 1px 0 #fcfcfc;
+	margin-bottom: 4px
+}
+
+body div.titlebox .leavemoderator,
+body div.titlebox form.toggle {
+	background-color: transparent
+}
+
+body.res-nightmode div.side {
+	background-color: transparent!important;
+	border: 0
+}
+
+body div.thing.link {
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin: 0;
+	border-bottom: 1px solid #cecece;
+	border-bottom: 1px solid #dfdfdf;
+	box-shadow: 0 1px #fff
+}
+
+.link.last-clicked {
+	border: 0
+}
+
+body.comments-page.res div.content .commentarea {
+	margin-right: 10px
+}
+
+.commentarea .comment {
+	border: 0 #f8f8f8!important;
+	margin: 0!important;
+	padding: 0!important
+}
+
+.commentarea .comment .child {
+	margin: 6px 0 0 35px!important;
+	border-left: 1px dotted #d5d5d5!important
+}
+
+.comment .entry {
+	background-color: transparent!important;
+	padding: 0!important
+}
+
+.commentarea .entry>.collapsed {
+	background-color: transparent!important;
+	padding: 6px 0 6px 50px!important
+}
+
+.commentarea .entry>.noncollapsed {
+	background-color: #f5f5f5!important;
+	border: 1px solid #d7d7d7!important;
+	border-radius: 3px;
+	padding: 6px!important
+}
+
+.commentarea .morechildren>.entry>.noncollapsed {
+	background-color: transparent!important;
+	padding: 0!important
+}
+
+.commentarea .morerecursion>.entry>.noncollapsed {
+	background-color: transparent!important;
+	padding: 0!important
+}
+
+.sitetable.nestedlisting {
+	background-color: #fafafa;
+	padding: 0!important;
+	margin: 0
+}
+
+.commentarea .nestedlisting .comment {
+	margin-left: 0!important
+}
+
+p.tagline,
+p.tagline a {
+	margin: 3px 0
+}
+
+.tagline {
+	font-size: 10px;
+	font-family: Verdana;
+	padding-left: 1px
+}
+
+.commentarea .comment .midcol {
+	width: 15px!important;
+	height: 62px;
+	padding: 0;
+	margin: 0;
+	background-color: transparent;
+	background-position: 34px 10px;
+	background-repeat: no-repeat;
+	margin-right: 5px
+}
+
+.res .comment,
+.res .comment .comment,
+.res .comment .comment .comment,
+.res .comment .comment .comment .comment,
+.res .comment .comment .comment .comment .comment,
+.res .comment .comment .comment .comment .comment .comment,
+.res .comment .comment .comment .comment .comment .comment .comment,
+.res .comment .comment .comment .comment .comment .comment .comment .comment,
+.res .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.res .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.res .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+	background-color: transparent!important
+}
+
+.comment.spam>.child,
+.message.spam>.child {
+	background-color: transparent
+}
+
+body.res-nightmode .commentarea .comment {
+	background-color: #222!important
+}
+
+body.res-nightmode .commentarea .entry>.noncollapsed {
+	background-color: #333!important;
+	border: 1px solid #666!important
+}
+
+.res .content .RES-keyNav-activeElement {
+	background-color: transparent!important;
+	outline: 1px dashed #b8b8b8!important
+}
+
+.comments-page.res .content .sitetable .RES-keyNav-activeElement {
+	background-color: transparent!important;
+	background-image: none!important;
+	outline: 0!important
+}
+
+body #parentComment {
+	background-color: #f5f5f5!important;
+	border: 1px solid #d7d7d7!important;
+	box-shadow: 0 0 6px #ccc!important;
+	z-index: 200
+}
+
+body.res div#NREFloat {
+	z-index: 1000
+}
+
+.link .midcol {
+	margin-right: 10px
+}
+
+.linkflair-usocmatch .entry .title {
+	color: orange;
+	font-weight: 700
+}
+
+.linkflair-usocmatch .entry .title:visited {
+	color: orange;
+	font-weight: 700
+}
+
+.linkflair-cclmatch .entry .title {
+	color: purple;
+	font-weight: 700
+}
+
+.linkflair-cclmatch .entry .title:visited {
+	color: purple;
+	font-weight: 700
+}
+
+.linkflair-friendlymatch .entry .title {
+	color: #a4a4a4;
+	font-weight: 700
+}
+
+.linkflair-friendlymatch .entry .title:visited {
+	color: #a4a4a4;
+	font-weight: 700
+}
+
+.linkflair-ama .entry .title {
+	color: #00f;
+	font-weight: 700
+}
+
+.linkflair-ama .entry .title:visited {
+	color: #00f;
+	font-weight: 700
+}
+
+.linkflair-meta .entry .title {
+	color: #0a8c28;
+	font-weight: 700
+}
+
+.linkflair-meta .entry .title:visited {
+	color: #0a8c28;
+	font-weight: 700
+}
+
+.linkflair-trashtalk .entry .title {
+	color: #b00000;
+	font-weight: 700
+}
+
+.linkflair-trashtalk .entry .title:visited {
+	color: #b00000;
+	font-weight: 700
+}
+
+.linkflair-mlsmatch .entry .title {
+	color: #b00000;
+	font-weight: 700
+}
+
+.linkflair-mlsmatch .entry .title:visited {
+	color: #b00000;
+	font-weight: 700
+}
+
+.linkflair-discussion .entry .title {
+	color: #b00000;
+	font-weight: 700
+}
+
+.linkflair-discussion .entry .title:visited {
+	color: #b00000;
+	font-weight: 700
+}
+
+.linkflair-official .entry .title {
+	color: #000;
+	font-weight: 700
+}
+
+.linkflair-official .entry .title:visited {
+	color: #000;
+	font-weight: 700
+}
+
+.linkflair-shit .entry .title {
+	color: brown;
+	font-weight: 700
+}
+
+.linkflair-shit .entry .title:visited {
+	color: brown;
+	font-weight: 700
+}
+
+.linkflair-highlight .entry .title {
+	color: orange;
+	font-weight: 700
+}
+
+.linkflair-highlight .entry .title:visited {
+	color: orange;
+	font-weight: 700
+}
+
+#siteTable a.title[href*="/match_thread"]:before {
+	background-image: url(%%match-events%%);
+	background-position: 0 -32px;
+	background-repeat: no-repeat;
+	content: "";
+	display: inline-block;
+	height: 16px;
+	margin-right: 2px;
+	vertical-align: middle;
+	width: 16px
+}
+
+#siteTable a.title[href*=match_thread] {
+	color: #b00000;
+	font-weight: 700
+}
+
+#siteTable a.title[href*="1gz5l2"] {
+	color: #b00000;
+	font-weight: 700
+}
+
+#siteTable a.title[href*="1i8yxm"] {
+	color: #b00000;
+	font-weight: 700
+}
+
+#siteTable a.title[href*=trash_talk_thread] {
+	color: #b00000;
+	font-weight: 700;
+	text-transform: uppercase
+}
+
+#siteTable a.title[href*=us_open_cup_thread]:before {
+	background-image: url(%%flair%%);
+	background-position: -260px -20px;
+	background-repeat: no-repeat;
+	content: "";
+	display: inline-block;
+	height: 20px;
+	margin-right: 2px;
+	vertical-align: middle;
+	width: 20px
+}
+
+#siteTable a.title[href*=us_open_cup_thread] {
+	color: #e48e0d;
+	font-weight: 700
+}
+
+#siteTable a.title[href*=concacaf_thread],
+a.title[href*=ccl_match_thread],
+a.title[href*=ccl_thread],
+a.title[href*=concacaf_champions_league_thread] {
+	color: #0a8c28;
+	font-weight: 700
+}
+
+#siteTable a.title[href*=concacaf_thread]:before,
+a.title[href*=ccl_match_thread]:before,
+a.title[href*=ccl_thread]:before,
+a.title[href*=concacaf_champions_league_thread]:before {
+	background-image: url(%%flair%%);
+	background-position: -260px -40px;
+	background-repeat: no-repeat;
+	content: "";
+	display: inline-block;
+	height: 20px;
+	margin-right: 2px;
+	vertical-align: middle;
+	width: 20px
+}
+
+#siteTable a.title[href*=fifa_thread]:before,
+#siteTable a.title[href*=world_cup_qualifier_thread]:before,
+#siteTable a.title[href*=world_cup_qualifying_thread]:before {
+	background-image: url(%%flair%%);
+	background-position: -260px -80px;
+	background-repeat: no-repeat;
+	content: "";
+	display: inline-block;
+	height: 20px;
+	margin-right: 2px;
+	vertical-align: middle;
+	width: 20px
+}
+
+#siteTable a.title[href*=fifa_thread],
+#siteTable a.title[href*=qualifier_thread],
+#siteTable a.title[href*=world_cup_qualifier_thread],
+#siteTable a.title[href*=world_cup_qualifying_thread] {
+	color: #013adf;
+	font-weight: 700
+}
+
+.usertext {
+	position: static
+}
+
+.titlebox .md a[href="/r/AtlantaUnited"],
+.titlebox .md a[href="/r/AustinFC"],
+.titlebox .md a[href="/r/DCUnited"],
+.titlebox .md a[href="/r/FCCincinnati"],
+.titlebox .md a[href="/r/FCDallas"],
+.titlebox .md a[href="/r/InterMiami"],
+.titlebox .md a[href="/r/LAFC"],
+.titlebox .md a[href="/r/LAGalaxy"],
+.titlebox .md a[href="/r/NYCFC"],
+.titlebox .md a[href="/r/NashvilleSC"],
+.titlebox .md a[href="/r/NewEnglandRevolution"],
+.titlebox .md a[href="/r/OCLions"],
+.titlebox .md a[href="/r/PhillyUnion"],
+.titlebox .md a[href="/r/Rapids"],
+.titlebox .md a[href="/r/SJEarthquakes"],
+.titlebox .md a[href="/r/SoundersFC"],
+.titlebox .md a[href="/r/TFC"],
+.titlebox .md a[href="/r/TheMassive"],
+.titlebox .md a[href="/r/chicagofire"],
+.titlebox .md a[href="/r/dynamo"],
+.titlebox .md a[href="/r/minnesotaunited"],
+.titlebox .md a[href="/r/montrealimpact"],
+.titlebox .md a[href="/r/rbny"],
+.titlebox .md a[href="/r/realsaltlake"],
+.titlebox .md a[href="/r/sportingkc"],
+.titlebox .md a[href="/r/timbers"],
+.titlebox .md a[href="/r/whitecapsfc"] {
+	position: absolute;
+	z-index: 100;
+	top: 115px;
+	right: 2px;
+	width: 20px;
+	height: 20px;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%header-crests%%);
+	background-size: 900px 20px;
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	border: 0
+}
+
+.titlebox .md a[href="/r/AtlantaUnited"] {
+	background-position: -5px 0;
+	right: 580px
+}
+
+.titlebox .md a[href="/r/chicagofire"] {
+	background-position: -35px 0;
+	right: 555px
+}
+
+.titlebox .md a[href="/r/Rapids"] {
+	background-position: -65px 0;
+	right: 505px
+}
+
+.titlebox .md a[href="/r/TheMassive"] {
+	background-position: -95px 0;
+	right: 480px
+}
+
+.titlebox .md a[href="/r/DCUnited"] {
+	background-position: -125px 0;
+	right: 455px
+}
+
+.titlebox .md a[href="/r/FCDallas"] {
+	background-position: -155px 0;
+	right: 430px
+}
+
+.titlebox .md a[href="/r/dynamo"] {
+	background-position: -185px 0;
+	right: 405px
+}
+
+.titlebox .md a[href="/r/LAGalaxy"] {
+	background-position: -215px 0;
+	right: 380px
+}
+
+.titlebox .md a[href="/r/LAFC"] {
+	background-position: -245px 0;
+	right: 355px
+}
+
+.titlebox .md a[href="/r/minnesotaunited"] {
+	background-position: -305px 0;
+	right: 330px
+}
+
+.titlebox .md a[href="/r/montrealimpact"] {
+	background-position: -335px 0;
+	right: 305px
+}
+
+.titlebox .md a[href="/r/NewEnglandRevolution"] {
+	background-position: -365px 0;
+	right: 280px
+}
+
+.titlebox .md a[href="/r/NYCFC"] {
+	background-position: -395px 0;
+	right: 255px
+}
+
+.titlebox .md a[href="/r/rbny"] {
+	background-position: -425px 0;
+	right: 230px
+}
+
+.titlebox .md a[href="/r/OCLions"] {
+	background-position: -455px 0;
+	right: 205px
+}
+
+.titlebox .md a[href="/r/PhillyUnion"] {
+	background-position: -485px 0;
+	right: 180px
+}
+
+.titlebox .md a[href="/r/timbers"] {
+	background-position: -515px 0;
+	right: 155px
+}
+
+.titlebox .md a[href="/r/realsaltlake"] {
+	background-position: -545px 0;
+	right: 130px
+}
+
+.titlebox .md a[href="/r/SJEarthquakes"] {
+	background-position: -575px 0;
+	right: 105px
+}
+
+.titlebox .md a[href="/r/SoundersFC"] {
+	background-position: -605px 0;
+	right: 80px
+}
+
+.titlebox .md a[href="/r/sportingkc"] {
+	background-position: -635px 0;
+	right: 55px
+}
+
+.titlebox .md a[href="/r/TFC"] {
+	background-position: -665px 0;
+	right: 30px
+}
+
+.titlebox .md a[href="/r/whitecapsfc"] {
+	background-position: -695px 0;
+	right: 5px
+}
+
+.titlebox .md a[href="/r/FCCincinnati"] {
+	background-position: -725px 0;
+	right: 530px
+}
+
+.titlebox .md a[href="/r/AtlantaUnited"]:hover:after,
+.titlebox .md a[href="/r/AustinFC"]:hover:after,
+.titlebox .md a[href="/r/DCUnited"]:hover:after,
+.titlebox .md a[href="/r/FCCincinnati"]:hover:after,
+.titlebox .md a[href="/r/FCDallas"]:hover:after,
+.titlebox .md a[href="/r/InterMiami"]:hover:after,
+.titlebox .md a[href="/r/LAFC"]:hover:after,
+.titlebox .md a[href="/r/LAGalaxy"]:hover:after,
+.titlebox .md a[href="/r/NYCFC"]:hover:after,
+.titlebox .md a[href="/r/NashvilleSC"]:hover:after,
+.titlebox .md a[href="/r/NewEnglandRevolution"]:hover:after,
+.titlebox .md a[href="/r/OCLions"]:hover:after,
+.titlebox .md a[href="/r/PhillyUnion"]:hover:after,
+.titlebox .md a[href="/r/Rapids"]:hover:after,
+.titlebox .md a[href="/r/SJEarthquakes"]:hover:after,
+.titlebox .md a[href="/r/SoundersFC"]:hover:after,
+.titlebox .md a[href="/r/TFC"]:hover:after,
+.titlebox .md a[href="/r/TheMassive"]:hover:after,
+.titlebox .md a[href="/r/chicagofire"]:hover:after,
+.titlebox .md a[href="/r/dynamo"]:hover:after,
+.titlebox .md a[href="/r/minnesotaunited"]:hover:after,
+.titlebox .md a[href="/r/montrealimpact"]:hover:after,
+.titlebox .md a[href="/r/rbny"]:hover:after,
+.titlebox .md a[href="/r/realsaltlake"]:hover:after,
+.titlebox .md a[href="/r/sportingkc"]:hover:after,
+.titlebox .md a[href="/r/timbers"]:hover:after,
+.titlebox .md a[href="/r/whitecapsfc"]:hover:after {
+	content: attr(title);
+	position: absolute;
+	top: -30px;
+	right: -4px;
+	background: #fff;
+	color: #000;
+	z-index: 101;
+	border-radius: 5px;
+	white-space: nowrap;
+	padding: 3px 6px;
+	box-shadow: 0 0 5px #000
+}
+
+.titlebox .md a[href="/r/chicagofire"]:hover:after {
+	background: #ce1432;
+	color: #fff
+}
+
+.titlebox .md a[href="/r/OCLions"]:hover:after {
+	background: #633492;
+	color: #fde192
+}
+
+.titlebox .md a[href="/r/Rapids"]:hover:after {
+	background: #960a2c;
+	color: #9cc2ea
+}
+
+.titlebox .md a[href="/r/TheMassive"]:hover:after {
+	background: #fff200;
+	color: #000
+}
+
+.titlebox .md a[href="/r/DCUnited"]:hover:after {
+	background: #231f20;
+	color: #ef3e42
+}
+
+.titlebox .md a[href="/r/FCDallas"]:hover:after {
+	background: #e81f3e;
+	color: #fff
+}
+
+.titlebox .md a[href="/r/dynamo"]:hover:after {
+	background: #f68712;
+	color: #fff
+}
+
+.titlebox .md a[href="/r/LAFC"]:hover:after {
+	background: #17191d;
+	color: #c6a566
+}
+
+.titlebox .md a[href="/r/LAGalaxy"]:hover:after {
+	background: #00245d;
+	color: #ffd900
+}
+
+.titlebox .md a[href="/r/montrealimpact"]:hover:after {
+	background: #00529b;
+	color: #bcbec0
+}
+
+.titlebox .md a[href="/r/NewEnglandRevolution"]:hover:after {
+	background: #002b5c;
+	color: #fff
+}
+
+.titlebox .md a[href="/r/rbny"]:hover:after {
+	background: #fff;
+	color: #ed1e36
+}
+
+.titlebox .md a[href="/r/PhillyUnion"]:hover:after {
+	background: #0c1c2a;
+	color: #dabe8c
+}
+
+.titlebox .md a[href="/r/timbers"]:hover:after {
+	background: #2b5134;
+	color: #cd9700
+}
+
+.titlebox .md a[href="/r/realsaltlake"]:hover:after {
+	background: #b30838;
+	color: #f1cb00
+}
+
+.titlebox .md a[href="/r/SJEarthquakes"]:hover:after {
+	background: #000;
+	color: #0067b1
+}
+
+.titlebox .md a[href="/r/sportingkc"]:hover:after {
+	background: #91b0d5;
+	color: #002f65
+}
+
+.titlebox .md a[href="/r/SoundersFC"]:hover:after {
+	background: #5d9741;
+	color: #005595
+}
+
+.titlebox .md a[href="/r/TFC"]:hover:after {
+	background: #455560;
+	color: #e31937
+}
+
+.titlebox .md a[href="/r/whitecapsfc"]:hover:after {
+	background: #fff;
+	color: #00245e
+}
+
+.titlebox .md a[href="/r/NYCFC"]:hover:after {
+	background: #78a5db;
+	color: #fff
+}
+
+.titlebox .md a[href="/r/AtlantaUnited"]:hover:after {
+	background: #80000b;
+	color: #a29061
+}
+
+.titlebox .md a[href="/r/minnesotaunited"]:hover:after {
+	background: #8cd2f4;
+	color: #231f20
+}
+
+.titlebox .md a[href="/r/InterMiami"]:hover:after {
+	background: #231f20;
+	color: #f4b5cd
+}
+
+.titlebox .md a[href="/r/FCCincinnati"]:hover:after {
+	background: #003087;
+	color: #fe5000
+}
+
+.titlebox .md a[href="/r/AustinFC"]:hover:after {
+	background: #000;
+	color: #00b140
+}
+
+.titlebox .md a[href="/r/NashvilleSC"]:hover:after {
+	background: #ece83a;
+	color: #1f1646
+}
+
+.md table {
+	border: 2px solid #fff;
+	box-shadow: 0 0 5px #ccc;
+	margin: 1px 0 1px 0;
+	position: relative;
+	left: 1px
+}
+
+.titlebox .md table {
+	width: 99%
+}
+
+.md table th {
+	background: #303030;
+	border-top: 0;
+	border-left: none;
+	border-bottom: 0;
+	border-right: 1px solid #525252;
+	color: #fafafa;
+	font-weight: 700;
+	padding: .5em;
+	text-align: center;
+	text-shadow: 1px 1px 0 #2f2f2f;
+	font-size: 10px
+}
+
+.md table th a {
+	color: #363636
+}
+
+.md table td {
+	font-size: 10px;
+	border: 0;
+	padding: .3em;
+	vertical-align: middle
+}
+
+.md table td a {
+	color: #27262c!important;
+	font-weight: 400
+}
+
+.md table td a:hover {
+	color: #fff!important;
+	text-decoration: underline
+}
+
+.md tr:nth-of-type(odd) {
+	background: #fff;
+	color: #363636
+}
+
+.md tr:nth-of-type(even) {
+	background: #e3e3e3;
+	color: #363636
+}
+
+.md tr:nth-of-type(odd) td:nth-of-type(7) {
+	background: #eee
+}
+
+.md tr:nth-of-type(even) td:nth-of-type(7) {
+	background: #ccc
+}
+
+.md tr:hover {
+	background: #a0cdff!important;
+	cursor: default
+}
+
+.md tr:hover td:nth-of-type(7) {
+	background: #396!important;
+	cursor: default
+}
+
+.md td a[href*="mlssoccer.com"],
+.md td a[href*="atlutd.com"],
+.md td a[href*="austinfc.com"],
+.md td a[href*="chicago-fire.com"],
+.md td a[href*="coloradorapids.com"],
+.md td a[href*="columbuscrewsc.com"],
+.md td a[href*="dcunited.com"],
+.md td a[href*="fccincinnati.com"],
+.md td a[href*="fcdallas.com"],
+.md td a[href*="houstondynamo.com"],
+.md td a[href*="impactmontreal.com"],
+.md td a[href*="intermiamicf.com"],
+.md td a[href*="lafc.com"],
+.md td a[href*="lagalaxy.com"],
+.md td a[href*="mnufc.com"],
+.md td a[href*="nashvillesc.com"],
+.md td a[href*="newyorkredbulls.com"],
+.md td a[href*="nycfc.com"],
+.md td a[href*="orlandocitysc.com"],
+.md td a[href*="philadelphiaunion.com"],
+.md td a[href*="timbers.com"],
+.md td a[href*="revolutionsoccer.net"],
+.md td a[href*="rsl.com"],
+.md td a[href*="sjearthquakes.com"],
+.md td a[href*="soundersfc.com"],
+.md td a[href*="sportingkc.com"],
+.md td a[href*="torontofc.ca"],
+.md td a[href*="whitecapsfc.com"],
+.md td a[href*="thecup.us"],
+.md td a[href*="ussoccer.com"],
+.md td a[href*="canadasoccer.com"],
+.md td a[href*="goldcup.org"],
+.md td a[href*="canadasoccer.com/canadian-championship-p149302"],
+.md td a[href*="cavalryfc.canpl.ca"],
+.md td a[href*="fcedmonton.canpl.ca"],
+.md td a[href*="forgefc.canpl.ca"],
+.md td a[href*="hfxwanderersfc.canpl.ca"],
+.md td a[href*="pacificfc.canpl.ca"],
+.md td a[href*="valourfc.canpl.ca"],
+.md td a[href*="york9fc.canpl.ca"],
+.md td a[href*="saintlouisfc.com"],
+.md td a[href*="newmexicoutd.com"] {
+	background-color: transparent;
+	background-image: url(%%link-flair%%);
+	background-size: 20px 1800px;
+	background-repeat: no-repeat;
+	padding: 5px 0 5px 25px;
+	margin-left: 3px;
+	display: block
+}
+
+.md td a[href*="mlssoccer.com"] {
+	background-position: 0 0
+}
+
+.md td a[href*="atlutd.com"] {
+	background-position: 0 -32px
+}
+
+.md td a[href*="chicago-fire.com"] {
+	background-position: 0 -62px
+}
+
+.md td a[href*="coloradorapids.com"] {
+	background-position: 0 -92px
+}
+
+.md td a[href*="columbuscrewsc.com"] {
+	background-position: 0 -122px
+}
+
+.md td a[href*="dcunited.com"] {
+	background-position: 0 -152px
+}
+
+.md td a[href*="fcdallas.com"] {
+	background-position: 0 -182px
+}
+
+.md td a[href*="houstondynamo.com"] {
+	background-position: 0 -212px
+}
+
+.md td a[href*="lagalaxy.com"] {
+	background-position: 0 -242px
+}
+
+.md td a[href*="lafc.com"] {
+	background-position: 0 -272px
+}
+
+.md td a[href*="intermiamicf.com"] {
+	background-position: 0 -302px
+}
+
+.md td a[href*="mnufc.com"] {
+	background-position: 0 -332px
+}
+
+.md td a[href*="impactmontreal.com"] {
+	background-position: 0 -362px
+}
+
+.md td a[href*="revolutionsoccer.net"] {
+	background-position: 0 -392px
+}
+
+.md td a[href*="nycfc.com"] {
+	background-position: 0 -422px
+}
+
+.md td a[href*="newyorkredbulls.com"] {
+	background-position: 0 -452px
+}
+
+.md td a[href*="orlandocitysc.com"] {
+	background-position: 0 -482px
+}
+
+.md td a[href*="philadelphiaunion.com"] {
+	background-position: 0 -512px
+}
+
+.md td a[href*="timbers.com"] {
+	background-position: 0 -542px
+}
+
+.md td a[href*="rsl.com"] {
+	background-position: 0 -572px
+}
+
+.md td a[href*="sjearthquakes.com"] {
+	background-position: 0 -602px
+}
+
+.md td a[href*="soundersfc.com"] {
+	background-position: 0 -632px
+}
+
+.md td a[href*="sportingkc.com"] {
+	background-position: 0 -662px
+}
+
+.md td a[href*="torontofc.ca"] {
+	background-position: 0 -692px
+}
+
+.md td a[href*="whitecapsfc.com"] {
+	background-position: 0 -722px
+}
+
+.md td a[href*="thecup.us"] {
+	background-position: 0 -752px
+}
+
+.md td a[href*="ussoccer.com"] {
+	background-position: 0 -782px
+}
+
+.md td a[href*="canadasoccer.com"] {
+	background-position: 0 -812px
+}
+
+.md td a[href*="concacafchampionsleague.com"] {
+	background-position: 0 -842px
+}
+
+.md td a[href*="goldcup.org"] {
+	background-position: 0 -872px
+}
+
+.md td a[href*="fccincinnati.com"] {
+	background-position: 0 -902px
+}
+
+.md td a[href*="austinfc.com"] {
+	background-position: 0 -932px
+}
+
+.md td a[href*="nashvillesc.com"] {
+	background-position: 0 -962px
+}
+
+.md td a[href*="canadasoccer.com/canadian-championship-p149302"] {
+	background-position: 0 -992px
+}
+
+.md td a[href*="cavalryfc.canpl.ca"] {
+	background-position: 0 -1022px
+}
+
+.md td a[href*="fcedmonton.canpl.ca"] {
+	background-position: 0 -1052px
+}
+
+.md td a[href*="forgefc.canpl.ca"] {
+	background-position: 0 -1082px
+}
+
+.md td a[href*="hfxwanderersfc.canpl.ca"] {
+	background-position: 0 -1112px
+}
+
+.md td a[href*="pacificfc.canpl.ca"] {
+	background-position: 0 -1142px
+}
+
+.md td a[href*="valourfc.canpl.ca"] {
+	background-position: 0 -1172px
+}
+
+.md td a[href*="york9fc.canpl.ca"] {
+	background-position: 0 -1202px
+}
+
+.md td a[href*="saintlouisfc.com"] {
+	background-position: 0 -1232px
+}
+
+.md td a[href*="newmexicoutd.com"] {
+	background-position: 0 -1262px
+}
+
+.noncollapsed .md a[href*="youtu.be"],
+.noncollapsed .md a[href*="youtube.com"] {
+	background-color: transparent;
+	background-image: url(%%link-flair%%);
+	background-repeat: no-repeat;
+	padding: 5px 0 5px 25px;
+	margin-left: 3px;
+	background-position: 2px 580px
+}
+
+.md td a[href*="espn.com"],
+.md td a[href*="espn.go.com/watchespn/index/_/type/live/channel/espn2"],
+.md td a[href*="fox.com"],
+.md td a[href*="foxsports.com/tag/fox-sports-1"],
+.md td a[href*="foxsports.com/tag/fox-sports-2"],
+.md td a[href*="onesoccer.ca"],
+.md td a[href*="nbc.com"],
+.md td a[href*="nbcsports.com"],
+.md td a[href*="plus.espn.com"],
+.md td a[href*="sports.yahoo.com"],
+.md td a[href*="tsn.ca"],
+.md td a[href*="tsn.ca/tsn2-live-stream-1.167005"],
+.md td a[href*="univision.com/deportes"],
+.md td a[href*="univision.com/unimas"] {
+	background-color: transparent;
+	background-image: url(%%broadcasters2%%);
+	background-repeat: no-repeat;
+	padding: 15px 0 7px 65px;
+	margin-left: 3px;
+	display: block
+}
+
+.md td a[href*="nbcsports.com"] {
+	background-position: 0 0
+}
+
+.md td a[href*="nbc.com"] {
+	background-position: 0 -26px
+}
+
+.md td a[href*="espn.com"] {
+	background-position: 0 -52px
+}
+
+.md td a[href*="espn.go.com/watchespn/index/_/type/live/channel/espn2"] {
+	background-position: 0 -78px
+}
+
+.md td a[href*="plus.espn.com"] {
+	background-position: 0 -104px
+}
+
+.md td a[href*="tsn.ca"] {
+	background-position: 0 -130px
+}
+
+.md td a[href*="tsn.ca/tsn2-live-stream-1.167005"] {
+	background-position: 0 -156px
+}
+
+.md td a[href*="sports.yahoo.com"] {
+	background-position: 0 -181px
+}
+
+.md td a[href*="univision.com/deportes"] {
+	background-position: 0 -208px
+}
+
+.md td a[href*="univision.com/unimas"] {
+	background-position: 0 -234px
+}
+
+.md td a[href*="fox.com"] {
+	background-position: 0 -260px
+}
+
+.md td a[href*="foxsports.com/tag/fox-sports-1"] {
+	background-position: 0 -286px
+}
+
+.md td a[href*="foxsports.com/tag/fox-sports-2"] {
+	background-position: 0 -311px
+}
+
+..md td a[href*="onesoccer.ca"] {
+	background-position: 0 -336px
+}
+
+.flair:hover {
+	width: auto;
+	height: 20px;
+	line-height: 20px;
+	padding: 2px 1ex 1px 2px;
+	border-width: 1px;
+	border-radius: 2px;
+	background-color: #f5f5f5;
+	margin-right: 1ex;
+	cursor: default
+}
+
+.flair:before {
+	content: "";
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	vertical-align: top;
+	margin-right: 4px
+}
+
+.flair {
+	width: 20px;
+	height: 20px;
+	line-height: 16px;
+	overflow: hidden;
+	vertical-align: middle;
+	font-size: inherit;
+	background-color: transparent;
+	color: #222;
+	padding: 2px;
+	margin-right: 3px;
+	border-width: 0;
+	border-radius: 3px
+}
+
+.flairsample-left.texteditable .flair {
+	font-size: 0
+}
+
+.flairsample-left.texteditable .flair:hover {
+	font-size: 1em
+}
+
+a[href="/assist"],
+a[href="/captain"],
+a[href="/goal"],
+a[href="/injury"],
+a[href="/offside"],
+a[href="/own-goal"],
+a[href="/penalty-made"],
+a[href="/penalty-missed"],
+a[href="/red"],
+a[href="/second-yellow"],
+a[href="/sub"],
+a[href="/sub-off"],
+a[href="/sub-on"],
+a[href="/whistle"],
+a[href="/yellow"] {
+	width: 15px;
+	height: 15px;
+	background-color: transparent;
+	background-image: url(%%match-events%%);
+	text-indent: -9999px;
+	display: inline-block;
+	vertical-align: top;
+	border-width: 0
+}
+
+a[href="/yellow"] {
+	background-position: 0 0
+}
+
+a[href="/second-yellow"] {
+	background-position: -16px 0
+}
+
+a[href="/red"] {
+	background-position: -32px 0
+}
+
+a[href="/injury"] {
+	background-position: -48px 0
+}
+
+a[href="/captain"] {
+	background-position: 0 -16px
+}
+
+a[href="/sub"] {
+	background-position: -16px -16px
+}
+
+a[href="/sub-on"] {
+	background-position: -32px -16px
+}
+
+a[href="/sub-off"] {
+	background-position: -48px -16px
+}
+
+.content a[href="/goal"],
+.flair-goal:before,
+.md td a[href*="/goal"] {
+	background-position: 0 -32px
+}
+
+a[href="/own-goal"] {
+	background-position: -16px -32px
+}
+
+a[href="/assist"] {
+	background-position: -32px -32px
+}
+
+a[href="/whistle"] {
+	background-position: -48px -32px
+}
+
+a[href="/offside"] {
+	background-position: 0 -48px
+}
+
+a[href="/penalty-made"] {
+	background-position: -16px -48px
+}
+
+a[href="/penalty-missed"] {
+	background-position: -32px -48px
+}
+
+a[href="/034"],
+a[href="/035"],
+a[href="/036"],
+a[href="/037"],
+a[href="/038"],
+a[href="/039"],
+a[href="/040"],
+a[href="/041"],
+a[href="/042"],
+a[href="/043"],
+a[href="/044"],
+a[href="/045"],
+a[href="/046"],
+a[href="/047"],
+a[href="/048"],
+a[href="/049"],
+a[href="/050"],
+a[href="/051"],
+a[href="/052"],
+a[href="/053"],
+a[href="/054"],
+a[href="/055"],
+a[href="/056"],
+a[href="/057"],
+a[href="/ATL"],
+a[href="/AUS"],
+a[href="/CHI"],
+a[href="/CIN"],
+a[href="/CLB"],
+a[href="/COL"],
+a[href="/DAL"],
+a[href="/DCU"],
+a[href="/HOU"],
+a[href="/LAFC"],
+a[href="/LAG"],
+a[href="/MIA"],
+a[href="/MIN"],
+a[href="/MLS"],
+a[href="/MTL"],
+a[href="/NER"],
+a[href="/NSH"],
+a[href="/NYC"],
+a[href="/NYRB"],
+a[href="/ORL"],
+a[href="/PHI"],
+a[href="/POR"],
+a[href="/RSL"],
+a[href="/SEA"],
+a[href="/SJE"],
+a[href="/SKC"],
+a[href="/TFC"],
+a[href="/VAN"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/066"],
+a[href="/067"],
+a[href="/068"],
+a[href="/069"],
+a[href="/070"],
+a[href="/071"],
+a[href="/072"],
+a[href="/073"],
+a[href="/074"],
+a[href="/075"],
+a[href="/076"],
+a[href="/077"],
+a[href="/078"],
+a[href="/079"],
+a[href="/080"],
+a[href="/081"],
+a[href="/082"],
+a[href="/083"],
+a[href="/084"],
+a[href="/085"],
+a[href="/086"],
+a[href="/087"],
+a[href="/088"],
+a[href="/089"],
+a[href="/090"],
+a[href="/091"],
+a[href="/092"],
+a[href="/093"],
+a[href="/094"],
+a[href="/095"],
+a[href="/096"],
+a[href="/097"],
+a[href="/098"],
+a[href="/099"],
+a[href="/100"],
+a[href="/101"],
+a[href="/102"],
+a[href="/103"],
+a[href="/104"],
+a[href="/105"],
+a[href="/106"],
+a[href="/107"],
+a[href="/108"],
+a[href="/109"],
+a[href="/110"],
+a[href="/111"],
+a[href="/112"],
+a[href="/113"],
+a[href="/114"],
+a[href="/115"],
+a[href="/116"],
+a[href="/117"],
+a[href="/118"],
+a[href="/119"],
+a[href="/120"],
+a[href="/121"],
+a[href="/122"],
+a[href="/123"],
+a[href="/124"],
+a[href="/125"],
+a[href="/126"],
+a[href="/127"],
+a[href="/128"],
+a[href="/129"],
+a[href="/130"],
+a[href="/131"],
+a[href="/132"],
+a[href="/133"],
+a[href="/134"],
+a[href="/135"],
+a[href="/136"],
+a[href="/137"],
+a[href="/138"],
+a[href="/139"],
+a[href="/140"],
+a[href="/141"],
+a[href="/142"],
+a[href="/143"],
+a[href="/144"],
+a[href="/145"],
+a[href="/146"],
+a[href="/147"],
+a[href="/148"],
+a[href="/149"],
+a[href="/150"],
+a[href="/151"],
+a[href="/152"],
+a[href="/153"],
+a[href="/154"],
+a[href="/155"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/196"],
+a[href="/197"],
+a[href="/198"],
+a[href="/199"],
+a[href="/200"],
+a[href="/201"],
+a[href="/202"],
+a[href="/203"],
+a[href="/204"],
+a[href="/205"],
+a[href="/206"],
+a[href="/207"],
+a[href="/208"],
+a[href="/209"],
+a[href="/210"],
+a[href="/211"],
+a[href="/212"],
+a[href="/213"],
+a[href="/214"],
+a[href="/215"],
+a[href="/216"],
+a[href="/217"],
+a[href="/218"],
+a[href="/219"],
+a[href="/220"],
+a[href="/221"],
+a[href="/222"],
+a[href="/223"],
+a[href="/224"],
+a[href="/225"],
+a[href="/226"],
+a[href="/227"],
+a[href="/228"],
+a[href="/229"],
+a[href="/230"],
+a[href="/231"],
+a[href="/232"],
+a[href="/233"],
+a[href="/234"],
+a[href="/235"],
+a[href="/236"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/261"],
+a[href="/262"],
+a[href="/263"],
+a[href="/264"],
+a[href="/265"],
+a[href="/266"],
+a[href="/267"],
+a[href="/268"],
+a[href="/269"],
+a[href="/270"],
+a[href="/271"],
+a[href="/272"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/326"],
+a[href="/327"],
+a[href="/328"],
+a[href="/329"],
+a[href="/330"],
+a[href="/331"],
+a[href="/332"],
+a[href="/333"],
+a[href="/334"],
+a[href="/335"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/391"],
+a[href="/392"],
+a[href="/393"],
+a[href="/394"],
+a[href="/395"],
+a[href="/396"],
+a[href="/397"],
+a[href="/398"],
+a[href="/399"],
+a[href="/400"],
+a[href="/401"],
+a[href="/402"],
+a[href="/403"],
+a[href="/404"],
+a[href="/405"],
+a[href="/406"],
+a[href="/407"],
+a[href="/408"],
+a[href="/409"],
+a[href="/410"],
+a[href="/411"],
+a[href="/412"],
+a[href="/413"],
+a[href="/414"],
+a[href="/415"],
+a[href="/416"],
+a[href="/417"],
+a[href="/418"],
+a[href="/419"],
+a[href="/420"],
+a[href="/421"],
+a[href="/422"],
+a[href="/423"],
+a[href="/424"],
+a[href="/425"],
+a[href="/426"],
+a[href="/427"],
+a[href="/428"],
+a[href="/429"],
+a[href="/430"],
+a[href="/431"],
+a[href="/432"],
+a[href="/433"],
+a[href="/434"],
+a[href="/435"],
+a[href="/436"],
+a[href="/437"],
+a[href="/438"],
+a[href="/439"],
+a[href="/440"],
+a[href="/441"],
+a[href="/442"],
+a[href="/443"],
+a[href="/444"],
+a[href="/445"],
+a[href="/446"],
+a[href="/447"],
+a[href="/448"],
+a[href="/449"],
+a[href="/450"],
+a[href="/451"],
+a[href="/452"],
+a[href="/453"],
+a[href="/454"],
+a[href="/455"],
+a[href="/456"],
+a[href="/457"],
+a[href="/458"],
+a[href="/459"],
+a[href="/460"],
+a[href="/461"],
+a[href="/462"],
+a[href="/463"],
+a[href="/464"],
+a[href="/465"],
+a[href="/466"],
+a[href="/467"],
+a[href="/468"],
+a[href="/469"],
+a[href="/470"],
+a[href="/471"],
+a[href="/472"],
+a[href="/473"],
+a[href="/474"],
+a[href="/475"],
+a[href="/476"],
+a[href="/477"],
+a[href="/478"],
+a[href="/479"],
+a[href="/480"],
+a[href="/481"],
+a[href="/482"],
+a[href="/483"],
+a[href="/484"],
+a[href="/485"],
+a[href="/486"],
+a[href="/487"],
+a[href="/488"],
+a[href="/489"],
+a[href="/490"],
+a[href="/491"],
+a[href="/492"],
+a[href="/493"],
+a[href="/494"],
+a[href="/495"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/521"],
+a[href="/522"],
+a[href="/523"],
+a[href="/524"],
+a[href="/525"],
+a[href="/526"],
+a[href="/527"],
+a[href="/528"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/586"],
+a[href="/587"],
+a[href="/588"],
+a[href="/589"],
+a[href="/590"],
+a[href="/591"],
+a[href="/592"],
+a[href="/593"],
+a[href="/594"],
+a[href="/595"],
+a[href="/596"],
+a[href="/597"],
+a[href="/598"],
+a[href="/599"],
+a[href="/600"],
+a[href="/601"],
+a[href="/602"],
+a[href="/603"],
+a[href="/604"],
+a[href="/605"],
+a[href="/606"],
+a[href="/607"],
+a[href="/608"],
+a[href="/609"],
+a[href="/610"],
+a[href="/611"],
+a[href="/612"],
+a[href="/613"],
+a[href="/614"],
+a[href="/615"],
+a[href="/616"],
+a[href="/617"],
+a[href="/618"],
+a[href="/619"],
+a[href="/620"],
+a[href="/621"],
+a[href="/622"],
+a[href="/623"],
+a[href="/624"],
+a[href="/625"],
+a[href="/626"],
+a[href="/627"],
+a[href="/628"],
+a[href="/629"],
+a[href="/630"],
+a[href="/631"],
+a[href="/632"],
+a[href="/633"],
+a[href="/634"],
+a[href="/635"],
+a[href="/636"],
+a[href="/637"],
+a[href="/638"],
+a[href="/639"],
+a[href="/640"],
+a[href="/641"],
+a[href="/642"],
+a[href="/643"],
+a[href="/644"],
+a[href="/645"],
+a[href="/646"],
+a[href="/647"],
+a[href="/648"],
+a[href="/649"],
+a[href="/650"],
+a[href="/651"],
+a[href="/652"],
+a[href="/653"],
+a[href="/654"],
+a[href="/655"],
+a[href="/656"],
+a[href="/657"],
+a[href="/658"],
+a[href="/659"],
+a[href="/660"],
+a[href="/661"],
+a[href="/662"],
+a[href="/663"],
+a[href="/664"],
+a[href="/665"],
+a[href="/666"],
+a[href="/667"],
+a[href="/668"],
+a[href="/669"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/716"],
+a[href="/717"],
+a[href="/718"],
+a[href="/719"],
+a[href="/720"],
+a[href="/721"],
+a[href="/722"],
+a[href="/723"],
+a[href="/724"],
+a[href="/725"],
+a[href="/726"],
+a[href="/727"],
+a[href="/728"],
+a[href="/729"],
+a[href="/730"],
+a[href="/731"],
+a[href="/732"],
+a[href="/733"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/AIA"],
+a[href="/ARG"],
+a[href="/ARU"],
+a[href="/ATG"],
+a[href="/BAH"],
+a[href="/BER"],
+a[href="/BLZ"],
+a[href="/BOE"],
+a[href="/BOL"],
+a[href="/BRA"],
+a[href="/BRB"],
+a[href="/CAN"],
+a[href="/CAY"],
+a[href="/CHIL"],
+a[href="/COLO"],
+a[href="/CONCACAF"],
+a[href="/CONMEBOL"],
+a[href="/CRC"],
+a[href="/CUB"],
+a[href="/CUW"],
+a[href="/DMA"],
+a[href="/DOM"],
+a[href="/ECU"],
+a[href="/GLP"],
+a[href="/GRN"],
+a[href="/GUA"],
+a[href="/GUF"],
+a[href="/GUY"],
+a[href="/HAI"],
+a[href="/HON"],
+a[href="/JAM"],
+a[href="/LCA"],
+a[href="/MEX"],
+a[href="/MSR"],
+a[href="/MTQ"],
+a[href="/NCA"],
+a[href="/PAN"],
+a[href="/PAR"],
+a[href="/PER"],
+a[href="/PUR"],
+a[href="/SKN"],
+a[href="/SLV"],
+a[href="/SMA"],
+a[href="/SMN"],
+a[href="/SUR"],
+a[href="/TCA"],
+a[href="/TRI"],
+a[href="/URU"],
+a[href="/USA"],
+a[href="/VEN"],
+a[href="/VGB"],
+a[href="/VIN"],
+a[href="/VIR"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/1CUP"],
+a[href="/852"],
+a[href="/853"],
+a[href="/854"],
+a[href="/855"],
+a[href="/856"],
+a[href="/857"],
+a[href="/858"],
+a[href="/859"],
+a[href="/860"],
+a[href="/861"],
+a[href="/862"],
+a[href="/863"],
+a[href="/864"],
+a[href="/865"],
+a[href="/866"],
+a[href="/867"],
+a[href="/871"],
+a[href="/872"],
+a[href="/873"],
+a[href="/874"],
+a[href="/875"],
+a[href="/CCL"],
+a[href="/FIFA"],
+a[href="/FIORE"],
+a[href="/GOLD"],
+a[href="/LALAS"],
+a[href="/PRO"],
+a[href="/TWELLMAN"],
+a[href="/USOC"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/905"],
+a[href="/906"],
+a[href="/907"],
+a[href="/908"],
+a[href="/909"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/ALIANZA"],
+a[href="/AMERICA"],
+a[href="/ATLAS"],
+a[href="/CAI"],
+a[href="/CRUZAZUL"],
+a[href="/GUADALAJARA"],
+a[href="/GUASTATOYA"],
+a[href="/HEREDIANO"],
+a[href="/LEON"],
+a[href="/LOBOS"],
+a[href="/MARATHON"],
+a[href="/MONTERREY"],
+a[href="/MORELIA"],
+a[href="/MX"],
+a[href="/NECAXA"],
+a[href="/PACHUCA"],
+a[href="/PANTOJA"],
+a[href="/PUEBLA"],
+a[href="/PUMAS"],
+a[href="/QUERETARO"],
+a[href="/SANTOS"],
+a[href="/SAPRISSA"],
+a[href="/TIGRES"],
+a[href="/TIJUANA"],
+a[href="/TOLUCA"],
+a[href="/VERACRUZ"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+.content a[href="/MLS"],
+.flair-mls:before,
+.md td a[href*="/MLS"] {
+	background-position: 0 0
+}
+
+.content a[href="/ATL"],
+.flair-atl:before {
+	background-position: 0 -20px
+}
+
+.content a[href="/CHI"],
+.flair-chi:before {
+	background-position: 0 -40px
+}
+
+.content a[href="/COL"],
+.flair-col:before {
+	background-position: 0 -60px
+}
+
+.content a[href="/CLB"],
+.flair-clb:before {
+	background-position: 0 -80px
+}
+
+.content a[href="/DCU"],
+.flair-dcu:before {
+	background-position: 0 -100px
+}
+
+.content a[href="/DAL"],
+.flair-dal:before {
+	background-position: 0 -120px
+}
+
+.content a[href="/HOU"],
+.flair-hou:before {
+	background-position: 0 -140px
+}
+
+.content a[href="/LAFC"],
+.flair-lafc:before {
+	background-position: 0 -160px
+}
+
+.content a[href="/LAG"],
+.flair-lag:before {
+	background-position: 0 -180px
+}
+
+.content a[href="/MIA"],
+.flair-mia:before {
+	background-position: 0 -200px
+}
+
+.content a[href="/MIN"],
+.flair-min:before {
+	background-position: 0 -220px
+}
+
+.content a[href="/MTL"],
+.flair-mtl:before {
+	background-position: 0 -240px
+}
+
+.content a[href="/NER"],
+.flair-ner:before {
+	background-position: 0 -260px
+}
+
+.content a[href="/NYC"],
+.flair-nyc:before {
+	background-position: 0 -280px
+}
+
+.content a[href="/NYRB"],
+.flair-nyrb:before {
+	background-position: 0 -300px
+}
+
+.content a[href="/ORL"],
+.flair-orl:before {
+	background-position: 0 -320px
+}
+
+.content a[href="/PHI"],
+.flair-phi:before {
+	background-position: 0 -340px
+}
+
+.content a[href="/POR"],
+.flair-por:before {
+	background-position: 0 -360px
+}
+
+.content a[href="/RSL"],
+.flair-rsl:before {
+	background-position: 0 -380px
+}
+
+.content a[href="/SJE"],
+.flair-sje:before {
+	background-position: 0 -400px
+}
+
+.content a[href="/SEA"],
+.flair-sea:before {
+	background-position: 0 -420px
+}
+
+.content a[href="/SKC"],
+.flair-skc:before {
+	background-position: 0 -440px
+}
+
+.content a[href="/TFC"],
+.flair-tfc:before {
+	background-position: 0 -460px
+}
+
+.content a[href="/VAN"],
+.flair-van:before {
+	background-position: 0 -480px
+}
+
+.content a[href="/CIN"],
+.flair-cin:before {
+	background-position: 0 -500px
+}
+
+.content a[href="/AUS"],
+.flair-aus:before {
+	background-position: 0 -520px
+}
+
+.content a[href="/NSH"],
+.flair-nsh:before {
+	background-position: 0 -540px
+}
+
+.content a[href="/034"],
+.flair-034:before {
+	background-position: 0 -660px
+}
+
+.content a[href="/035"],
+.flair-035:before {
+	background-position: 0 -680px
+}
+
+.content a[href="/036"],
+.flair-036:before {
+	background-position: 0 -700px
+}
+
+.content a[href="/037"],
+.flair-037:before {
+	background-position: 0 -720px
+}
+
+.content a[href="/038"],
+.flair-038:before {
+	background-position: 0 -740px
+}
+
+.content a[href="/039"],
+.flair-039:before {
+	background-position: 0 -760px
+}
+
+.content a[href="/040"],
+.flair-040:before {
+	background-position: 0 -780px
+}
+
+.content a[href="/041"],
+.flair-041:before {
+	background-position: 0 -800px
+}
+
+.content a[href="/042"],
+.flair-042:before {
+	background-position: 0 -820px
+}
+
+.content a[href="/043"],
+.flair-043:before {
+	background-position: 0 -840px
+}
+
+.content a[href="/044"],
+.flair-044:before {
+	background-position: 0 -860px
+}
+
+.content a[href="/045"],
+.flair-045:before {
+	background-position: 0 -880px
+}
+
+.content a[href="/046"],
+.flair-046:before {
+	background-position: 0 -900px
+}
+
+.content a[href="/047"],
+.flair-047:before {
+	background-position: 0 -920px
+}
+
+.content a[href="/048"],
+.flair-048:before {
+	background-position: 0 -940px
+}
+
+.content a[href="/049"],
+.flair-049:before {
+	background-position: 0 -960px
+}
+
+.content a[href="/050"],
+.flair-050:before {
+	background-position: 0 -980px
+}
+
+.content a[href="/051"],
+.flair-051:before {
+	background-position: 0 -1000px
+}
+
+.content a[href="/052"],
+.flair-052:before {
+	background-position: 0 -1020px
+}
+
+.content a[href="/053"],
+.flair-053:before {
+	background-position: 0 -1040px
+}
+
+.content a[href="/054"],
+.flair-054:before {
+	background-position: 0 -1060px
+}
+
+.content a[href="/055"],
+.flair-055:before {
+	background-position: 0 -1080px
+}
+
+.content a[href="/056"],
+.flair-056:before {
+	background-position: 0 -1100px
+}
+
+.content a[href="/057"],
+.flair-057:before {
+	background-position: 0 -1120px
+}
+
+.content a[href="/066"],
+.flair-066:before {
+	background-position: -20px 0
+}
+
+.content a[href="/067"],
+.flair-067:before {
+	background-position: -20px -20px
+}
+
+.content a[href="/068"],
+.flair-068:before {
+	background-position: -20px -40px
+}
+
+.content a[href="/069"],
+.flair-069:before {
+	background-position: -20px -60px
+}
+
+.content a[href="/070"],
+.flair-070:before {
+	background-position: -20px -80px
+}
+
+.content a[href="/071"],
+.flair-071:before {
+	background-position: -20px -100px
+}
+
+.content a[href="/072"],
+.flair-072:before {
+	background-position: -20px -120px
+}
+
+.content a[href="/073"],
+.flair-073:before {
+	background-position: -20px -140px
+}
+
+.content a[href="/074"],
+.flair-074:before {
+	background-position: -20px -160px
+}
+
+.content a[href="/075"],
+.flair-075:before {
+	background-position: -20px -180px
+}
+
+.content a[href="/076"],
+.flair-076:before {
+	background-position: -20px -200px
+}
+
+.content a[href="/077"],
+.flair-077:before {
+	background-position: -20px -220px
+}
+
+.content a[href="/078"],
+.flair-078:before {
+	background-position: -20px -240px
+}
+
+.content a[href="/079"],
+.flair-079:before {
+	background-position: -20px -260px
+}
+
+.content a[href="/080"],
+.flair-080:before {
+	background-position: -20px -280px
+}
+
+.content a[href="/081"],
+.flair-081:before {
+	background-position: -20px -300px
+}
+
+.content a[href="/082"],
+.flair-082:before {
+	background-position: -20px -320px
+}
+
+.content a[href="/083"],
+.flair-083:before {
+	background-position: -20px -340px
+}
+
+.content a[href="/084"],
+.flair-084:before {
+	background-position: -20px -360px
+}
+
+.content a[href="/085"],
+.flair-085:before {
+	background-position: -20px -380px
+}
+
+.content a[href="/086"],
+.flair-086:before {
+	background-position: -20px -400px
+}
+
+.content a[href="/087"],
+.flair-087:before {
+	background-position: -20px -420px
+}
+
+.content a[href="/088"],
+.flair-088:before {
+	background-position: -20px -440px
+}
+
+.content a[href="/089"],
+.flair-089:before {
+	background-position: -20px -460px
+}
+
+.content a[href="/090"],
+.flair-090:before {
+	background-position: -20px -480px
+}
+
+.content a[href="/091"],
+.flair-091:before {
+	background-position: -20px -500px
+}
+
+.content a[href="/092"],
+.flair-092:before {
+	background-position: -20px -520px
+}
+
+.content a[href="/093"],
+.flair-093:before {
+	background-position: -20px -540px
+}
+
+.content a[href="/094"],
+.flair-094:before {
+	background-position: -20px -560px
+}
+
+.content a[href="/095"],
+.flair-095:before {
+	background-position: -20px -580px
+}
+
+.content a[href="/096"],
+.flair-096:before {
+	background-position: -20px -600px
+}
+
+.content a[href="/097"],
+.flair-097:before {
+	background-position: -20px -620px
+}
+
+.content a[href="/098"],
+.flair-098:before {
+	background-position: -20px -640px
+}
+
+.content a[href="/099"],
+.flair-099:before {
+	background-position: -20px -660px
+}
+
+.content a[href="/100"],
+.flair-100:before {
+	background-position: -20px -680px
+}
+
+.content a[href="/101"],
+.flair-101:before {
+	background-position: -20px -700px
+}
+
+.content a[href="/102"],
+.flair-102:before {
+	background-position: -20px -720px
+}
+
+.content a[href="/103"],
+.flair-103:before {
+	background-position: -20px -740px
+}
+
+.content a[href="/104"],
+.flair-104:before {
+	background-position: -20px -760px
+}
+
+.content a[href="/105"],
+.flair-105:before {
+	background-position: -20px -780px
+}
+
+.content a[href="/106"],
+.flair-106:before {
+	background-position: -20px -800px
+}
+
+.content a[href="/107"],
+.flair-107:before {
+	background-position: -20px -820px
+}
+
+.content a[href="/108"],
+.flair-108:before {
+	background-position: -20px -840px
+}
+
+.content a[href="/109"],
+.flair-109:before {
+	background-position: -20px -860px
+}
+
+.content a[href="/110"],
+.flair-110:before {
+	background-position: -20px -880px
+}
+
+.content a[href="/111"],
+.flair-111:before {
+	background-position: -20px -900px
+}
+
+.content a[href="/112"],
+.flair-112:before {
+	background-position: -20px -920px
+}
+
+.content a[href="/113"],
+.flair-113:before {
+	background-position: -20px -940px
+}
+
+.content a[href="/114"],
+.flair-114:before {
+	background-position: -20px -960px
+}
+
+.content a[href="/115"],
+.flair-115:before {
+	background-position: -20px -980px
+}
+
+.content a[href="/116"],
+.flair-116:before {
+	background-position: -20px -1000px
+}
+
+.content a[href="/117"],
+.flair-117:before {
+	background-position: -20px -1020px
+}
+
+.content a[href="/118"],
+.flair-118:before {
+	background-position: -20px -1040px
+}
+
+.content a[href="/119"],
+.flair-119:before {
+	background-position: -20px -1060px
+}
+
+.content a[href="/120"],
+.flair-120:before {
+	background-position: -20px -1080px
+}
+
+.content a[href="/121"],
+.flair-121:before {
+	background-position: -20px -1100px
+}
+
+.content a[href="/122"],
+.flair-122:before {
+	background-position: -20px -1120px
+}
+
+.content a[href="/123"],
+.flair-123:before {
+	background-position: -20px -1140px
+}
+
+.content a[href="/124"],
+.flair-124:before {
+	background-position: -20px -1160px
+}
+
+.content a[href="/125"],
+.flair-125:before {
+	background-position: -20px -1180px
+}
+
+.content a[href="/126"],
+.flair-126:before {
+	background-position: -20px -1200px
+}
+
+.content a[href="/127"],
+.flair-127:before {
+	background-position: -20px -1220px
+}
+
+.content a[href="/128"],
+.flair-128:before {
+	background-position: -20px -1240px
+}
+
+.content a[href="/129"],
+.flair-129:before {
+	background-position: -20px -1260px
+}
+
+.content a[href="/130"],
+.flair-130:before {
+	background-position: -20px -1280px
+}
+
+.content a[href="/131"],
+.flair-131:before {
+	background-position: -40px 0
+}
+
+.content a[href="/132"],
+.flair-132:before {
+	background-position: -40px -20px
+}
+
+.content a[href="/133"],
+.flair-133:before {
+	background-position: -40px -40px
+}
+
+.content a[href="/134"],
+.flair-134:before {
+	background-position: -40px -60px
+}
+
+.content a[href="/135"],
+.flair-135:before {
+	background-position: -40px -80px
+}
+
+.content a[href="/136"],
+.flair-136:before {
+	background-position: -40px -100px
+}
+
+.content a[href="/137"],
+.flair-137:before {
+	background-position: -40px -120px
+}
+
+.content a[href="/138"],
+.flair-138:before {
+	background-position: -40px -140px
+}
+
+.content a[href="/139"],
+.flair-139:before {
+	background-position: -40px -160px
+}
+
+.content a[href="/140"],
+.flair-140:before {
+	background-position: -40px -180px
+}
+
+.content a[href="/141"],
+.flair-141:before {
+	background-position: -40px -200px
+}
+
+.content a[href="/142"],
+.flair-142:before {
+	background-position: -40px -220px
+}
+
+.content a[href="/143"],
+.flair-143:before {
+	background-position: -40px -240px
+}
+
+.content a[href="/144"],
+.flair-144:before {
+	background-position: -40px -260px
+}
+
+.content a[href="/145"],
+.flair-145:before {
+	background-position: -40px -280px
+}
+
+.content a[href="/146"],
+.flair-146:before {
+	background-position: -40px -300px
+}
+
+.content a[href="/147"],
+.flair-147:before {
+	background-position: -40px -320px
+}
+
+.content a[href="/148"],
+.flair-148:before {
+	background-position: -40px -340px
+}
+
+.content a[href="/149"],
+.flair-149:before {
+	background-position: -40px -360px
+}
+
+.content a[href="/150"],
+.flair-150:before {
+	background-position: -40px -380px
+}
+
+.content a[href="/151"],
+.flair-151:before {
+	background-position: -40px -400px
+}
+
+.content a[href="/152"],
+.flair-152:before {
+	background-position: -40px -420px
+}
+
+.content a[href="/153"],
+.flair-153:before {
+	background-position: -40px -440px
+}
+
+.content a[href="/154"],
+.flair-154:before {
+	background-position: -40px -460px
+}
+
+.content a[href="/155"],
+.flair-155:before {
+	background-position: -40px -480px
+}
+
+.content a[href="/196"],
+.flair-196:before {
+	background-position: -60px 0
+}
+
+.content a[href="/197"],
+.flair-197:before {
+	background-position: -60px -20px
+}
+
+.content a[href="/198"],
+.flair-198:before {
+	background-position: -60px -40px
+}
+
+.content a[href="/199"],
+.flair-199:before {
+	background-position: -60px -60px
+}
+
+.content a[href="/200"],
+.flair-200:before {
+	background-position: -60px -80px
+}
+
+.content a[href="/201"],
+.flair-201:before {
+	background-position: -60px -100px
+}
+
+.content a[href="/202"],
+.flair-202:before {
+	background-position: -60px -120px
+}
+
+.content a[href="/203"],
+.flair-203:before {
+	background-position: -60px -140px
+}
+
+.content a[href="/204"],
+.flair-204:before {
+	background-position: -60px -160px
+}
+
+.content a[href="/205"],
+.flair-205:before {
+	background-position: -60px -180px
+}
+
+.content a[href="/206"],
+.flair-206:before {
+	background-position: -60px -200px
+}
+
+.content a[href="/207"],
+.flair-207:before {
+	background-position: -60px -220px
+}
+
+.content a[href="/208"],
+.flair-208:before {
+	background-position: -60px -240px
+}
+
+.content a[href="/209"],
+.flair-209:before {
+	background-position: -60px -260px
+}
+
+.content a[href="/210"],
+.flair-210:before {
+	background-position: -60px -280px
+}
+
+.content a[href="/211"],
+.flair-211:before {
+	background-position: -60px -300px
+}
+
+.content a[href="/212"],
+.flair-212:before {
+	background-position: -60px -320px
+}
+
+.content a[href="/213"],
+.flair-213:before {
+	background-position: -60px -340px
+}
+
+.content a[href="/214"],
+.flair-214:before {
+	background-position: -60px -360px
+}
+
+.content a[href="/215"],
+.flair-215:before {
+	background-position: -60px -380px
+}
+
+.content a[href="/216"],
+.flair-216:before {
+	background-position: -60px -400px
+}
+
+.content a[href="/217"],
+.flair-217:before {
+	background-position: -60px -420px
+}
+
+.content a[href="/218"],
+.flair-218:before {
+	background-position: -60px -440px
+}
+
+.content a[href="/219"],
+.flair-219:before {
+	background-position: -60px -460px
+}
+
+.content a[href="/220"],
+.flair-220:before {
+	background-position: -60px -480px
+}
+
+.content a[href="/221"],
+.flair-221:before {
+	background-position: -60px -500px
+}
+
+.content a[href="/222"],
+.flair-222:before {
+	background-position: -60px -520px
+}
+
+.content a[href="/223"],
+.flair-223:before {
+	background-position: -60px -540px
+}
+
+.content a[href="/224"],
+.flair-224:before {
+	background-position: -60px -560px
+}
+
+.content a[href="/225"],
+.flair-225:before {
+	background-position: -60px -580px
+}
+
+.content a[href="/226"],
+.flair-226:before {
+	background-position: -60px -600px
+}
+
+.content a[href="/227"],
+.flair-227:before {
+	background-position: -60px -620px
+}
+
+.content a[href="/228"],
+.flair-228:before {
+	background-position: -60px -640px
+}
+
+.content a[href="/229"],
+.flair-229:before {
+	background-position: -60px -660px
+}
+
+.content a[href="/230"],
+.flair-230:before {
+	background-position: -60px -680px
+}
+
+.content a[href="/231"],
+.flair-231:before {
+	background-position: -60px -700px
+}
+
+.content a[href="/232"],
+.flair-232:before {
+	background-position: -60px -720px
+}
+
+.content a[href="/233"],
+.flair-233:before {
+	background-position: -60px -740px
+}
+
+.content a[href="/234"],
+.flair-234:before {
+	background-position: -60px -760px
+}
+
+.content a[href="/235"],
+.flair-235:before {
+	background-position: -60px -780px
+}
+
+.content a[href="/236"],
+.flair-236:before {
+	background-position: -60px -800px
+}
+
+.content a[href="/261"],
+.flair-261:before {
+	background-position: -80px 0
+}
+
+.content a[href="/262"],
+.flair-262:before {
+	background-position: -80px -20px
+}
+
+.content a[href="/263"],
+.flair-263:before {
+	background-position: -80px -40px
+}
+
+.content a[href="/264"],
+.flair-264:before {
+	background-position: -80px -60px
+}
+
+.content a[href="/265"],
+.flair-265:before {
+	background-position: -80px -80px
+}
+
+.content a[href="/266"],
+.flair-266:before {
+	background-position: -80px -100px
+}
+
+.content a[href="/267"],
+.flair-267:before {
+	background-position: -80px -120px
+}
+
+.content a[href="/268"],
+.flair-268:before {
+	background-position: -80px -140px
+}
+
+.content a[href="/269"],
+.flair-269:before {
+	background-position: -80px -160px
+}
+
+.content a[href="/270"],
+.flair-270:before {
+	background-position: -80px -180px
+}
+
+.content a[href="/271"],
+.flair-271:before {
+	background-position: -80px -200px
+}
+
+.content a[href="/272"],
+.flair-272:before {
+	background-position: -80px -220px
+}
+
+.content a[href="/326"],
+.flair-326:before {
+	background-position: -100px 0
+}
+
+.content a[href="/327"],
+.flair-327:before {
+	background-position: -100px -20px
+}
+
+.content a[href="/328"],
+.flair-328:before {
+	background-position: -100px -40px
+}
+
+.content a[href="/329"],
+.flair-329:before {
+	background-position: -100px -60px
+}
+
+.content a[href="/330"],
+.flair-330:before {
+	background-position: -100px -80px
+}
+
+.content a[href="/331"],
+.flair-331:before {
+	background-position: -100px -100px
+}
+
+.content a[href="/332"],
+.flair-332:before {
+	background-position: -100px -120px
+}
+
+.content a[href="/333"],
+.flair-333:before {
+	background-position: -100px -140px
+}
+
+.content a[href="/334"],
+.flair-334:before {
+	background-position: -100px -160px
+}
+
+.content a[href="/335"],
+.flair-335:before {
+	background-position: -100px -180px
+}
+
+.content a[href="/391"],
+.flair-391:before {
+	background-position: -120px 0
+}
+
+.content a[href="/392"],
+.flair-392:before {
+	background-position: -120px -20px
+}
+
+.content a[href="/393"],
+.flair-393:before {
+	background-position: -120px -40px
+}
+
+.content a[href="/394"],
+.flair-394:before {
+	background-position: -120px -60px
+}
+
+.content a[href="/395"],
+.flair-395:before {
+	background-position: -120px -80px
+}
+
+.content a[href="/396"],
+.flair-396:before {
+	background-position: -120px -100px
+}
+
+.content a[href="/397"],
+.flair-397:before {
+	background-position: -120px -120px
+}
+
+.content a[href="/398"],
+.flair-398:before {
+	background-position: -120px -140px
+}
+
+.content a[href="/399"],
+.flair-399:before {
+	background-position: -120px -160px
+}
+
+.content a[href="/400"],
+.flair-400:before {
+	background-position: -120px -180px
+}
+
+.content a[href="/401"],
+.flair-401:before {
+	background-position: -120px -200px
+}
+
+.content a[href="/402"],
+.flair-402:before {
+	background-position: -120px -220px
+}
+
+.content a[href="/403"],
+.flair-403:before {
+	background-position: -120px -240px
+}
+
+.content a[href="/404"],
+.flair-404:before {
+	background-position: -120px -260px
+}
+
+.content a[href="/405"],
+.flair-405:before {
+	background-position: -120px -280px
+}
+
+.content a[href="/406"],
+.flair-406:before {
+	background-position: -120px -300px
+}
+
+.content a[href="/407"],
+.flair-407:before {
+	background-position: -120px -320px
+}
+
+.content a[href="/408"],
+.flair-408:before {
+	background-position: -120px -340px
+}
+
+.content a[href="/409"],
+.flair-409:before {
+	background-position: -120px -360px
+}
+
+.content a[href="/410"],
+.flair-410:before {
+	background-position: -120px -380px
+}
+
+.content a[href="/411"],
+.flair-411:before {
+	background-position: -120px -400px
+}
+
+.content a[href="/412"],
+.flair-412:before {
+	background-position: -120px -420px
+}
+
+.content a[href="/413"],
+.flair-413:before {
+	background-position: -120px -440px
+}
+
+.content a[href="/414"],
+.flair-414:before {
+	background-position: -120px -460px
+}
+
+.content a[href="/415"],
+.flair-415:before {
+	background-position: -120px -480px
+}
+
+.content a[href="/416"],
+.flair-416:before {
+	background-position: -120px -500px
+}
+
+.content a[href="/417"],
+.flair-417:before {
+	background-position: -120px -520px
+}
+
+.content a[href="/418"],
+.flair-418:before {
+	background-position: -120px -540px
+}
+
+.content a[href="/419"],
+.flair-419:before {
+	background-position: -120px -560px
+}
+
+.content a[href="/420"],
+.flair-420:before {
+	background-position: -120px -580px
+}
+
+.content a[href="/421"],
+.flair-421:before {
+	background-position: -120px -600px
+}
+
+.content a[href="/422"],
+.flair-422:before {
+	background-position: -120px -620px
+}
+
+.content a[href="/423"],
+.flair-423:before {
+	background-position: -120px -640px
+}
+
+.content a[href="/424"],
+.flair-424:before {
+	background-position: -120px -660px
+}
+
+.content a[href="/425"],
+.flair-425:before {
+	background-position: -120px -680px
+}
+
+.content a[href="/426"],
+.flair-426:before {
+	background-position: -120px -700px
+}
+
+.content a[href="/427"],
+.flair-427:before {
+	background-position: -120px -720px
+}
+
+.content a[href="/428"],
+.flair-428:before {
+	background-position: -120px -740px
+}
+
+.content a[href="/429"],
+.flair-429:before {
+	background-position: -120px -760px
+}
+
+.content a[href="/430"],
+.flair-430:before {
+	background-position: -120px -780px
+}
+
+.content a[href="/431"],
+.flair-431:before {
+	background-position: -120px -800px
+}
+
+.content a[href="/432"],
+.flair-432:before {
+	background-position: -120px -820px
+}
+
+.content a[href="/433"],
+.flair-433:before {
+	background-position: -120px -840px
+}
+
+.content a[href="/434"],
+.flair-434:before {
+	background-position: -120px -860px
+}
+
+.content a[href="/435"],
+.flair-435:before {
+	background-position: -120px -880px
+}
+
+.content a[href="/436"],
+.flair-436:before {
+	background-position: -120px -900px
+}
+
+.content a[href="/437"],
+.flair-437:before {
+	background-position: -120px -920px
+}
+
+.content a[href="/438"],
+.flair-438:before {
+	background-position: -120px -940px
+}
+
+.content a[href="/439"],
+.flair-439:before {
+	background-position: -120px -960px
+}
+
+.content a[href="/440"],
+.flair-440:before {
+	background-position: -120px -980px
+}
+
+.content a[href="/441"],
+.flair-441:before {
+	background-position: -120px -1000px
+}
+
+.content a[href="/442"],
+.flair-442:before {
+	background-position: -120px -1020px
+}
+
+.content a[href="/443"],
+.flair-443:before {
+	background-position: -120px -1040px
+}
+
+.content a[href="/444"],
+.flair-444:before {
+	background-position: -120px -1060px
+}
+
+.content a[href="/445"],
+.flair-445:before {
+	background-position: -120px -1080px
+}
+
+.content a[href="/446"],
+.flair-446:before {
+	background-position: -120px -1100px
+}
+
+.content a[href="/447"],
+.flair-447:before {
+	background-position: -120px -1120px
+}
+
+.content a[href="/448"],
+.flair-448:before {
+	background-position: -120px -1140px
+}
+
+.content a[href="/449"],
+.flair-449:before {
+	background-position: -120px -1160px
+}
+
+.content a[href="/450"],
+.flair-450:before {
+	background-position: -120px -1180px
+}
+
+.content a[href="/451"],
+.flair-451:before {
+	background-position: -120px -1200px
+}
+
+.content a[href="/452"],
+.flair-452:before {
+	background-position: -120px -1220px
+}
+
+.content a[href="/453"],
+.flair-453:before {
+	background-position: -120px -1240px
+}
+
+.content a[href="/454"],
+.flair-454:before {
+	background-position: -120px -1260px
+}
+
+.content a[href="/455"],
+.flair-455:before {
+	background-position: -120px -1280px
+}
+
+.content a[href="/456"],
+.flair-456:before {
+	background-position: -140px 0
+}
+
+.content a[href="/457"],
+.flair-457:before {
+	background-position: -140px -20px
+}
+
+.content a[href="/458"],
+.flair-458:before {
+	background-position: -140px -40px
+}
+
+.content a[href="/459"],
+.flair-459:before {
+	background-position: -140px -60px
+}
+
+.content a[href="/460"],
+.flair-460:before {
+	background-position: -140px -80px
+}
+
+.content a[href="/461"],
+.flair-461:before {
+	background-position: -140px -100px
+}
+
+.content a[href="/462"],
+.flair-462:before {
+	background-position: -140px -120px
+}
+
+.content a[href="/463"],
+.flair-463:before {
+	background-position: -140px -140px
+}
+
+.content a[href="/464"],
+.flair-464:before {
+	background-position: -140px -160px
+}
+
+.content a[href="/465"],
+.flair-465:before {
+	background-position: -140px -180px
+}
+
+.content a[href="/466"],
+.flair-466:before {
+	background-position: -140px -200px
+}
+
+.content a[href="/467"],
+.flair-467:before {
+	background-position: -140px -220px
+}
+
+.content a[href="/468"],
+.flair-468:before {
+	background-position: -140px -240px
+}
+
+.content a[href="/469"],
+.flair-469:before {
+	background-position: -140px -260px
+}
+
+.content a[href="/470"],
+.flair-470:before {
+	background-position: -140px -280px
+}
+
+.content a[href="/471"],
+.flair-471:before {
+	background-position: -140px -300px
+}
+
+.content a[href="/472"],
+.flair-472:before {
+	background-position: -140px -320px
+}
+
+.content a[href="/473"],
+.flair-473:before {
+	background-position: -140px -340px
+}
+
+.content a[href="/474"],
+.flair-474:before {
+	background-position: -140px -360px
+}
+
+.content a[href="/475"],
+.flair-475:before {
+	background-position: -140px -380px
+}
+
+.content a[href="/476"],
+.flair-476:before {
+	background-position: -140px -400px
+}
+
+.content a[href="/477"],
+.flair-477:before {
+	background-position: -140px -420px
+}
+
+.content a[href="/478"],
+.flair-478:before {
+	background-position: -140px -440px
+}
+
+.content a[href="/479"],
+.flair-479:before {
+	background-position: -140px -460px
+}
+
+.content a[href="/480"],
+.flair-480:before {
+	background-position: -140px -480px
+}
+
+.content a[href="/481"],
+.flair-481:before {
+	background-position: -140px -500px
+}
+
+.content a[href="/482"],
+.flair-482:before {
+	background-position: -140px -520px
+}
+
+.content a[href="/483"],
+.flair-483:before {
+	background-position: -140px -540px
+}
+
+.content a[href="/484"],
+.flair-484:before {
+	background-position: -140px -560px
+}
+
+.content a[href="/485"],
+.flair-485:before {
+	background-position: -140px -580px
+}
+
+.content a[href="/486"],
+.flair-486:before {
+	background-position: -140px -600px
+}
+
+.content a[href="/487"],
+.flair-487:before {
+	background-position: -140px -620px
+}
+
+.content a[href="/488"],
+.flair-488:before {
+	background-position: -140px -640px
+}
+
+.content a[href="/489"],
+.flair-489:before {
+	background-position: -140px -660px
+}
+
+.content a[href="/490"],
+.flair-490:before {
+	background-position: -140px -680px
+}
+
+.content a[href="/491"],
+.flair-491:before {
+	background-position: -140px -700px
+}
+
+.content a[href="/492"],
+.flair-492:before {
+	background-position: -140px -720px
+}
+
+.content a[href="/493"],
+.flair-493:before {
+	background-position: -140px -740px
+}
+
+.content a[href="/494"],
+.flair-494:before {
+	background-position: -140px -760px
+}
+
+.content a[href="/495"],
+.flair-495:before {
+	background-position: -140px -780px
+}
+
+.content a[href="/521"],
+.flair-521:before {
+	background-position: -160px 0
+}
+
+.content a[href="/522"],
+.flair-522:before {
+	background-position: -160px -20px
+}
+
+.content a[href="/523"],
+.flair-523:before {
+	background-position: -160px -40px
+}
+
+.content a[href="/524"],
+.flair-524:before {
+	background-position: -160px -60px
+}
+
+.content a[href="/525"],
+.flair-525:before {
+	background-position: -160px -80px
+}
+
+.content a[href="/526"],
+.flair-526:before {
+	background-position: -160px -100px
+}
+
+.content a[href="/527"],
+.flair-527:before {
+	background-position: -160px -120px
+}
+
+.content a[href="/528"],
+.flair-528:before {
+	background-position: -160px -140px
+}
+
+.content a[href="/586"],
+.flair-586:before {
+	background-position: -180px 0
+}
+
+.content a[href="/587"],
+.flair-587:before {
+	background-position: -180px -20px
+}
+
+.content a[href="/588"],
+.flair-588:before {
+	background-position: -180px -40px
+}
+
+.content a[href="/589"],
+.flair-589:before {
+	background-position: -180px -60px
+}
+
+.content a[href="/590"],
+.flair-590:before {
+	background-position: -180px -80px
+}
+
+.content a[href="/591"],
+.flair-591:before {
+	background-position: -180px -100px
+}
+
+.content a[href="/592"],
+.flair-592:before {
+	background-position: -180px -120px
+}
+
+.content a[href="/593"],
+.flair-593:before {
+	background-position: -180px -140px
+}
+
+.content a[href="/594"],
+.flair-594:before {
+	background-position: -180px -160px
+}
+
+.content a[href="/595"],
+.flair-595:before {
+	background-position: -180px -180px
+}
+
+.content a[href="/596"],
+.flair-596:before {
+	background-position: -180px -200px
+}
+
+.content a[href="/597"],
+.flair-597:before {
+	background-position: -180px -220px
+}
+
+.content a[href="/598"],
+.flair-598:before {
+	background-position: -180px -240px
+}
+
+.content a[href="/599"],
+.flair-599:before {
+	background-position: -180px -260px
+}
+
+.content a[href="/600"],
+.flair-600:before {
+	background-position: -180px -280px
+}
+
+.content a[href="/601"],
+.flair-601:before {
+	background-position: -180px -300px
+}
+
+.content a[href="/602"],
+.flair-602:before {
+	background-position: -180px -320px
+}
+
+.content a[href="/603"],
+.flair-603:before {
+	background-position: -180px -340px
+}
+
+.content a[href="/604"],
+.flair-604:before {
+	background-position: -180px -360px
+}
+
+.content a[href="/605"],
+.flair-605:before {
+	background-position: -180px -380px
+}
+
+.content a[href="/606"],
+.flair-606:before {
+	background-position: -180px -400px
+}
+
+.content a[href="/607"],
+.flair-607:before {
+	background-position: -180px -420px
+}
+
+.content a[href="/608"],
+.flair-608:before {
+	background-position: -180px -440px
+}
+
+.content a[href="/609"],
+.flair-609:before {
+	background-position: -180px -460px
+}
+
+.content a[href="/610"],
+.flair-610:before {
+	background-position: -180px -480px
+}
+
+.content a[href="/611"],
+.flair-611:before {
+	background-position: -180px -500px
+}
+
+.content a[href="/612"],
+.flair-612:before {
+	background-position: -180px -520px
+}
+
+.content a[href="/613"],
+.flair-613:before {
+	background-position: -180px -540px
+}
+
+.content a[href="/614"],
+.flair-614:before {
+	background-position: -180px -560px
+}
+
+.content a[href="/615"],
+.flair-615:before {
+	background-position: -180px -580px
+}
+
+.content a[href="/616"],
+.flair-616:before {
+	background-position: -180px -600px
+}
+
+.content a[href="/617"],
+.flair-617:before {
+	background-position: -180px -620px
+}
+
+.content a[href="/618"],
+.flair-618:before {
+	background-position: -180px -640px
+}
+
+.content a[href="/619"],
+.flair-619:before {
+	background-position: -180px -660px
+}
+
+.content a[href="/620"],
+.flair-620:before {
+	background-position: -180px -680px
+}
+
+.content a[href="/621"],
+.flair-621:before {
+	background-position: -180px -700px
+}
+
+.content a[href="/622"],
+.flair-622:before {
+	background-position: -180px -720px
+}
+
+.content a[href="/623"],
+.flair-623:before {
+	background-position: -180px -740px
+}
+
+.content a[href="/624"],
+.flair-624:before {
+	background-position: -180px -760px
+}
+
+.content a[href="/625"],
+.flair-625:before {
+	background-position: -180px -780px
+}
+
+.content a[href="/626"],
+.flair-626:before {
+	background-position: -180px -800px
+}
+
+.content a[href="/627"],
+.flair-627:before {
+	background-position: -180px -820px
+}
+
+.content a[href="/628"],
+.flair-628:before {
+	background-position: -180px -840px
+}
+
+.content a[href="/629"],
+.flair-629:before {
+	background-position: -180px -860px
+}
+
+.content a[href="/630"],
+.flair-630:before {
+	background-position: -180px -880px
+}
+
+.content a[href="/631"],
+.flair-631:before {
+	background-position: -180px -900px
+}
+
+.content a[href="/632"],
+.flair-632:before {
+	background-position: -180px -920px
+}
+
+.content a[href="/633"],
+.flair-633:before {
+	background-position: -180px -940px
+}
+
+.content a[href="/634"],
+.flair-634:before {
+	background-position: -180px -960px
+}
+
+.content a[href="/635"],
+.flair-635:before {
+	background-position: -180px -980px
+}
+
+.content a[href="/636"],
+.flair-636:before {
+	background-position: -180px -1000px
+}
+
+.content a[href="/637"],
+.flair-637:before {
+	background-position: -180px -1020px
+}
+
+.content a[href="/638"],
+.flair-638:before {
+	background-position: -180px -1040px
+}
+
+.content a[href="/639"],
+.flair-639:before {
+	background-position: -180px -1060px
+}
+
+.content a[href="/640"],
+.flair-640:before {
+	background-position: -180px -1080px
+}
+
+.content a[href="/641"],
+.flair-641:before {
+	background-position: -180px -1100px
+}
+
+.content a[href="/642"],
+.flair-642:before {
+	background-position: -180px -1180px
+}
+
+.content a[href="/643"],
+.flair-643:before {
+	background-position: -180px -1140px
+}
+
+.content a[href="/644"],
+.flair-644:before {
+	background-position: -180px -1160px
+}
+
+.content a[href="/645"],
+.flair-645:before {
+	background-position: -180px -1180px
+}
+
+.content a[href="/646"],
+.flair-646:before {
+	background-position: -180px -1200px
+}
+
+.content a[href="/647"],
+.flair-647:before {
+	background-position: -180px -1220px
+}
+
+.content a[href="/648"],
+.flair-648:before {
+	background-position: -180px -1240px
+}
+
+.content a[href="/649"],
+.flair-649:before {
+	background-position: -180px -1260px
+}
+
+.content a[href="/650"],
+.flair-650:before {
+	background-position: -180px -1280px
+}
+
+.content a[href="/651"],
+.flair-651:before {
+	background-position: -200px 0
+}
+
+.content a[href="/652"],
+.flair-652:before {
+	background-position: -200px -20px
+}
+
+.content a[href="/653"],
+.flair-653:before {
+	background-position: -200px -40px
+}
+
+.content a[href="/654"],
+.flair-654:before {
+	background-position: -200px -60px
+}
+
+.content a[href="/655"],
+.flair-655:before {
+	background-position: -200px -80px
+}
+
+.content a[href="/656"],
+.flair-656:before {
+	background-position: -200px -100px
+}
+
+.content a[href="/657"],
+.flair-657:before {
+	background-position: -200px -120px
+}
+
+.content a[href="/658"],
+.flair-658:before {
+	background-position: -200px -140px
+}
+
+.content a[href="/659"],
+.flair-659:before {
+	background-position: -200px -160px
+}
+
+.content a[href="/660"],
+.flair-660:before {
+	background-position: -200px -180px
+}
+
+.content a[href="/661"],
+.flair-661:before {
+	background-position: -200px -200px
+}
+
+.content a[href="/662"],
+.flair-662:before {
+	background-position: -200px -220px
+}
+
+.content a[href="/663"],
+.flair-663:before {
+	background-position: -200px -240px
+}
+
+.content a[href="/664"],
+.flair-664:before {
+	background-position: -200px -260px
+}
+
+.content a[href="/665"],
+.flair-665:before {
+	background-position: -200px -280px
+}
+
+.content a[href="/666"],
+.flair-666:before {
+	background-position: -200px -300px
+}
+
+.content a[href="/667"],
+.flair-667:before {
+	background-position: -200px -320px
+}
+
+.content a[href="/668"],
+.flair-668:before {
+	background-position: -200px -340px
+}
+
+.content a[href="/669"],
+.flair-669:before {
+	background-position: -200px -360px
+}
+
+.content a[href="/716"],
+.flair-716:before {
+	background-position: -220px 0
+}
+
+.content a[href="/717"],
+.flair-717:before {
+	background-position: -220px -20px
+}
+
+.content a[href="/718"],
+.flair-718:before {
+	background-position: -220px -40px
+}
+
+.content a[href="/719"],
+.flair-719:before {
+	background-position: -220px -60px
+}
+
+.content a[href="/720"],
+.flair-720:before {
+	background-position: -220px -80px
+}
+
+.content a[href="/721"],
+.flair-721:before {
+	background-position: -220px -100px
+}
+
+.content a[href="/722"],
+.flair-722:before {
+	background-position: -220px -120px
+}
+
+.content a[href="/723"],
+.flair-723:before {
+	background-position: -220px -140px
+}
+
+.content a[href="/724"],
+.flair-724:before {
+	background-position: -220px -160px
+}
+
+.content a[href="/725"],
+.flair-725:before {
+	background-position: -220px -180px
+}
+
+.content a[href="/726"],
+.flair-726:before {
+	background-position: -220px -200px
+}
+
+.content a[href="/727"],
+.flair-727:before {
+	background-position: -220px -220px
+}
+
+.content a[href="/728"],
+.flair-728:before {
+	background-position: -220px -240px
+}
+
+.content a[href="/729"],
+.flair-729:before {
+	background-position: -220px -260px
+}
+
+.content a[href="/730"],
+.flair-730:before {
+	background-position: -220px -280px
+}
+
+.content a[href="/731"],
+.flair-731:before {
+	background-position: -220px -300px
+}
+
+.content a[href="/732"],
+.flair-732:before {
+	background-position: -220px -320px
+}
+
+.content a[href="/733"],
+.flair-733:before {
+	background-position: -220px -340px
+}
+
+.content a[href="/CONCACAF"],
+.flair-concacaf:before {
+	background-position: -240px 0
+}
+
+.content a[href="/USA"],
+.flair-usa:before {
+	background-position: -240px -20px
+}
+
+.content a[href="/MEX"],
+.flair-mex:before {
+	background-position: -240px -40px
+}
+
+.content a[href="/CAN"],
+.flair-can:before {
+	background-position: -240px -60px
+}
+
+.content a[href="/AIA"],
+.flair-aia:before {
+	background-position: -240px -80px
+}
+
+.content a[href="/ATG"],
+.flair-atg:before {
+	background-position: -240px -100px
+}
+
+.content a[href="/ARU"],
+.flair-aru:before {
+	background-position: -240px -120px
+}
+
+.content a[href="/BAH"],
+.flair-bah:before {
+	background-position: -240px -140px
+}
+
+.content a[href="/BRB"],
+.flair-brb:before {
+	background-position: -240px -160px
+}
+
+.content a[href="/BLZ"],
+.flair-blz:before {
+	background-position: -240px -180px
+}
+
+.content a[href="/BER"],
+.flair-ber:before {
+	background-position: -240px -200px
+}
+
+.content a[href="/BOE"],
+.flair-boe:before {
+	background-position: -240px -220px
+}
+
+.content a[href="/VGB"],
+.flair-vgb:before {
+	background-position: -240px -240px
+}
+
+.content a[href="/CAY"],
+.flair-cay:before {
+	background-position: -240px -260px
+}
+
+.content a[href="/CRC"],
+.flair-crc:before {
+	background-position: -240px -280px
+}
+
+.content a[href="/CUB"],
+.flair-cub:before {
+	background-position: -240px -300px
+}
+
+.content a[href="/CUW"],
+.flair-cuw:before {
+	background-position: -240px -320px
+}
+
+.content a[href="/DMA"],
+.flair-dma:before {
+	background-position: -240px -340px
+}
+
+.content a[href="/DOM"],
+.flair-dom:before {
+	background-position: -240px -360px
+}
+
+.content a[href="/SLV"],
+.flair-slv:before {
+	background-position: -240px -380px
+}
+
+.content a[href="/GUF"],
+.flair-guf:before {
+	background-position: -240px -400px
+}
+
+.content a[href="/GRN"],
+.flair-grn:before {
+	background-position: -240px -420px
+}
+
+.content a[href="/GLP"],
+.flair-glp:before {
+	background-position: -240px -440px
+}
+
+.content a[href="/GUA"],
+.flair-gua:before {
+	background-position: -240px -460px
+}
+
+.content a[href="/GUY"],
+.flair-guy:before {
+	background-position: -240px -480px
+}
+
+.content a[href="/HAI"],
+.flair-hai:before {
+	background-position: -240px -500px
+}
+
+.content a[href="/HON"],
+.flair-hon:before {
+	background-position: -240px -520px
+}
+
+.content a[href="/JAM"],
+.flair-jam:before {
+	background-position: -240px -540px
+}
+
+.content a[href="/MTQ"],
+.flair-mtq:before {
+	background-position: -240px -560px
+}
+
+.content a[href="/MSR"],
+.flair-msr:before {
+	background-position: -240px -580px
+}
+
+.content a[href="/NCA"],
+.flair-nca:before {
+	background-position: -240px -600px
+}
+
+.content a[href="/PAN"],
+.flair-pan:before {
+	background-position: -240px -620px
+}
+
+.content a[href="/PUR"],
+.flair-pur:before {
+	background-position: -240px -640px
+}
+
+.content a[href="/SMN"],
+.flair-smn:before {
+	background-position: -240px -660px
+}
+
+.content a[href="/SMA"],
+.flair-sma:before {
+	background-position: -240px -680px
+}
+
+.content a[href="/SKN"],
+.flair-skn:before {
+	background-position: -240px -700px
+}
+
+.content a[href="/LCA"],
+.flair-lca:before {
+	background-position: -240px -720px
+}
+
+.content a[href="/VIN"],
+.flair-vin:before {
+	background-position: -240px -740px
+}
+
+.content a[href="/SUR"],
+.flair-sur:before {
+	background-position: -240px -760px
+}
+
+.content a[href="/TRI"],
+.flair-tri:before {
+	background-position: -240px -780px
+}
+
+.content a[href="/TCA"],
+.flair-tca:before {
+	background-position: -240px -800px
+}
+
+.content a[href="/VIR"],
+.flair-vir:before {
+	background-position: -240px -820px
+}
+
+.content a[href="/CONMEBOL"],
+.flair-conmebol:before {
+	background-position: -240px -840px
+}
+
+.content a[href="/ARG"],
+.flair-arg:before {
+	background-position: -240px -860px
+}
+
+.content a[href="/BOL"],
+.flair-bol:before {
+	background-position: -240px -880px
+}
+
+.content a[href="/BRA"],
+.flair-bra:before {
+	background-position: -240px -900px
+}
+
+.content a[href="/CHIL"],
+.flair-chil:before {
+	background-position: -240px -920px
+}
+
+.content a[href="/COLO"],
+.flair-colo:before {
+	background-position: -240px -940px
+}
+
+.content a[href="/ECU"],
+.flair-ecu:before {
+	background-position: -240px -960px
+}
+
+.content a[href="/PAR"],
+.flair-par:before {
+	background-position: -240px -980px
+}
+
+.content a[href="/PER"],
+.flair-per:before {
+	background-position: -240px -1000px
+}
+
+.content a[href="/URU"],
+.flair-uru:before {
+	background-position: -240px -1020px
+}
+
+.content a[href="/VEN"],
+.flair-ven:before {
+	background-position: -240px -1040px
+}
+
+.content a[href="/LALAS"],
+.flair-lalas:before {
+	background-position: -260px 0
+}
+
+.content a[href="/USOC"],
+.flair-usoc:before {
+	background-position: -260px -20px
+}
+
+.content a[href="/CCL"],
+.flair-ccl:before {
+	background-position: -260px -40px
+}
+
+.content a[href="/GOLD"],
+.flair-gold:before {
+	background-position: -260px -60px
+}
+
+.content a[href="/FIFA"],
+.flair-fifa:before {
+	background-position: -260px -80px
+}
+
+.content a[href="/1CUP"],
+.flair-1cup:before {
+	background-position: -260px -100px
+}
+
+.content a[href="/852"],
+.flair-852:before {
+	background-position: -260px -120px
+}
+
+.content a[href="/853"],
+.flair-853:before {
+	background-position: -260px -140px
+}
+
+.content a[href="/854"],
+.flair-854:before {
+	background-position: -260px -160px
+}
+
+.content a[href="/855"],
+.flair-855:before {
+	background-position: -260px -180px
+}
+
+.content a[href="/856"],
+.flair-856:before {
+	background-position: -260px -200px
+}
+
+.content a[href="/857"],
+.flair-857:before {
+	background-position: -260px -220px
+}
+
+.content a[href="/858"],
+.flair-858:before {
+	background-position: -260px -240px
+}
+
+.content a[href="/859"],
+.flair-859:before {
+	background-position: -260px -260px
+}
+
+.content a[href="/860"],
+.flair-860:before {
+	background-position: -260px -280px
+}
+
+.content a[href="/861"],
+.flair-861:before {
+	background-position: -260px -300px
+}
+
+.content a[href="/862"],
+.flair-862:before {
+	background-position: -260px -320px
+}
+
+.content a[href="/863"],
+.flair-863:before {
+	background-position: -260px -340px
+}
+
+.content a[href="/864"],
+.flair-864:before {
+	background-position: -260px -360px
+}
+
+.content a[href="/865"],
+.flair-865:before {
+	background-position: -260px -380px
+}
+
+.content a[href="/866"],
+.flair-866:before {
+	background-position: -260px -400px
+}
+
+.content a[href="/867"],
+.flair-867:before {
+	background-position: -260px -420px
+}
+
+.content a[href="/TWELLMAN"],
+.flair-twellman:before {
+	background-position: -260px -440px
+}
+
+.content a[href="/FIORE"],
+.flair-fiore:before {
+	background-position: -260px -460px
+}
+
+.content a[href="/PRO"],
+.flair-pro:before {
+	background-position: -260px -480px
+}
+
+.content a[href="/871"],
+.flair-871:before {
+	background-position: -260px -500px
+}
+
+.content a[href="/872"],
+.flair-872:before {
+	background-position: -260px -520px
+}
+
+.content a[href="/873"],
+.flair-873:before {
+	background-position: -260px -540px
+}
+
+.content a[href="/874"],
+.flair-874:before {
+	background-position: -260px -560px
+}
+
+.content a[href="/875"],
+.flair-875:before {
+	background-position: -260px -580px
+}
+
+.content a[href="/905"],
+.flair-905:before {
+	background-position: -260px -1180px
+}
+
+.content a[href="/906"],
+.flair-906:before {
+	background-position: -260px -1200px
+}
+
+.content a[href="/907"],
+.flair-907:before {
+	background-position: -260px -1220px
+}
+
+.content a[href="/908"],
+.flair-908:before {
+	background-position: -260px -1240px
+}
+
+.content a[href="/909"],
+.flair-909:before {
+	background-position: -260px -1260px
+}
+
+.content a[href="/CAI"],
+.flair-cai:before {
+	background-position: -280px 0
+}
+
+.content a[href="/GUASTATOYA"],
+.flair-guastatoya:before {
+	background-position: -280px -20px
+}
+
+.content a[href="/PANTOJA"],
+.flair-pantoja:before {
+	background-position: -280px -40px
+}
+
+.content a[href="/TOLUCA"],
+.flair-toluca:before {
+	background-position: -280px -60px
+}
+
+.content a[href="/HEREDIANO"],
+.flair-herediano:before {
+	background-position: -280px -80px
+}
+
+.content a[href="/SANTOS"],
+.flair-santos:before {
+	background-position: -280px -100px
+}
+
+.content a[href="/MONTERREY"],
+.flair-monterrey:before {
+	background-position: -280px -120px
+}
+
+.content a[href="/MARATHON"],
+.flair-marathon:before {
+	background-position: -280px -140px
+}
+
+.content a[href="/ALIANZA"],
+.flair-alianza:before {
+	background-position: -280px -160px
+}
+
+.content a[href="/SAPRISSA"],
+.flair-saprissa:before {
+	background-position: -280px -180px
+}
+
+.content a[href="/TIGRES"],
+.flair-tigres:before {
+	background-position: -280px -200px
+}
+
+.content a[href="/PACHUCA"],
+.flair-pachuca:before {
+	background-position: -280px -220px
+}
+
+.content a[href="/MORELIA"],
+.flair-morelia:before {
+	background-position: -280px -240px
+}
+
+.content a[href="/GUADALAJARA"],
+.flair-guadalajara:before {
+	background-position: -280px -260px
+}
+
+.content a[href="/AMERICA"],
+.flair-america:before {
+	background-position: -280px -280px
+}
+
+.content a[href="/CRUZAZUL"],
+.flair-cruzazul:before {
+	background-position: -280px -300px
+}
+
+.content a[href="/NECAXA"],
+.flair-necaxa:before {
+	background-position: -280px -320px
+}
+
+.content a[href="/TIJUANA"],
+.flair-tijuana:before {
+	background-position: -280px -340px
+}
+
+.content a[href="/PUEBLA"],
+.flair-puebla:before {
+	background-position: -280px -360px
+}
+
+.content a[href="/ATLAS"],
+.flair-atlas:before {
+	background-position: -280px -380px
+}
+
+.content a[href="/LEON"],
+.flair-leon:before {
+	background-position: -280px -400px
+}
+
+.content a[href="/LOBOS"],
+.flair-lobos:before {
+	background-position: -280px -420px
+}
+
+.content a[href="/QUERETARO"],
+.flair-queretaro:before {
+	background-position: -280px -440px
+}
+
+.content a[href="/VERACRUZ"],
+.flair-veracruz:before {
+	background-position: -280px -460px
+}
+
+.content a[href="/PUMAS"],
+.flair-pumas:before {
+	background-position: -280px -480px
+}
+
+.content a[href="/MX"],
+.flair-mx:before {
+	background-position: -280px -500px
+}
+
+.content {
+	margin-top: 20px;
+	margin-right: 310px
+}
+
+.side .md h3:nth-of-type(1) {
+	position: absolute;
+	font-size: 13px;
+	top: 170px;
+	left: 10px;
+	right: 11px;
+	height: 14px;
+	background: 0;
+	color: #474747;
+	padding: 3px 3px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: center;
+	padding-top: 3px
+}
+
+.side .md h3:nth-of-type(1) a:active,
+.side .md h3:nth-of-type(1) a:link,
+.side .md h3:nth-of-type(1) a:visited {
+	color: #000
+}
+
+.side .md h3:nth-of-type(1) a:hover {
+	color: #ff4500!important
+}
+
+.res-nightmode .side .md h3:nth-of-type(1) {
+	background-color: #transparent!important;
+	color: #474747!important
+}
+
+.score {
+	font-size: 11px;
+	color: #aaa;
+	display: block;
+	min-width: 59px;
+	margin-left: 25px!important
+}
+
+.linkinfo .downvotes .word,
+.linkinfo .upvotes .word {
+	font-size: 11px;
+	color: #aaa
+}
+
+.linkinfo .downvotes,
+.linkinfo .score,
+.linkinfo .upvotes {
+	float: left;
+	padding: 5px 10px 5px 0;
+	margin: 8px 10px 10px 0;
+	text-align: center
+}
+
+.linkinfo .score,
+.linkinfo .upvotes {
+	border-right: 1px solid #e8e7e7
+}
+
+.linkinfo .score .number {
+	color: #363636
+}
+
+.linkinfo .upvotes .number {
+	color: #ff4500
+}
+
+.linkinfo .downvotes .number {
+	color: #9494ff
+}
+
+.linkinfo .shortlink {
+	clear: both!important;
+	font-size: 10px;
+	margin-top: 10px;
+	color: #aaa
+}
+
+.linkinfo .shortlink input {
+	background: #fff;
+	border: 2px solid #f2f2f2;
+	padding-left: 8px;
+	font-size: 10px;
+	color: #000;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.sidebox.create {
+	display: none
+}
+
+.morelink:hover,
+.submit .morelink {
+	font-weight: 400;
+	letter-spacing: 0;
+	background: #0f1d42;
+	border-color: #ddd;
+	border-radius: 0;
+	box-shadow: 1px 1px 1px 1px #ccc;
+	margin-left: 2px;
+	margin-right: 2px;
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden
+}
+
+.morelink a:hover,
+.submit .morelink a {
+	color: #fff;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 16px
+}
+
+.submit .morelink:hover a {
+	color: #89de25
+}
+
+.fancy-toggle-button .remove {
+	background-color: #0f1d42!important;
+	border-radius: 2px;
+	color: #fff;
+	border: 1px solid #e4e4e4;
+	background-image: none;
+	font-weight: 400;
+	padding: 3px
+}
+
+.fancy-toggle-button .remove:hover {
+	color: #89de25
+}
+
+.fancy-toggle-button .remove:hover:after {
+	color: #89de25
+}
+
+.fancy-toggle-button .add {
+	background-color: #0f1d42;
+	border-radius: 0;
+	color: #fff;
+	font-weight: 400;
+	font-size: 12px;
+	background-image: none;
+	border: 1px solid #e4e4e4;
+	padding: 3px
+}
+
+.fancy-toggle-button .add:hover {
+	color: #89de25
+}
+
+.RESshortcutside.remove {
+	background-color: #0f1d42!important;
+	color: #fff!important;
+	background-image: none!important;
+	font-weight: 400!important;
+	border: 1px solid #e4e4e4!important;
+	padding: 3px!important
+}
+
+.RESshortcutside {
+	margin-right: 5px!important;
+	margin-top: 2px!important;
+	text-align: center!important;
+	width: 68px!important;
+	font-size: 10px!important;
+	color: #0f1d42!important;
+	border-radius: 0!important;
+	background-color: #fff!important;
+	font-weight: 400!important;
+	background-image: none!important;
+	border: 1px solid #e4e4e4!important;
+	padding: 3px!important
+}
+
+.RESDashboardToggle.remove {
+	background-color: #0f1d42!important;
+	border-radius: 1px!important;
+	color: #fff!important;
+	font-weight: 400!important;
+	background-image: none!important;
+	border: 1px solid #e4e4e4;
+	padding: 3px!important
+}
+
+.RESDashboardToggle {
+	text-align: center!important;
+	width: 68px!important;
+	font-size: 10px!important;
+	color: #0f1d42!important;
+	border-radius: 0!important;
+	background-color: #fff!important;
+	font-weight: 400!important;
+	background-image: none!important;
+	border: 1px solid #e4e4e4!important;
+	padding: 3px!important
+}
+
+body div.side .spacer #search input[type=text] {
+	color: #000
+}
+
+.side form#search input[name="q"] {
+	border: 1px solid #e3e3e3;
+	height: 10px;
+	font-size: 12px;
+	color: #b5b5b5;
+	padding: 10px;
+	width: 260px
+}
+
+.subscribers .word,
+.users-online .word {
+	display: none
+}
+
+.subscribers .number:after {
+	content: " Supporters"
+}
+
+.users-online .number:after {
+	content: " people currently fed-up with Whitecaps FC co-owners Greg Kerfoot and Jeff Mallett enabling child predation for the past ten years"
+}
+
+.side .titlebox .md p:first-of-type {
+	margin: 0;
+	height: 0
+}
+
+.sitetable .thumbnail {
+	margin: 2px 2px 2px 5px;
+	max-height: 60px;
+	width: auto
+}
+
+.sitetable .thumbnail.self {
+	margin: 2px 0
+}
+
+.link .usertext .md {
+	padding: 5px 10px;
+	border: 0 none;
+	background-color: transparent
+}
+
+body div.content {
+	background: #fafafa;
+	width: auto;
+	min-height: 3000px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 15px;
+	border-top: 3px solid #083b5d;
+	box-shadow: 0 1px 6px #7b91a2;
+	z-index: 102
+}
+
+body.comments-page.res div.content>.sitetable {
+	padding-right: 10px
+}
+
+div.content .link .rank {
+	display: none
+}
+
+.thing .title {
+	color: #0e56b0;
+	color: #0073c0;
+	color: #0a519a
+}
+
+.thing .title:visited {
+	color: #623788
+}
+
+.thing .title.click {
+	color: #623788
+}
+
+.thing .title.loggedin {
+	color: #0e56b0;
+	color: #0073c0;
+	color: #0a519a
+}
+
+.thing .title.loggedin:visited {
+	color: #623788
+}
+
+.thing .title.loggedin.click {
+	color: #623788
+}
+
+.thing .title.loggedin.click:visited {
+	color: #623788
+}
+
+#siteTable div.thing ul .first .comments {
+	visibility: visible
+}
+
+#siteTable div.thing ul .first .empty {
+	visibility: visible;
+	color: #888
+}
+
+body div.side {
+	display: inline-block;
+	right: 10px;
+	width: 285px;
+	margin-top: 20px;
+	background-color: #f8f8f8!important;
+	padding: 16px;
+	border-top: 3px solid #89de25;
+	padding-top: 10px;
+	box-shadow: 0 1px 6px #7b91a2;
+	background: #f8f8f9;
+	z-index: 102
+}
+
+body div.side .morelink {
+	border-radius: 2px
+}
+
+body div.side .nub {
+	display: none
+}
+
+.titlebox .bottom {
+	display: none
+}
+
+#siteTable.sitetable.linklisting .tagline .flair {
+	display: none
+}
+
+.footer-parent {
+	padding-top: 180px;
+	background: url(%%logo-3%%) top center no-repeat
+}
+
+.side .redditname a {
+	font-size: 0
+}
+
+.side .redditname a:after {
+	font-size: 19px;
+	color: #303030;
+	content: '/r/MLS'
+}
+
+div.side .linkinfo {
+	position: relative;
+	top: 6px
+}
+
+div.side .login-form-side {
+	position: relative;
+	top: 6px
+}
+
+body div.side .md hr {
+	border: 0;
+	border-bottom: 1px solid #bebebe;
+	box-shadow: 0 1px 0 #fcfcfc;
+	margin-bottom: 4px
+}
+
+body div.titlebox .leavemoderator,
+body div.titlebox form.toggle {
+	background-color: transparent
+}
+
+body.res-nightmode div.side {
+	background-color: transparent!important;
+	border: 0
+}
+
+body div.thing.link {
+	padding-top: 7px;
+	padding-bottom: 7px;
+	margin: 0;
+	border-bottom: 1px solid #cecece;
+	border-bottom: 1px solid #dfdfdf;
+	box-shadow: 0 1px #fff
+}
+
+.link.last-clicked {
+	border: 0
+}
+
+body.comments-page.res div.content .commentarea {
+	margin-right: 10px
+}
+
+.commentarea .comment {
+	border: 0 #f8f8f8!important;
+	margin: 0!important;
+	padding: 0!important
+}
+
+.commentarea .comment .child {
+	margin: 6px 0 0 35px!important;
+	border-left: 1px dotted #d5d5d5!important
+}
+
+.comment .entry {
+	background-color: transparent!important;
+	padding: 0!important
+}
+
+.commentarea .entry>.collapsed {
+	background-color: transparent!important;
+	padding: 6px 0 6px 50px!important
+}
+
+.commentarea .entry>.noncollapsed {
+	background-color: #f5f5f5!important;
+	border: 1px solid #d7d7d7!important;
+	border-radius: 3px;
+	padding: 6px!important
+}
+
+.commentarea .morechildren>.entry>.noncollapsed {
+	background-color: transparent!important;
+	padding: 0!important
+}
+
+.commentarea .morerecursion>.entry>.noncollapsed {
+	background-color: transparent!important;
+	padding: 0!important
+}
+
+.sitetable.nestedlisting {
+	background-color: #fafafa;
+	padding: 0!important;
+	margin: 0
+}
+
+.commentarea .nestedlisting .comment {
+	margin-left: 0!important
+}
+
+p.tagline,
+p.tagline a {
+	margin: 3px 0
+}
+
+.tagline {
+	font-size: 10px;
+	font-family: Verdana;
+	padding-left: 1px
+}
+
+.commentarea .comment .midcol {
+	width: 15px!important;
+	height: 62px;
+	padding: 0;
+	margin: 0;
+	background-color: transparent;
+	background-position: 34px 10px;
+	background-repeat: no-repeat;
+	margin-right: 5px
+}
+
+.res .comment,
+.res .comment .comment,
+.res .comment .comment .comment,
+.res .comment .comment .comment .comment,
+.res .comment .comment .comment .comment .comment,
+.res .comment .comment .comment .comment .comment .comment,
+.res .comment .comment .comment .comment .comment .comment .comment,
+.res .comment .comment .comment .comment .comment .comment .comment .comment,
+.res .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.res .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.res .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+	background-color: transparent!important
+}
+
+.comment.spam>.child,
+.message.spam>.child {
+	background-color: transparent
+}
+
+body.res-nightmode .commentarea .comment {
+	background-color: #222!important
+}
+
+body.res-nightmode .commentarea .entry>.noncollapsed {
+	background-color: #333!important;
+	border: 1px solid #666!important
+}
+
+.res .content .RES-keyNav-activeElement {
+	background-color: transparent!important;
+	outline: 1px dashed #b8b8b8!important
+}
+
+.comments-page.res .content .sitetable .RES-keyNav-activeElement {
+	background-color: transparent!important;
+	background-image: none!important;
+	outline: 0!important
+}
+
+body #parentComment {
+	background-color: #f5f5f5!important;
+	border: 1px solid #d7d7d7!important;
+	box-shadow: 0 0 6px #ccc!important;
+	z-index: 200
+}
+
+body.res div#NREFloat {
+	z-index: 1000
+}
+
+.link .midcol {
+	margin-right: 10px
+}
+
+.linkflair-usocmatch .entry .title {
+	color: orange;
+	font-weight: 700
+}
+
+.linkflair-usocmatch .entry .title:visited {
+	color: orange;
+	font-weight: 700
+}
+
+.linkflair-cclmatch .entry .title {
+	color: purple;
+	font-weight: 700
+}
+
+.linkflair-cclmatch .entry .title:visited {
+	color: purple;
+	font-weight: 700
+}
+
+.linkflair-friendlymatch .entry .title {
+	color: #a4a4a4;
+	font-weight: 700
+}
+
+.linkflair-friendlymatch .entry .title:visited {
+	color: #a4a4a4;
+	font-weight: 700
+}
+
+.linkflair-ama .entry .title {
+	color: #00f;
+	font-weight: 700
+}
+
+.linkflair-ama .entry .title:visited {
+	color: #00f;
+	font-weight: 700
+}
+
+.linkflair-meta .entry .title {
+	color: #0a8c28;
+	font-weight: 700
+}
+
+.linkflair-meta .entry .title:visited {
+	color: #0a8c28;
+	font-weight: 700
+}
+
+.linkflair-trashtalk .entry .title {
+	color: #b00000;
+	font-weight: 700
+}
+
+.linkflair-trashtalk .entry .title:visited {
+	color: #b00000;
+	font-weight: 700
+}
+
+.linkflair-mlsmatch .entry .title {
+	color: #b00000;
+	font-weight: 700
+}
+
+.linkflair-mlsmatch .entry .title:visited {
+	color: #b00000;
+	font-weight: 700
+}
+
+.linkflair-discussion .entry .title {
+	color: #b00000;
+	font-weight: 700
+}
+
+.linkflair-discussion .entry .title:visited {
+	color: #b00000;
+	font-weight: 700
+}
+
+.linkflair-official .entry .title {
+	color: #000;
+	font-weight: 700
+}
+
+.linkflair-official .entry .title:visited {
+	color: #000;
+	font-weight: 700
+}
+
+.linkflair-shit .entry .title {
+	color: brown;
+	font-weight: 700
+}
+
+.linkflair-shit .entry .title:visited {
+	color: brown;
+	font-weight: 700
+}
+
+.linkflair-highlight .entry .title {
+	color: orange;
+	font-weight: 700
+}
+
+.linkflair-highlight .entry .title:visited {
+	color: orange;
+	font-weight: 700
+}
+
+#siteTable a.title[href*="/match_thread"]:before {
+	background-image: url(%%match-events%%);
+	background-position: 0 -32px;
+	background-repeat: no-repeat;
+	content: "";
+	display: inline-block;
+	height: 16px;
+	margin-right: 2px;
+	vertical-align: middle;
+	width: 16px
+}
+
+#siteTable a.title[href*=match_thread] {
+	color: #b00000;
+	font-weight: 700
+}
+
+#siteTable a.title[href*="1gz5l2"] {
+	color: #b00000;
+	font-weight: 700
+}
+
+#siteTable a.title[href*="1i8yxm"] {
+	color: #b00000;
+	font-weight: 700
+}
+
+#siteTable a.title[href*=trash_talk_thread] {
+	color: #b00000;
+	font-weight: 700;
+	text-transform: uppercase
+}
+
+#siteTable a.title[href*=us_open_cup_thread]:before {
+	background-image: url(%%flair%%);
+	background-position: -260px -20px;
+	background-repeat: no-repeat;
+	content: "";
+	display: inline-block;
+	height: 20px;
+	margin-right: 2px;
+	vertical-align: middle;
+	width: 20px
+}
+
+#siteTable a.title[href*=us_open_cup_thread] {
+	color: #e48e0d;
+	font-weight: 700
+}
+
+#siteTable a.title[href*=concacaf_thread],
+a.title[href*=ccl_match_thread],
+a.title[href*=ccl_thread],
+a.title[href*=concacaf_champions_league_thread] {
+	color: #0a8c28;
+	font-weight: 700
+}
+
+#siteTable a.title[href*=concacaf_thread]:before,
+a.title[href*=ccl_match_thread]:before,
+a.title[href*=ccl_thread]:before,
+a.title[href*=concacaf_champions_league_thread]:before {
+	background-image: url(%%flair%%);
+	background-position: -260px -40px;
+	background-repeat: no-repeat;
+	content: "";
+	display: inline-block;
+	height: 20px;
+	margin-right: 2px;
+	vertical-align: middle;
+	width: 20px
+}
+
+#siteTable a.title[href*=fifa_thread]:before,
+#siteTable a.title[href*=world_cup_qualifier_thread]:before,
+#siteTable a.title[href*=world_cup_qualifying_thread]:before {
+	background-image: url(%%flair%%);
+	background-position: -260px -80px;
+	background-repeat: no-repeat;
+	content: "";
+	display: inline-block;
+	height: 20px;
+	margin-right: 2px;
+	vertical-align: middle;
+	width: 20px
+}
+
+#siteTable a.title[href*=fifa_thread],
+#siteTable a.title[href*=qualifier_thread],
+#siteTable a.title[href*=world_cup_qualifier_thread],
+#siteTable a.title[href*=world_cup_qualifying_thread] {
+	color: #013adf;
+	font-weight: 700
+}
+
+.usertext {
+	position: static
+}
+
+.titlebox .md a[href="/r/AtlantaUnited"],
+.titlebox .md a[href="/r/AustinFC"],
+.titlebox .md a[href="/r/DCUnited"],
+.titlebox .md a[href="/r/FCCincinnati"],
+.titlebox .md a[href="/r/FCDallas"],
+.titlebox .md a[href="/r/InterMiami"],
+.titlebox .md a[href="/r/LAFC"],
+.titlebox .md a[href="/r/LAGalaxy"],
+.titlebox .md a[href="/r/NYCFC"],
+.titlebox .md a[href="/r/NashvilleSC"],
+.titlebox .md a[href="/r/NewEnglandRevolution"],
+.titlebox .md a[href="/r/OCLions"],
+.titlebox .md a[href="/r/PhillyUnion"],
+.titlebox .md a[href="/r/Rapids"],
+.titlebox .md a[href="/r/SJEarthquakes"],
+.titlebox .md a[href="/r/SoundersFC"],
+.titlebox .md a[href="/r/TFC"],
+.titlebox .md a[href="/r/TheMassive"],
+.titlebox .md a[href="/r/chicagofire"],
+.titlebox .md a[href="/r/dynamo"],
+.titlebox .md a[href="/r/minnesotaunited"],
+.titlebox .md a[href="/r/montrealimpact"],
+.titlebox .md a[href="/r/rbny"],
+.titlebox .md a[href="/r/realsaltlake"],
+.titlebox .md a[href="/r/sportingkc"],
+.titlebox .md a[href="/r/timbers"],
+.titlebox .md a[href="/r/whitecapsfc"] {
+	position: absolute;
+	z-index: 100;
+	top: 115px;
+	right: 2px;
+	width: 20px;
+	height: 20px;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%header-crests%%);
+	background-size: 900px 20px;
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	border: 0
+}
+
+.titlebox .md a[href="/r/AtlantaUnited"] {
+	background-position: -5px 0;
+	right: 580px
+}
+
+.titlebox .md a[href="/r/chicagofire"] {
+	background-position: -35px 0;
+	right: 555px
+}
+
+.titlebox .md a[href="/r/Rapids"] {
+	background-position: -65px 0;
+	right: 505px
+}
+
+.titlebox .md a[href="/r/TheMassive"] {
+	background-position: -95px 0;
+	right: 480px
+}
+
+.titlebox .md a[href="/r/DCUnited"] {
+	background-position: -125px 0;
+	right: 455px
+}
+
+.titlebox .md a[href="/r/FCDallas"] {
+	background-position: -155px 0;
+	right: 430px
+}
+
+.titlebox .md a[href="/r/dynamo"] {
+	background-position: -185px 0;
+	right: 405px
+}
+
+.titlebox .md a[href="/r/LAGalaxy"] {
+	background-position: -215px 0;
+	right: 380px
+}
+
+.titlebox .md a[href="/r/LAFC"] {
+	background-position: -245px 0;
+	right: 355px
+}
+
+.titlebox .md a[href="/r/minnesotaunited"] {
+	background-position: -305px 0;
+	right: 330px
+}
+
+.titlebox .md a[href="/r/montrealimpact"] {
+	background-position: -335px 0;
+	right: 305px
+}
+
+.titlebox .md a[href="/r/NewEnglandRevolution"] {
+	background-position: -365px 0;
+	right: 280px
+}
+
+.titlebox .md a[href="/r/NYCFC"] {
+	background-position: -395px 0;
+	right: 255px
+}
+
+.titlebox .md a[href="/r/rbny"] {
+	background-position: -425px 0;
+	right: 230px
+}
+
+.titlebox .md a[href="/r/OCLions"] {
+	background-position: -455px 0;
+	right: 205px
+}
+
+.titlebox .md a[href="/r/PhillyUnion"] {
+	background-position: -485px 0;
+	right: 180px
+}
+
+.titlebox .md a[href="/r/timbers"] {
+	background-position: -515px 0;
+	right: 155px
+}
+
+.titlebox .md a[href="/r/realsaltlake"] {
+	background-position: -545px 0;
+	right: 130px
+}
+
+.titlebox .md a[href="/r/SJEarthquakes"] {
+	background-position: -575px 0;
+	right: 105px
+}
+
+.titlebox .md a[href="/r/SoundersFC"] {
+	background-position: -605px 0;
+	right: 80px
+}
+
+.titlebox .md a[href="/r/sportingkc"] {
+	background-position: -635px 0;
+	right: 55px
+}
+
+.titlebox .md a[href="/r/TFC"] {
+	background-position: -665px 0;
+	right: 30px
+}
+
+.titlebox .md a[href="/r/whitecapsfc"] {
+	background-position: -695px 0;
+	right: 5px
+}
+
+.titlebox .md a[href="/r/FCCincinnati"] {
+	background-position: -725px 0;
+	right: 530px
+}
+
+.titlebox .md a[href="/r/AtlantaUnited"]:hover:after,
+.titlebox .md a[href="/r/AustinFC"]:hover:after,
+.titlebox .md a[href="/r/DCUnited"]:hover:after,
+.titlebox .md a[href="/r/FCCincinnati"]:hover:after,
+.titlebox .md a[href="/r/FCDallas"]:hover:after,
+.titlebox .md a[href="/r/InterMiami"]:hover:after,
+.titlebox .md a[href="/r/LAFC"]:hover:after,
+.titlebox .md a[href="/r/LAGalaxy"]:hover:after,
+.titlebox .md a[href="/r/NYCFC"]:hover:after,
+.titlebox .md a[href="/r/NashvilleSC"]:hover:after,
+.titlebox .md a[href="/r/NewEnglandRevolution"]:hover:after,
+.titlebox .md a[href="/r/OCLions"]:hover:after,
+.titlebox .md a[href="/r/PhillyUnion"]:hover:after,
+.titlebox .md a[href="/r/Rapids"]:hover:after,
+.titlebox .md a[href="/r/SJEarthquakes"]:hover:after,
+.titlebox .md a[href="/r/SoundersFC"]:hover:after,
+.titlebox .md a[href="/r/TFC"]:hover:after,
+.titlebox .md a[href="/r/TheMassive"]:hover:after,
+.titlebox .md a[href="/r/chicagofire"]:hover:after,
+.titlebox .md a[href="/r/dynamo"]:hover:after,
+.titlebox .md a[href="/r/minnesotaunited"]:hover:after,
+.titlebox .md a[href="/r/montrealimpact"]:hover:after,
+.titlebox .md a[href="/r/rbny"]:hover:after,
+.titlebox .md a[href="/r/realsaltlake"]:hover:after,
+.titlebox .md a[href="/r/sportingkc"]:hover:after,
+.titlebox .md a[href="/r/timbers"]:hover:after,
+.titlebox .md a[href="/r/whitecapsfc"]:hover:after {
+	content: attr(title);
+	position: absolute;
+	top: -30px;
+	right: -4px;
+	background: #fff;
+	color: #000;
+	z-index: 101;
+	border-radius: 5px;
+	white-space: nowrap;
+	padding: 3px 6px;
+	box-shadow: 0 0 5px #000
+}
+
+.titlebox .md a[href="/r/chicagofire"]:hover:after {
+	background: #ce1432;
+	color: #fff
+}
+
+.titlebox .md a[href="/r/OCLions"]:hover:after {
+	background: #633492;
+	color: #fde192
+}
+
+.titlebox .md a[href="/r/Rapids"]:hover:after {
+	background: #960a2c;
+	color: #9cc2ea
+}
+
+.titlebox .md a[href="/r/TheMassive"]:hover:after {
+	background: #fff200;
+	color: #000
+}
+
+.titlebox .md a[href="/r/DCUnited"]:hover:after {
+	background: #231f20;
+	color: #ef3e42
+}
+
+.titlebox .md a[href="/r/FCDallas"]:hover:after {
+	background: #e81f3e;
+	color: #fff
+}
+
+.titlebox .md a[href="/r/dynamo"]:hover:after {
+	background: #f68712;
+	color: #fff
+}
+
+.titlebox .md a[href="/r/LAFC"]:hover:after {
+	background: #17191d;
+	color: #c6a566
+}
+
+.titlebox .md a[href="/r/LAGalaxy"]:hover:after {
+	background: #00245d;
+	color: #ffd900
+}
+
+.titlebox .md a[href="/r/montrealimpact"]:hover:after {
+	background: #00529b;
+	color: #bcbec0
+}
+
+.titlebox .md a[href="/r/NewEnglandRevolution"]:hover:after {
+	background: #002b5c;
+	color: #fff
+}
+
+.titlebox .md a[href="/r/rbny"]:hover:after {
+	background: #fff;
+	color: #ed1e36
+}
+
+.titlebox .md a[href="/r/PhillyUnion"]:hover:after {
+	background: #0c1c2a;
+	color: #dabe8c
+}
+
+.titlebox .md a[href="/r/timbers"]:hover:after {
+	background: #2b5134;
+	color: #cd9700
+}
+
+.titlebox .md a[href="/r/realsaltlake"]:hover:after {
+	background: #b30838;
+	color: #f1cb00
+}
+
+.titlebox .md a[href="/r/SJEarthquakes"]:hover:after {
+	background: #000;
+	color: #0067b1
+}
+
+.titlebox .md a[href="/r/sportingkc"]:hover:after {
+	background: #91b0d5;
+	color: #002f65
+}
+
+.titlebox .md a[href="/r/SoundersFC"]:hover:after {
+	background: #5d9741;
+	color: #005595
+}
+
+.titlebox .md a[href="/r/TFC"]:hover:after {
+	background: #455560;
+	color: #e31937
+}
+
+.titlebox .md a[href="/r/whitecapsfc"]:hover:after {
+	background: #fff;
+	color: #00245e
+}
+
+.titlebox .md a[href="/r/NYCFC"]:hover:after {
+	background: #78a5db;
+	color: #fff
+}
+
+.titlebox .md a[href="/r/AtlantaUnited"]:hover:after {
+	background: #80000b;
+	color: #a29061
+}
+
+.titlebox .md a[href="/r/minnesotaunited"]:hover:after {
+	background: #8cd2f4;
+	color: #231f20
+}
+
+.titlebox .md a[href="/r/InterMiami"]:hover:after {
+	background: #231f20;
+	color: #f4b5cd
+}
+
+.titlebox .md a[href="/r/FCCincinnati"]:hover:after {
+	background: #003087;
+	color: #fe5000
+}
+
+.titlebox .md a[href="/r/AustinFC"]:hover:after {
+	background: #000;
+	color: #00b140
+}
+
+.titlebox .md a[href="/r/NashvilleSC"]:hover:after {
+	background: #ece83a;
+	color: #1f1646
+}
+
+.md table {
+	border: 2px solid #fff;
+	box-shadow: 0 0 5px #ccc;
+	margin: 1px 0 1px 0;
+	position: relative;
+	left: 1px
+}
+
+.titlebox .md table {
+	width: 99%
+}
+
+.md table th {
+	background: #303030;
+	border-top: 0;
+	border-left: none;
+	border-bottom: 0;
+	border-right: 1px solid #525252;
+	color: #fafafa;
+	font-weight: 700;
+	padding: .5em;
+	text-align: center;
+	text-shadow: 1px 1px 0 #2f2f2f;
+	font-size: 10px
+}
+
+.md table th a {
+	color: #363636
+}
+
+.md table td {
+	font-size: 10px;
+	border: 0;
+	padding: .3em;
+	vertical-align: middle
+}
+
+.md table td a {
+	color: #27262c!important;
+	font-weight: 400
+}
+
+.md table td a:hover {
+	color: #fff!important;
+	text-decoration: underline
+}
+
+.md tr:nth-of-type(odd) {
+	background: #fff;
+	color: #363636
+}
+
+.md tr:nth-of-type(even) {
+	background: #e3e3e3;
+	color: #363636
+}
+
+.md tr:nth-of-type(odd) td:nth-of-type(7) {
+	background: #eee
+}
+
+.md tr:nth-of-type(even) td:nth-of-type(7) {
+	background: #ccc
+}
+
+.md tr:hover {
+	background: #a0cdff!important;
+	cursor: default
+}
+
+.md tr:hover td:nth-of-type(7) {
+	background: #396!important;
+	cursor: default
+}
+
+.md td a[href*="mlssoccer.com"],
+.md td a[href*="atlutd.com"],
+.md td a[href*="austinfc.com"],
+.md td a[href*="chicago-fire.com"],
+.md td a[href*="coloradorapids.com"],
+.md td a[href*="columbuscrewsc.com"],
+.md td a[href*="dcunited.com"],
+.md td a[href*="fccincinnati.com"],
+.md td a[href*="fcdallas.com"],
+.md td a[href*="houstondynamo.com"],
+.md td a[href*="impactmontreal.com"],
+.md td a[href*="intermiamicf.com"],
+.md td a[href*="lafc.com"],
+.md td a[href*="lagalaxy.com"],
+.md td a[href*="mnufc.com"],
+.md td a[href*="nashvillesc.com"],
+.md td a[href*="newyorkredbulls.com"],
+.md td a[href*="nycfc.com"],
+.md td a[href*="orlandocitysc.com"],
+.md td a[href*="philadelphiaunion.com"],
+.md td a[href*="timbers.com"],
+.md td a[href*="revolutionsoccer.net"],
+.md td a[href*="rsl.com"],
+.md td a[href*="sjearthquakes.com"],
+.md td a[href*="soundersfc.com"],
+.md td a[href*="sportingkc.com"],
+.md td a[href*="torontofc.ca"],
+.md td a[href*="whitecapsfc.com"],
+.md td a[href*="thecup.us"],
+.md td a[href*="ussoccer.com"],
+.md td a[href*="canadasoccer.com"],
+.md td a[href*="goldcup.org"],
+.md td a[href*="canadasoccer.com/canadian-championship-p149302"],
+.md td a[href*="cavalryfc.canpl.ca"],
+.md td a[href*="fcedmonton.canpl.ca"],
+.md td a[href*="forgefc.canpl.ca"],
+.md td a[href*="hfxwanderersfc.canpl.ca"],
+.md td a[href*="pacificfc.canpl.ca"],
+.md td a[href*="valourfc.canpl.ca"],
+.md td a[href*="york9fc.canpl.ca"],
+.md td a[href*="saintlouisfc.com"],
+.md td a[href*="newmexicoutd.com"] {
+	background-color: transparent;
+	background-image: url(%%link-flair%%);
+	background-size: 20px 1800px;
+	background-repeat: no-repeat;
+	padding: 5px 0 5px 25px;
+	margin-left: 3px;
+	display: block
+}
+
+.md td a[href*="mlssoccer.com"] {
+	background-position: 0 0
+}
+
+.md td a[href*="atlutd.com"] {
+	background-position: 0 -32px
+}
+
+.md td a[href*="chicago-fire.com"] {
+	background-position: 0 -62px
+}
+
+.md td a[href*="coloradorapids.com"] {
+	background-position: 0 -92px
+}
+
+.md td a[href*="columbuscrewsc.com"] {
+	background-position: 0 -122px
+}
+
+.md td a[href*="dcunited.com"] {
+	background-position: 0 -152px
+}
+
+.md td a[href*="fcdallas.com"] {
+	background-position: 0 -182px
+}
+
+.md td a[href*="houstondynamo.com"] {
+	background-position: 0 -212px
+}
+
+.md td a[href*="lagalaxy.com"] {
+	background-position: 0 -242px
+}
+
+.md td a[href*="lafc.com"] {
+	background-position: 0 -272px
+}
+
+.md td a[href*="intermiamicf.com"] {
+	background-position: 0 -302px
+}
+
+.md td a[href*="mnufc.com"] {
+	background-position: 0 -332px
+}
+
+.md td a[href*="impactmontreal.com"] {
+	background-position: 0 -362px
+}
+
+.md td a[href*="revolutionsoccer.net"] {
+	background-position: 0 -392px
+}
+
+.md td a[href*="nycfc.com"] {
+	background-position: 0 -422px
+}
+
+.md td a[href*="newyorkredbulls.com"] {
+	background-position: 0 -452px
+}
+
+.md td a[href*="orlandocitysc.com"] {
+	background-position: 0 -482px
+}
+
+.md td a[href*="philadelphiaunion.com"] {
+	background-position: 0 -512px
+}
+
+.md td a[href*="timbers.com"] {
+	background-position: 0 -542px
+}
+
+.md td a[href*="rsl.com"] {
+	background-position: 0 -572px
+}
+
+.md td a[href*="sjearthquakes.com"] {
+	background-position: 0 -602px
+}
+
+.md td a[href*="soundersfc.com"] {
+	background-position: 0 -632px
+}
+
+.md td a[href*="sportingkc.com"] {
+	background-position: 0 -662px
+}
+
+.md td a[href*="torontofc.ca"] {
+	background-position: 0 -692px
+}
+
+.md td a[href*="whitecapsfc.com"] {
+	background-position: 0 -722px
+}
+
+.md td a[href*="thecup.us"] {
+	background-position: 0 -752px
+}
+
+.md td a[href*="ussoccer.com"] {
+	background-position: 0 -782px
+}
+
+.md td a[href*="canadasoccer.com"] {
+	background-position: 0 -812px
+}
+
+.md td a[href*="concacafchampionsleague.com"] {
+	background-position: 0 -842px
+}
+
+.md td a[href*="goldcup.org"] {
+	background-position: 0 -872px
+}
+
+.md td a[href*="fccincinnati.com"] {
+	background-position: 0 -902px
+}
+
+.md td a[href*="austinfc.com"] {
+	background-position: 0 -932px
+}
+
+.md td a[href*="nashvillesc.com"] {
+	background-position: 0 -962px
+}
+
+.md td a[href*="canadasoccer.com/canadian-championship-p149302"] {
+	background-position: 0 -992px
+}
+
+.md td a[href*="cavalryfc.canpl.ca"] {
+	background-position: 0 -1022px
+}
+
+.md td a[href*="fcedmonton.canpl.ca"] {
+	background-position: 0 -1052px
+}
+
+.md td a[href*="forgefc.canpl.ca"] {
+	background-position: 0 -1082px
+}
+
+.md td a[href*="hfxwanderersfc.canpl.ca"] {
+	background-position: 0 -1112px
+}
+
+.md td a[href*="pacificfc.canpl.ca"] {
+	background-position: 0 -1142px
+}
+
+.md td a[href*="valourfc.canpl.ca"] {
+	background-position: 0 -1172px
+}
+
+.md td a[href*="york9fc.canpl.ca"] {
+	background-position: 0 -1202px
+}
+
+.md td a[href*="saintlouisfc.com"] {
+	background-position: 0 -1232px
+}
+
+.md td a[href*="newmexicoutd.com"] {
+	background-position: 0 -1262px
+}
+
+.noncollapsed .md a[href*="youtu.be"],
+.noncollapsed .md a[href*="youtube.com"] {
+	background-color: transparent;
+	background-image: url(%%link-flair%%);
+	background-repeat: no-repeat;
+	padding: 5px 0 5px 25px;
+	margin-left: 3px;
+	background-position: 2px 580px
+}
+
+.md td a[href*="espn.com"],
+.md td a[href*="espn.go.com/watchespn/index/_/type/live/channel/espn2"],
+.md td a[href*="fox.com"],
+.md td a[href*="foxsports.com/tag/fox-sports-1"],
+.md td a[href*="foxsports.com/tag/fox-sports-2"],
+.md td a[href*="nbc.com"],
+.md td a[href*="nbcsports.com"],
+.md td a[href*="plus.espn.com"],
+.md td a[href*="sports.yahoo.com"],
+.md td a[href*="tsn.ca"],
+.md td a[href*="tsn.ca/tsn2-live-stream-1.167005"],
+.md td a[href*="univision.com/deportes"],
+.md td a[href*="univision.com/unimas"] {
+	background-color: transparent;
+	background-image: url(%%broadcasters2%%);
+	background-repeat: no-repeat;
+	padding: 15px 0 7px 65px;
+	margin-left: 3px;
+	display: block
+}
+
+.md td a[href*="nbcsports.com"] {
+	background-position: 0 0
+}
+
+.md td a[href*="nbc.com"] {
+	background-position: 0 -26px
+}
+
+.md td a[href*="espn.com"] {
+	background-position: 0 -52px
+}
+
+.md td a[href*="espn.go.com/watchespn/index/_/type/live/channel/espn2"] {
+	background-position: 0 -78px
+}
+
+.md td a[href*="plus.espn.com"] {
+	background-position: 0 -104px
+}
+
+.md td a[href*="tsn.ca"] {
+	background-position: 0 -130px
+}
+
+.md td a[href*="tsn.ca/tsn2-live-stream-1.167005"] {
+	background-position: 0 -156px
+}
+
+.md td a[href*="sports.yahoo.com"] {
+	background-position: 0 -181px
+}
+
+.md td a[href*="univision.com/deportes"] {
+	background-position: 0 -208px
+}
+
+.md td a[href*="univision.com/unimas"] {
+	background-position: 0 -234px
+}
+
+.md td a[href*="fox.com"] {
+	background-position: 0 -260px
+}
+
+.md td a[href*="foxsports.com/tag/fox-sports-1"] {
+	background-position: 0 -286px
+}
+
+.md td a[href*="foxsports.com/tag/fox-sports-2"] {
+	background-position: 0 -311px
+}
+
+.flair:hover {
+	width: auto;
+	height: 20px;
+	line-height: 20px;
+	padding: 2px 1ex 1px 2px;
+	border-width: 1px;
+	border-radius: 2px;
+	background-color: #f5f5f5;
+	margin-right: 1ex;
+	cursor: default
+}
+
+.flair:before {
+	content: "";
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	vertical-align: top;
+	margin-right: 4px
+}
+
+.flair {
+	width: 20px;
+	height: 20px;
+	line-height: 16px;
+	overflow: hidden;
+	vertical-align: middle;
+	font-size: inherit;
+	background-color: transparent;
+	color: #222;
+	padding: 2px;
+	margin-right: 3px;
+	border-width: 0;
+	border-radius: 3px
+}
+
+.flairsample-left.texteditable .flair {
+	font-size: 0
+}
+
+.flairsample-left.texteditable .flair:hover {
+	font-size: 1em
+}
+
+a[href="/assist"],
+a[href="/captain"],
+a[href="/goal"],
+a[href="/injury"],
+a[href="/offside"],
+a[href="/own-goal"],
+a[href="/penalty-made"],
+a[href="/penalty-missed"],
+a[href="/red"],
+a[href="/second-yellow"],
+a[href="/sub"],
+a[href="/sub-off"],
+a[href="/sub-on"],
+a[href="/whistle"],
+a[href="/yellow"] {
+	width: 15px;
+	height: 15px;
+	background-color: transparent;
+	background-image: url(%%match-events%%);
+	text-indent: -9999px;
+	display: inline-block;
+	vertical-align: top;
+	border-width: 0
+}
+
+a[href="/yellow"] {
+	background-position: 0 0
+}
+
+a[href="/second-yellow"] {
+	background-position: -16px 0
+}
+
+a[href="/red"] {
+	background-position: -32px 0
+}
+
+a[href="/injury"] {
+	background-position: -48px 0
+}
+
+a[href="/captain"] {
+	background-position: 0 -16px
+}
+
+a[href="/sub"] {
+	background-position: -16px -16px
+}
+
+a[href="/sub-on"] {
+	background-position: -32px -16px
+}
+
+a[href="/sub-off"] {
+	background-position: -48px -16px
+}
+
+.content a[href="/goal"],
+.flair-goal:before,
+.md td a[href*="/goal"] {
+	background-position: 0 -32px
+}
+
+a[href="/own-goal"] {
+	background-position: -16px -32px
+}
+
+a[href="/assist"] {
+	background-position: -32px -32px
+}
+
+a[href="/whistle"] {
+	background-position: -48px -32px
+}
+
+a[href="/offside"] {
+	background-position: 0 -48px
+}
+
+a[href="/penalty-made"] {
+	background-position: -16px -48px
+}
+
+a[href="/penalty-missed"] {
+	background-position: -32px -48px
+}
+
+a[href="/034"],
+a[href="/035"],
+a[href="/036"],
+a[href="/037"],
+a[href="/038"],
+a[href="/039"],
+a[href="/040"],
+a[href="/041"],
+a[href="/042"],
+a[href="/043"],
+a[href="/044"],
+a[href="/045"],
+a[href="/046"],
+a[href="/047"],
+a[href="/048"],
+a[href="/049"],
+a[href="/050"],
+a[href="/051"],
+a[href="/052"],
+a[href="/053"],
+a[href="/054"],
+a[href="/055"],
+a[href="/056"],
+a[href="/057"],
+a[href="/ATL"],
+a[href="/AUS"],
+a[href="/CHI"],
+a[href="/CIN"],
+a[href="/CLB"],
+a[href="/COL"],
+a[href="/DAL"],
+a[href="/DCU"],
+a[href="/HOU"],
+a[href="/LAFC"],
+a[href="/LAG"],
+a[href="/MIA"],
+a[href="/MIN"],
+a[href="/MLS"],
+a[href="/MTL"],
+a[href="/NER"],
+a[href="/NSH"],
+a[href="/NYC"],
+a[href="/NYRB"],
+a[href="/ORL"],
+a[href="/PHI"],
+a[href="/POR"],
+a[href="/RSL"],
+a[href="/SEA"],
+a[href="/SJE"],
+a[href="/SKC"],
+a[href="/TFC"],
+a[href="/VAN"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/066"],
+a[href="/067"],
+a[href="/068"],
+a[href="/069"],
+a[href="/070"],
+a[href="/071"],
+a[href="/072"],
+a[href="/073"],
+a[href="/074"],
+a[href="/075"],
+a[href="/076"],
+a[href="/077"],
+a[href="/078"],
+a[href="/079"],
+a[href="/080"],
+a[href="/081"],
+a[href="/082"],
+a[href="/083"],
+a[href="/084"],
+a[href="/085"],
+a[href="/086"],
+a[href="/087"],
+a[href="/088"],
+a[href="/089"],
+a[href="/090"],
+a[href="/091"],
+a[href="/092"],
+a[href="/093"],
+a[href="/094"],
+a[href="/095"],
+a[href="/096"],
+a[href="/097"],
+a[href="/098"],
+a[href="/099"],
+a[href="/100"],
+a[href="/101"],
+a[href="/102"],
+a[href="/103"],
+a[href="/104"],
+a[href="/105"],
+a[href="/106"],
+a[href="/107"],
+a[href="/108"],
+a[href="/109"],
+a[href="/110"],
+a[href="/111"],
+a[href="/112"],
+a[href="/113"],
+a[href="/114"],
+a[href="/115"],
+a[href="/116"],
+a[href="/117"],
+a[href="/118"],
+a[href="/119"],
+a[href="/120"],
+a[href="/121"],
+a[href="/122"],
+a[href="/123"],
+a[href="/124"],
+a[href="/125"],
+a[href="/126"],
+a[href="/127"],
+a[href="/128"],
+a[href="/129"],
+a[href="/130"],
+a[href="/131"],
+a[href="/132"],
+a[href="/133"],
+a[href="/134"],
+a[href="/135"],
+a[href="/136"],
+a[href="/137"],
+a[href="/138"],
+a[href="/139"],
+a[href="/140"],
+a[href="/141"],
+a[href="/142"],
+a[href="/143"],
+a[href="/144"],
+a[href="/145"],
+a[href="/146"],
+a[href="/147"],
+a[href="/148"],
+a[href="/149"],
+a[href="/150"],
+a[href="/151"],
+a[href="/152"],
+a[href="/153"],
+a[href="/154"],
+a[href="/155"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/196"],
+a[href="/197"],
+a[href="/198"],
+a[href="/199"],
+a[href="/200"],
+a[href="/201"],
+a[href="/202"],
+a[href="/203"],
+a[href="/204"],
+a[href="/205"],
+a[href="/206"],
+a[href="/207"],
+a[href="/208"],
+a[href="/209"],
+a[href="/210"],
+a[href="/211"],
+a[href="/212"],
+a[href="/213"],
+a[href="/214"],
+a[href="/215"],
+a[href="/216"],
+a[href="/217"],
+a[href="/218"],
+a[href="/219"],
+a[href="/220"],
+a[href="/221"],
+a[href="/222"],
+a[href="/223"],
+a[href="/224"],
+a[href="/225"],
+a[href="/226"],
+a[href="/227"],
+a[href="/228"],
+a[href="/229"],
+a[href="/230"],
+a[href="/231"],
+a[href="/232"],
+a[href="/233"],
+a[href="/234"],
+a[href="/235"],
+a[href="/236"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/261"],
+a[href="/262"],
+a[href="/263"],
+a[href="/264"],
+a[href="/265"],
+a[href="/266"],
+a[href="/267"],
+a[href="/268"],
+a[href="/269"],
+a[href="/270"],
+a[href="/271"],
+a[href="/272"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/326"],
+a[href="/327"],
+a[href="/328"],
+a[href="/329"],
+a[href="/330"],
+a[href="/331"],
+a[href="/332"],
+a[href="/333"],
+a[href="/334"],
+a[href="/335"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/391"],
+a[href="/392"],
+a[href="/393"],
+a[href="/394"],
+a[href="/395"],
+a[href="/396"],
+a[href="/397"],
+a[href="/398"],
+a[href="/399"],
+a[href="/400"],
+a[href="/401"],
+a[href="/402"],
+a[href="/403"],
+a[href="/404"],
+a[href="/405"],
+a[href="/406"],
+a[href="/407"],
+a[href="/408"],
+a[href="/409"],
+a[href="/410"],
+a[href="/411"],
+a[href="/412"],
+a[href="/413"],
+a[href="/414"],
+a[href="/415"],
+a[href="/416"],
+a[href="/417"],
+a[href="/418"],
+a[href="/419"],
+a[href="/420"],
+a[href="/421"],
+a[href="/422"],
+a[href="/423"],
+a[href="/424"],
+a[href="/425"],
+a[href="/426"],
+a[href="/427"],
+a[href="/428"],
+a[href="/429"],
+a[href="/430"],
+a[href="/431"],
+a[href="/432"],
+a[href="/433"],
+a[href="/434"],
+a[href="/435"],
+a[href="/436"],
+a[href="/437"],
+a[href="/438"],
+a[href="/439"],
+a[href="/440"],
+a[href="/441"],
+a[href="/442"],
+a[href="/443"],
+a[href="/444"],
+a[href="/445"],
+a[href="/446"],
+a[href="/447"],
+a[href="/448"],
+a[href="/449"],
+a[href="/450"],
+a[href="/451"],
+a[href="/452"],
+a[href="/453"],
+a[href="/454"],
+a[href="/455"],
+a[href="/456"],
+a[href="/457"],
+a[href="/458"],
+a[href="/459"],
+a[href="/460"],
+a[href="/461"],
+a[href="/462"],
+a[href="/463"],
+a[href="/464"],
+a[href="/465"],
+a[href="/466"],
+a[href="/467"],
+a[href="/468"],
+a[href="/469"],
+a[href="/470"],
+a[href="/471"],
+a[href="/472"],
+a[href="/473"],
+a[href="/474"],
+a[href="/475"],
+a[href="/476"],
+a[href="/477"],
+a[href="/478"],
+a[href="/479"],
+a[href="/480"],
+a[href="/481"],
+a[href="/482"],
+a[href="/483"],
+a[href="/484"],
+a[href="/485"],
+a[href="/486"],
+a[href="/487"],
+a[href="/488"],
+a[href="/489"],
+a[href="/490"],
+a[href="/491"],
+a[href="/492"],
+a[href="/493"],
+a[href="/494"],
+a[href="/495"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/521"],
+a[href="/522"],
+a[href="/523"],
+a[href="/524"],
+a[href="/525"],
+a[href="/526"],
+a[href="/527"],
+a[href="/528"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/586"],
+a[href="/587"],
+a[href="/588"],
+a[href="/589"],
+a[href="/590"],
+a[href="/591"],
+a[href="/592"],
+a[href="/593"],
+a[href="/594"],
+a[href="/595"],
+a[href="/596"],
+a[href="/597"],
+a[href="/598"],
+a[href="/599"],
+a[href="/600"],
+a[href="/601"],
+a[href="/602"],
+a[href="/603"],
+a[href="/604"],
+a[href="/605"],
+a[href="/606"],
+a[href="/607"],
+a[href="/608"],
+a[href="/609"],
+a[href="/610"],
+a[href="/611"],
+a[href="/612"],
+a[href="/613"],
+a[href="/614"],
+a[href="/615"],
+a[href="/616"],
+a[href="/617"],
+a[href="/618"],
+a[href="/619"],
+a[href="/620"],
+a[href="/621"],
+a[href="/622"],
+a[href="/623"],
+a[href="/624"],
+a[href="/625"],
+a[href="/626"],
+a[href="/627"],
+a[href="/628"],
+a[href="/629"],
+a[href="/630"],
+a[href="/631"],
+a[href="/632"],
+a[href="/633"],
+a[href="/634"],
+a[href="/635"],
+a[href="/636"],
+a[href="/637"],
+a[href="/638"],
+a[href="/639"],
+a[href="/640"],
+a[href="/641"],
+a[href="/642"],
+a[href="/643"],
+a[href="/644"],
+a[href="/645"],
+a[href="/646"],
+a[href="/647"],
+a[href="/648"],
+a[href="/649"],
+a[href="/650"],
+a[href="/651"],
+a[href="/652"],
+a[href="/653"],
+a[href="/654"],
+a[href="/655"],
+a[href="/656"],
+a[href="/657"],
+a[href="/658"],
+a[href="/659"],
+a[href="/660"],
+a[href="/661"],
+a[href="/662"],
+a[href="/663"],
+a[href="/664"],
+a[href="/665"],
+a[href="/666"],
+a[href="/667"],
+a[href="/668"],
+a[href="/669"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/716"],
+a[href="/717"],
+a[href="/718"],
+a[href="/719"],
+a[href="/720"],
+a[href="/721"],
+a[href="/722"],
+a[href="/723"],
+a[href="/724"],
+a[href="/725"],
+a[href="/726"],
+a[href="/727"],
+a[href="/728"],
+a[href="/729"],
+a[href="/730"],
+a[href="/731"],
+a[href="/732"],
+a[href="/733"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/AIA"],
+a[href="/ARG"],
+a[href="/ARU"],
+a[href="/ATG"],
+a[href="/BAH"],
+a[href="/BER"],
+a[href="/BLZ"],
+a[href="/BOE"],
+a[href="/BOL"],
+a[href="/BRA"],
+a[href="/BRB"],
+a[href="/CAN"],
+a[href="/CAY"],
+a[href="/CHIL"],
+a[href="/COLO"],
+a[href="/CONCACAF"],
+a[href="/CONMEBOL"],
+a[href="/CRC"],
+a[href="/CUB"],
+a[href="/CUW"],
+a[href="/DMA"],
+a[href="/DOM"],
+a[href="/ECU"],
+a[href="/GLP"],
+a[href="/GRN"],
+a[href="/GUA"],
+a[href="/GUF"],
+a[href="/GUY"],
+a[href="/HAI"],
+a[href="/HON"],
+a[href="/JAM"],
+a[href="/LCA"],
+a[href="/MEX"],
+a[href="/MSR"],
+a[href="/MTQ"],
+a[href="/NCA"],
+a[href="/PAN"],
+a[href="/PAR"],
+a[href="/PER"],
+a[href="/PUR"],
+a[href="/SKN"],
+a[href="/SLV"],
+a[href="/SMA"],
+a[href="/SMN"],
+a[href="/SUR"],
+a[href="/TCA"],
+a[href="/TRI"],
+a[href="/URU"],
+a[href="/USA"],
+a[href="/VEN"],
+a[href="/VGB"],
+a[href="/VIN"],
+a[href="/VIR"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/1CUP"],
+a[href="/852"],
+a[href="/853"],
+a[href="/854"],
+a[href="/855"],
+a[href="/856"],
+a[href="/857"],
+a[href="/858"],
+a[href="/859"],
+a[href="/860"],
+a[href="/861"],
+a[href="/862"],
+a[href="/863"],
+a[href="/864"],
+a[href="/865"],
+a[href="/866"],
+a[href="/867"],
+a[href="/871"],
+a[href="/872"],
+a[href="/873"],
+a[href="/874"],
+a[href="/875"],
+a[href="/CCL"],
+a[href="/FIFA"],
+a[href="/FIORE"],
+a[href="/GOLD"],
+a[href="/LALAS"],
+a[href="/PRO"],
+a[href="/TWELLMAN"],
+a[href="/USOC"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/905"],
+a[href="/906"],
+a[href="/907"],
+a[href="/908"],
+a[href="/909"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+a[href="/ALIANZA"],
+a[href="/AMERICA"],
+a[href="/ATLAS"],
+a[href="/CAI"],
+a[href="/CRUZAZUL"],
+a[href="/GUADALAJARA"],
+a[href="/GUASTATOYA"],
+a[href="/HEREDIANO"],
+a[href="/LEON"],
+a[href="/LOBOS"],
+a[href="/MARATHON"],
+a[href="/MONTERREY"],
+a[href="/MORELIA"],
+a[href="/MX"],
+a[href="/NECAXA"],
+a[href="/PACHUCA"],
+a[href="/PANTOJA"],
+a[href="/PUEBLA"],
+a[href="/PUMAS"],
+a[href="/QUERETARO"],
+a[href="/SANTOS"],
+a[href="/SAPRISSA"],
+a[href="/TIGRES"],
+a[href="/TIJUANA"],
+a[href="/TOLUCA"],
+a[href="/VERACRUZ"] {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-image: url(%%flair%%);
+	background-position: -9999px -9999px;
+	vertical-align: middle;
+	margin-right: 3px;
+	margin-left: 3px;
+	border-width: 0
+}
+
+.content a[href="/MLS"],
+.flair-mls:before,
+.md td a[href*="/MLS"] {
+	background-position: 0 0
+}
+
+.content a[href="/ATL"],
+.flair-atl:before {
+	background-position: 0 -20px
+}
+
+.content a[href="/CHI"],
+.flair-chi:before {
+	background-position: 0 -40px
+}
+
+.content a[href="/COL"],
+.flair-col:before {
+	background-position: 0 -60px
+}
+
+.content a[href="/CLB"],
+.flair-clb:before {
+	background-position: 0 -80px
+}
+
+.content a[href="/DCU"],
+.flair-dcu:before {
+	background-position: 0 -100px
+}
+
+.content a[href="/DAL"],
+.flair-dal:before {
+	background-position: 0 -120px
+}
+
+.content a[href="/HOU"],
+.flair-hou:before {
+	background-position: 0 -140px
+}
+
+.content a[href="/LAFC"],
+.flair-lafc:before {
+	background-position: 0 -160px
+}
+
+.content a[href="/LAG"],
+.flair-lag:before {
+	background-position: 0 -180px
+}
+
+.content a[href="/MIA"],
+.flair-mia:before {
+	background-position: 0 -200px
+}
+
+.content a[href="/MIN"],
+.flair-min:before {
+	background-position: 0 -220px
+}
+
+.content a[href="/MTL"],
+.flair-mtl:before {
+	background-position: 0 -240px
+}
+
+.content a[href="/NER"],
+.flair-ner:before {
+	background-position: 0 -260px
+}
+
+.content a[href="/NYC"],
+.flair-nyc:before {
+	background-position: 0 -280px
+}
+
+.content a[href="/NYRB"],
+.flair-nyrb:before {
+	background-position: 0 -300px
+}
+
+.content a[href="/ORL"],
+.flair-orl:before {
+	background-position: 0 -320px
+}
+
+.content a[href="/PHI"],
+.flair-phi:before {
+	background-position: 0 -340px
+}
+
+.content a[href="/POR"],
+.flair-por:before {
+	background-position: 0 -360px
+}
+
+.content a[href="/RSL"],
+.flair-rsl:before {
+	background-position: 0 -380px
+}
+
+.content a[href="/SJE"],
+.flair-sje:before {
+	background-position: 0 -400px
+}
+
+.content a[href="/SEA"],
+.flair-sea:before {
+	background-position: 0 -420px
+}
+
+.content a[href="/SKC"],
+.flair-skc:before {
+	background-position: 0 -440px
+}
+
+.content a[href="/TFC"],
+.flair-tfc:before {
+	background-position: 0 -460px
+}
+
+.content a[href="/VAN"],
+.flair-van:before {
+	background-position: 0 -480px
+}
+
+.content a[href="/CIN"],
+.flair-cin:before {
+	background-position: 0 -500px
+}
+
+.content a[href="/AUS"],
+.flair-aus:before {
+	background-position: 0 -520px
+}
+
+.content a[href="/NSH"],
+.flair-nsh:before {
+	background-position: 0 -540px
+}
+
+.content a[href="/034"],
+.flair-034:before {
+	background-position: 0 -660px
+}
+
+.content a[href="/035"],
+.flair-035:before {
+	background-position: 0 -680px
+}
+
+.content a[href="/036"],
+.flair-036:before {
+	background-position: 0 -700px
+}
+
+.content a[href="/037"],
+.flair-037:before {
+	background-position: 0 -720px
+}
+
+.content a[href="/038"],
+.flair-038:before {
+	background-position: 0 -740px
+}
+
+.content a[href="/039"],
+.flair-039:before {
+	background-position: 0 -760px
+}
+
+.content a[href="/040"],
+.flair-040:before {
+	background-position: 0 -780px
+}
+
+.content a[href="/041"],
+.flair-041:before {
+	background-position: 0 -800px
+}
+
+.content a[href="/042"],
+.flair-042:before {
+	background-position: 0 -820px
+}
+
+.content a[href="/043"],
+.flair-043:before {
+	background-position: 0 -840px
+}
+
+.content a[href="/044"],
+.flair-044:before {
+	background-position: 0 -860px
+}
+
+.content a[href="/045"],
+.flair-045:before {
+	background-position: 0 -880px
+}
+
+.content a[href="/046"],
+.flair-046:before {
+	background-position: 0 -900px
+}
+
+.content a[href="/047"],
+.flair-047:before {
+	background-position: 0 -920px
+}
+
+.content a[href="/048"],
+.flair-048:before {
+	background-position: 0 -940px
+}
+
+.content a[href="/049"],
+.flair-049:before {
+	background-position: 0 -960px
+}
+
+.content a[href="/050"],
+.flair-050:before {
+	background-position: 0 -980px
+}
+
+.content a[href="/051"],
+.flair-051:before {
+	background-position: 0 -1000px
+}
+
+.content a[href="/052"],
+.flair-052:before {
+	background-position: 0 -1020px
+}
+
+.content a[href="/053"],
+.flair-053:before {
+	background-position: 0 -1040px
+}
+
+.content a[href="/054"],
+.flair-054:before {
+	background-position: 0 -1060px
+}
+
+.content a[href="/055"],
+.flair-055:before {
+	background-position: 0 -1080px
+}
+
+.content a[href="/056"],
+.flair-056:before {
+	background-position: 0 -1100px
+}
+
+.content a[href="/057"],
+.flair-057:before {
+	background-position: 0 -1120px
+}
+
+.content a[href="/066"],
+.flair-066:before {
+	background-position: -20px 0
+}
+
+.content a[href="/067"],
+.flair-067:before {
+	background-position: -20px -20px
+}
+
+.content a[href="/068"],
+.flair-068:before {
+	background-position: -20px -40px
+}
+
+.content a[href="/069"],
+.flair-069:before {
+	background-position: -20px -60px
+}
+
+.content a[href="/070"],
+.flair-070:before {
+	background-position: -20px -80px
+}
+
+.content a[href="/071"],
+.flair-071:before {
+	background-position: -20px -100px
+}
+
+.content a[href="/072"],
+.flair-072:before {
+	background-position: -20px -120px
+}
+
+.content a[href="/073"],
+.flair-073:before {
+	background-position: -20px -140px
+}
+
+.content a[href="/074"],
+.flair-074:before {
+	background-position: -20px -160px
+}
+
+.content a[href="/075"],
+.flair-075:before {
+	background-position: -20px -180px
+}
+
+.content a[href="/076"],
+.flair-076:before {
+	background-position: -20px -200px
+}
+
+.content a[href="/077"],
+.flair-077:before {
+	background-position: -20px -220px
+}
+
+.content a[href="/078"],
+.flair-078:before {
+	background-position: -20px -240px
+}
+
+.content a[href="/079"],
+.flair-079:before {
+	background-position: -20px -260px
+}
+
+.content a[href="/080"],
+.flair-080:before {
+	background-position: -20px -280px
+}
+
+.content a[href="/081"],
+.flair-081:before {
+	background-position: -20px -300px
+}
+
+.content a[href="/082"],
+.flair-082:before {
+	background-position: -20px -320px
+}
+
+.content a[href="/083"],
+.flair-083:before {
+	background-position: -20px -340px
+}
+
+.content a[href="/084"],
+.flair-084:before {
+	background-position: -20px -360px
+}
+
+.content a[href="/085"],
+.flair-085:before {
+	background-position: -20px -380px
+}
+
+.content a[href="/086"],
+.flair-086:before {
+	background-position: -20px -400px
+}
+
+.content a[href="/087"],
+.flair-087:before {
+	background-position: -20px -420px
+}
+
+.content a[href="/088"],
+.flair-088:before {
+	background-position: -20px -440px
+}
+
+.content a[href="/089"],
+.flair-089:before {
+	background-position: -20px -460px
+}
+
+.content a[href="/090"],
+.flair-090:before {
+	background-position: -20px -480px
+}
+
+.content a[href="/091"],
+.flair-091:before {
+	background-position: -20px -500px
+}
+
+.content a[href="/092"],
+.flair-092:before {
+	background-position: -20px -520px
+}
+
+.content a[href="/093"],
+.flair-093:before {
+	background-position: -20px -540px
+}
+
+.content a[href="/094"],
+.flair-094:before {
+	background-position: -20px -560px
+}
+
+.content a[href="/095"],
+.flair-095:before {
+	background-position: -20px -580px
+}
+
+.content a[href="/096"],
+.flair-096:before {
+	background-position: -20px -600px
+}
+
+.content a[href="/097"],
+.flair-097:before {
+	background-position: -20px -620px
+}
+
+.content a[href="/098"],
+.flair-098:before {
+	background-position: -20px -640px
+}
+
+.content a[href="/099"],
+.flair-099:before {
+	background-position: -20px -660px
+}
+
+.content a[href="/100"],
+.flair-100:before {
+	background-position: -20px -680px
+}
+
+.content a[href="/101"],
+.flair-101:before {
+	background-position: -20px -700px
+}
+
+.content a[href="/102"],
+.flair-102:before {
+	background-position: -20px -720px
+}
+
+.content a[href="/103"],
+.flair-103:before {
+	background-position: -20px -740px
+}
+
+.content a[href="/104"],
+.flair-104:before {
+	background-position: -20px -760px
+}
+
+.content a[href="/105"],
+.flair-105:before {
+	background-position: -20px -780px
+}
+
+.content a[href="/106"],
+.flair-106:before {
+	background-position: -20px -800px
+}
+
+.content a[href="/107"],
+.flair-107:before {
+	background-position: -20px -820px
+}
+
+.content a[href="/108"],
+.flair-108:before {
+	background-position: -20px -840px
+}
+
+.content a[href="/109"],
+.flair-109:before {
+	background-position: -20px -860px
+}
+
+.content a[href="/110"],
+.flair-110:before {
+	background-position: -20px -880px
+}
+
+.content a[href="/111"],
+.flair-111:before {
+	background-position: -20px -900px
+}
+
+.content a[href="/112"],
+.flair-112:before {
+	background-position: -20px -920px
+}
+
+.content a[href="/113"],
+.flair-113:before {
+	background-position: -20px -940px
+}
+
+.content a[href="/114"],
+.flair-114:before {
+	background-position: -20px -960px
+}
+
+.content a[href="/115"],
+.flair-115:before {
+	background-position: -20px -980px
+}
+
+.content a[href="/116"],
+.flair-116:before {
+	background-position: -20px -1000px
+}
+
+.content a[href="/117"],
+.flair-117:before {
+	background-position: -20px -1020px
+}
+
+.content a[href="/118"],
+.flair-118:before {
+	background-position: -20px -1040px
+}
+
+.content a[href="/119"],
+.flair-119:before {
+	background-position: -20px -1060px
+}
+
+.content a[href="/120"],
+.flair-120:before {
+	background-position: -20px -1080px
+}
+
+.content a[href="/121"],
+.flair-121:before {
+	background-position: -20px -1100px
+}
+
+.content a[href="/122"],
+.flair-122:before {
+	background-position: -20px -1120px
+}
+
+.content a[href="/123"],
+.flair-123:before {
+	background-position: -20px -1140px
+}
+
+.content a[href="/124"],
+.flair-124:before {
+	background-position: -20px -1160px
+}
+
+.content a[href="/125"],
+.flair-125:before {
+	background-position: -20px -1180px
+}
+
+.content a[href="/126"],
+.flair-126:before {
+	background-position: -20px -1200px
+}
+
+.content a[href="/127"],
+.flair-127:before {
+	background-position: -20px -1220px
+}
+
+.content a[href="/128"],
+.flair-128:before {
+	background-position: -20px -1240px
+}
+
+.content a[href="/129"],
+.flair-129:before {
+	background-position: -20px -1260px
+}
+
+.content a[href="/130"],
+.flair-130:before {
+	background-position: -20px -1280px
+}
+
+.content a[href="/131"],
+.flair-131:before {
+	background-position: -40px 0
+}
+
+.content a[href="/132"],
+.flair-132:before {
+	background-position: -40px -20px
+}
+
+.content a[href="/133"],
+.flair-133:before {
+	background-position: -40px -40px
+}
+
+.content a[href="/134"],
+.flair-134:before {
+	background-position: -40px -60px
+}
+
+.content a[href="/135"],
+.flair-135:before {
+	background-position: -40px -80px
+}
+
+.content a[href="/136"],
+.flair-136:before {
+	background-position: -40px -100px
+}
+
+.content a[href="/137"],
+.flair-137:before {
+	background-position: -40px -120px
+}
+
+.content a[href="/138"],
+.flair-138:before {
+	background-position: -40px -140px
+}
+
+.content a[href="/139"],
+.flair-139:before {
+	background-position: -40px -160px
+}
+
+.content a[href="/140"],
+.flair-140:before {
+	background-position: -40px -180px
+}
+
+.content a[href="/141"],
+.flair-141:before {
+	background-position: -40px -200px
+}
+
+.content a[href="/142"],
+.flair-142:before {
+	background-position: -40px -220px
+}
+
+.content a[href="/143"],
+.flair-143:before {
+	background-position: -40px -240px
+}
+
+.content a[href="/144"],
+.flair-144:before {
+	background-position: -40px -260px
+}
+
+.content a[href="/145"],
+.flair-145:before {
+	background-position: -40px -280px
+}
+
+.content a[href="/146"],
+.flair-146:before {
+	background-position: -40px -300px
+}
+
+.content a[href="/147"],
+.flair-147:before {
+	background-position: -40px -320px
+}
+
+.content a[href="/148"],
+.flair-148:before {
+	background-position: -40px -340px
+}
+
+.content a[href="/149"],
+.flair-149:before {
+	background-position: -40px -360px
+}
+
+.content a[href="/150"],
+.flair-150:before {
+	background-position: -40px -380px
+}
+
+.content a[href="/151"],
+.flair-151:before {
+	background-position: -40px -400px
+}
+
+.content a[href="/152"],
+.flair-152:before {
+	background-position: -40px -420px
+}
+
+.content a[href="/153"],
+.flair-153:before {
+	background-position: -40px -440px
+}
+
+.content a[href="/154"],
+.flair-154:before {
+	background-position: -40px -460px
+}
+
+.content a[href="/155"],
+.flair-155:before {
+	background-position: -40px -480px
+}
+
+.content a[href="/196"],
+.flair-196:before {
+	background-position: -60px 0
+}
+
+.content a[href="/197"],
+.flair-197:before {
+	background-position: -60px -20px
+}
+
+.content a[href="/198"],
+.flair-198:before {
+	background-position: -60px -40px
+}
+
+.content a[href="/199"],
+.flair-199:before {
+	background-position: -60px -60px
+}
+
+.content a[href="/200"],
+.flair-200:before {
+	background-position: -60px -80px
+}
+
+.content a[href="/201"],
+.flair-201:before {
+	background-position: -60px -100px
+}
+
+.content a[href="/202"],
+.flair-202:before {
+	background-position: -60px -120px
+}
+
+.content a[href="/203"],
+.flair-203:before {
+	background-position: -60px -140px
+}
+
+.content a[href="/204"],
+.flair-204:before {
+	background-position: -60px -160px
+}
+
+.content a[href="/205"],
+.flair-205:before {
+	background-position: -60px -180px
+}
+
+.content a[href="/206"],
+.flair-206:before {
+	background-position: -60px -200px
+}
+
+.content a[href="/207"],
+.flair-207:before {
+	background-position: -60px -220px
+}
+
+.content a[href="/208"],
+.flair-208:before {
+	background-position: -60px -240px
+}
+
+.content a[href="/209"],
+.flair-209:before {
+	background-position: -60px -260px
+}
+
+.content a[href="/210"],
+.flair-210:before {
+	background-position: -60px -280px
+}
+
+.content a[href="/211"],
+.flair-211:before {
+	background-position: -60px -300px
+}
+
+.content a[href="/212"],
+.flair-212:before {
+	background-position: -60px -320px
+}
+
+.content a[href="/213"],
+.flair-213:before {
+	background-position: -60px -340px
+}
+
+.content a[href="/214"],
+.flair-214:before {
+	background-position: -60px -360px
+}
+
+.content a[href="/215"],
+.flair-215:before {
+	background-position: -60px -380px
+}
+
+.content a[href="/216"],
+.flair-216:before {
+	background-position: -60px -400px
+}
+
+.content a[href="/217"],
+.flair-217:before {
+	background-position: -60px -420px
+}
+
+.content a[href="/218"],
+.flair-218:before {
+	background-position: -60px -440px
+}
+
+.content a[href="/219"],
+.flair-219:before {
+	background-position: -60px -460px
+}
+
+.content a[href="/220"],
+.flair-220:before {
+	background-position: -60px -480px
+}
+
+.content a[href="/221"],
+.flair-221:before {
+	background-position: -60px -500px
+}
+
+.content a[href="/222"],
+.flair-222:before {
+	background-position: -60px -520px
+}
+
+.content a[href="/223"],
+.flair-223:before {
+	background-position: -60px -540px
+}
+
+.content a[href="/224"],
+.flair-224:before {
+	background-position: -60px -560px
+}
+
+.content a[href="/225"],
+.flair-225:before {
+	background-position: -60px -580px
+}
+
+.content a[href="/226"],
+.flair-226:before {
+	background-position: -60px -600px
+}
+
+.content a[href="/227"],
+.flair-227:before {
+	background-position: -60px -620px
+}
+
+.content a[href="/228"],
+.flair-228:before {
+	background-position: -60px -640px
+}
+
+.content a[href="/229"],
+.flair-229:before {
+	background-position: -60px -660px
+}
+
+.content a[href="/230"],
+.flair-230:before {
+	background-position: -60px -680px
+}
+
+.content a[href="/231"],
+.flair-231:before {
+	background-position: -60px -700px
+}
+
+.content a[href="/232"],
+.flair-232:before {
+	background-position: -60px -720px
+}
+
+.content a[href="/233"],
+.flair-233:before {
+	background-position: -60px -740px
+}
+
+.content a[href="/234"],
+.flair-234:before {
+	background-position: -60px -760px
+}
+
+.content a[href="/235"],
+.flair-235:before {
+	background-position: -60px -780px
+}
+
+.content a[href="/236"],
+.flair-236:before {
+	background-position: -60px -800px
+}
+
+.content a[href="/261"],
+.flair-261:before {
+	background-position: -80px 0
+}
+
+.content a[href="/262"],
+.flair-262:before {
+	background-position: -80px -20px
+}
+
+.content a[href="/263"],
+.flair-263:before {
+	background-position: -80px -40px
+}
+
+.content a[href="/264"],
+.flair-264:before {
+	background-position: -80px -60px
+}
+
+.content a[href="/265"],
+.flair-265:before {
+	background-position: -80px -80px
+}
+
+.content a[href="/266"],
+.flair-266:before {
+	background-position: -80px -100px
+}
+
+.content a[href="/267"],
+.flair-267:before {
+	background-position: -80px -120px
+}
+
+.content a[href="/268"],
+.flair-268:before {
+	background-position: -80px -140px
+}
+
+.content a[href="/269"],
+.flair-269:before {
+	background-position: -80px -160px
+}
+
+.content a[href="/270"],
+.flair-270:before {
+	background-position: -80px -180px
+}
+
+.content a[href="/271"],
+.flair-271:before {
+	background-position: -80px -200px
+}
+
+.content a[href="/272"],
+.flair-272:before {
+	background-position: -80px -220px
+}
+
+.content a[href="/326"],
+.flair-326:before {
+	background-position: -100px 0
+}
+
+.content a[href="/327"],
+.flair-327:before {
+	background-position: -100px -20px
+}
+
+.content a[href="/328"],
+.flair-328:before {
+	background-position: -100px -40px
+}
+
+.content a[href="/329"],
+.flair-329:before {
+	background-position: -100px -60px
+}
+
+.content a[href="/330"],
+.flair-330:before {
+	background-position: -100px -80px
+}
+
+.content a[href="/331"],
+.flair-331:before {
+	background-position: -100px -100px
+}
+
+.content a[href="/332"],
+.flair-332:before {
+	background-position: -100px -120px
+}
+
+.content a[href="/333"],
+.flair-333:before {
+	background-position: -100px -140px
+}
+
+.content a[href="/334"],
+.flair-334:before {
+	background-position: -100px -160px
+}
+
+.content a[href="/335"],
+.flair-335:before {
+	background-position: -100px -180px
+}
+
+.content a[href="/391"],
+.flair-391:before {
+	background-position: -120px 0
+}
+
+.content a[href="/392"],
+.flair-392:before {
+	background-position: -120px -20px
+}
+
+.content a[href="/393"],
+.flair-393:before {
+	background-position: -120px -40px
+}
+
+.content a[href="/394"],
+.flair-394:before {
+	background-position: -120px -60px
+}
+
+.content a[href="/395"],
+.flair-395:before {
+	background-position: -120px -80px
+}
+
+.content a[href="/396"],
+.flair-396:before {
+	background-position: -120px -100px
+}
+
+.content a[href="/397"],
+.flair-397:before {
+	background-position: -120px -120px
+}
+
+.content a[href="/398"],
+.flair-398:before {
+	background-position: -120px -140px
+}
+
+.content a[href="/399"],
+.flair-399:before {
+	background-position: -120px -160px
+}
+
+.content a[href="/400"],
+.flair-400:before {
+	background-position: -120px -180px
+}
+
+.content a[href="/401"],
+.flair-401:before {
+	background-position: -120px -200px
+}
+
+.content a[href="/402"],
+.flair-402:before {
+	background-position: -120px -220px
+}
+
+.content a[href="/403"],
+.flair-403:before {
+	background-position: -120px -240px
+}
+
+.content a[href="/404"],
+.flair-404:before {
+	background-position: -120px -260px
+}
+
+.content a[href="/405"],
+.flair-405:before {
+	background-position: -120px -280px
+}
+
+.content a[href="/406"],
+.flair-406:before {
+	background-position: -120px -300px
+}
+
+.content a[href="/407"],
+.flair-407:before {
+	background-position: -120px -320px
+}
+
+.content a[href="/408"],
+.flair-408:before {
+	background-position: -120px -340px
+}
+
+.content a[href="/409"],
+.flair-409:before {
+	background-position: -120px -360px
+}
+
+.content a[href="/410"],
+.flair-410:before {
+	background-position: -120px -380px
+}
+
+.content a[href="/411"],
+.flair-411:before {
+	background-position: -120px -400px
+}
+
+.content a[href="/412"],
+.flair-412:before {
+	background-position: -120px -420px
+}
+
+.content a[href="/413"],
+.flair-413:before {
+	background-position: -120px -440px
+}
+
+.content a[href="/414"],
+.flair-414:before {
+	background-position: -120px -460px
+}
+
+.content a[href="/415"],
+.flair-415:before {
+	background-position: -120px -480px
+}
+
+.content a[href="/416"],
+.flair-416:before {
+	background-position: -120px -500px
+}
+
+.content a[href="/417"],
+.flair-417:before {
+	background-position: -120px -520px
+}
+
+.content a[href="/418"],
+.flair-418:before {
+	background-position: -120px -540px
+}
+
+.content a[href="/419"],
+.flair-419:before {
+	background-position: -120px -560px
+}
+
+.content a[href="/420"],
+.flair-420:before {
+	background-position: -120px -580px
+}
+
+.content a[href="/421"],
+.flair-421:before {
+	background-position: -120px -600px
+}
+
+.content a[href="/422"],
+.flair-422:before {
+	background-position: -120px -620px
+}
+
+.content a[href="/423"],
+.flair-423:before {
+	background-position: -120px -640px
+}
+
+.content a[href="/424"],
+.flair-424:before {
+	background-position: -120px -660px
+}
+
+.content a[href="/425"],
+.flair-425:before {
+	background-position: -120px -680px
+}
+
+.content a[href="/426"],
+.flair-426:before {
+	background-position: -120px -700px
+}
+
+.content a[href="/427"],
+.flair-427:before {
+	background-position: -120px -720px
+}
+
+.content a[href="/428"],
+.flair-428:before {
+	background-position: -120px -740px
+}
+
+.content a[href="/429"],
+.flair-429:before {
+	background-position: -120px -760px
+}
+
+.content a[href="/430"],
+.flair-430:before {
+	background-position: -120px -780px
+}
+
+.content a[href="/431"],
+.flair-431:before {
+	background-position: -120px -800px
+}
+
+.content a[href="/432"],
+.flair-432:before {
+	background-position: -120px -820px
+}
+
+.content a[href="/433"],
+.flair-433:before {
+	background-position: -120px -840px
+}
+
+.content a[href="/434"],
+.flair-434:before {
+	background-position: -120px -860px
+}
+
+.content a[href="/435"],
+.flair-435:before {
+	background-position: -120px -880px
+}
+
+.content a[href="/436"],
+.flair-436:before {
+	background-position: -120px -900px
+}
+
+.content a[href="/437"],
+.flair-437:before {
+	background-position: -120px -920px
+}
+
+.content a[href="/438"],
+.flair-438:before {
+	background-position: -120px -940px
+}
+
+.content a[href="/439"],
+.flair-439:before {
+	background-position: -120px -960px
+}
+
+.content a[href="/440"],
+.flair-440:before {
+	background-position: -120px -980px
+}
+
+.content a[href="/441"],
+.flair-441:before {
+	background-position: -120px -1000px
+}
+
+.content a[href="/442"],
+.flair-442:before {
+	background-position: -120px -1020px
+}
+
+.content a[href="/443"],
+.flair-443:before {
+	background-position: -120px -1040px
+}
+
+.content a[href="/444"],
+.flair-444:before {
+	background-position: -120px -1060px
+}
+
+.content a[href="/445"],
+.flair-445:before {
+	background-position: -120px -1080px
+}
+
+.content a[href="/446"],
+.flair-446:before {
+	background-position: -120px -1100px
+}
+
+.content a[href="/447"],
+.flair-447:before {
+	background-position: -120px -1120px
+}
+
+.content a[href="/448"],
+.flair-448:before {
+	background-position: -120px -1140px
+}
+
+.content a[href="/449"],
+.flair-449:before {
+	background-position: -120px -1160px
+}
+
+.content a[href="/450"],
+.flair-450:before {
+	background-position: -120px -1180px
+}
+
+.content a[href="/451"],
+.flair-451:before {
+	background-position: -120px -1200px
+}
+
+.content a[href="/452"],
+.flair-452:before {
+	background-position: -120px -1220px
+}
+
+.content a[href="/453"],
+.flair-453:before {
+	background-position: -120px -1240px
+}
+
+.content a[href="/454"],
+.flair-454:before {
+	background-position: -120px -1260px
+}
+
+.content a[href="/455"],
+.flair-455:before {
+	background-position: -120px -1280px
+}
+
+.content a[href="/456"],
+.flair-456:before {
+	background-position: -140px 0
+}
+
+.content a[href="/457"],
+.flair-457:before {
+	background-position: -140px -20px
+}
+
+.content a[href="/458"],
+.flair-458:before {
+	background-position: -140px -40px
+}
+
+.content a[href="/459"],
+.flair-459:before {
+	background-position: -140px -60px
+}
+
+.content a[href="/460"],
+.flair-460:before {
+	background-position: -140px -80px
+}
+
+.content a[href="/461"],
+.flair-461:before {
+	background-position: -140px -100px
+}
+
+.content a[href="/462"],
+.flair-462:before {
+	background-position: -140px -120px
+}
+
+.content a[href="/463"],
+.flair-463:before {
+	background-position: -140px -140px
+}
+
+.content a[href="/464"],
+.flair-464:before {
+	background-position: -140px -160px
+}
+
+.content a[href="/465"],
+.flair-465:before {
+	background-position: -140px -180px
+}
+
+.content a[href="/466"],
+.flair-466:before {
+	background-position: -140px -200px
+}
+
+.content a[href="/467"],
+.flair-467:before {
+	background-position: -140px -220px
+}
+
+.content a[href="/468"],
+.flair-468:before {
+	background-position: -140px -240px
+}
+
+.content a[href="/469"],
+.flair-469:before {
+	background-position: -140px -260px
+}
+
+.content a[href="/470"],
+.flair-470:before {
+	background-position: -140px -280px
+}
+
+.content a[href="/471"],
+.flair-471:before {
+	background-position: -140px -300px
+}
+
+.content a[href="/472"],
+.flair-472:before {
+	background-position: -140px -320px
+}
+
+.content a[href="/473"],
+.flair-473:before {
+	background-position: -140px -340px
+}
+
+.content a[href="/474"],
+.flair-474:before {
+	background-position: -140px -360px
+}
+
+.content a[href="/475"],
+.flair-475:before {
+	background-position: -140px -380px
+}
+
+.content a[href="/476"],
+.flair-476:before {
+	background-position: -140px -400px
+}
+
+.content a[href="/477"],
+.flair-477:before {
+	background-position: -140px -420px
+}
+
+.content a[href="/478"],
+.flair-478:before {
+	background-position: -140px -440px
+}
+
+.content a[href="/479"],
+.flair-479:before {
+	background-position: -140px -460px
+}
+
+.content a[href="/480"],
+.flair-480:before {
+	background-position: -140px -480px
+}
+
+.content a[href="/481"],
+.flair-481:before {
+	background-position: -140px -500px
+}
+
+.content a[href="/482"],
+.flair-482:before {
+	background-position: -140px -520px
+}
+
+.content a[href="/483"],
+.flair-483:before {
+	background-position: -140px -540px
+}
+
+.content a[href="/484"],
+.flair-484:before {
+	background-position: -140px -560px
+}
+
+.content a[href="/485"],
+.flair-485:before {
+	background-position: -140px -580px
+}
+
+.content a[href="/486"],
+.flair-486:before {
+	background-position: -140px -600px
+}
+
+.content a[href="/487"],
+.flair-487:before {
+	background-position: -140px -620px
+}
+
+.content a[href="/488"],
+.flair-488:before {
+	background-position: -140px -640px
+}
+
+.content a[href="/489"],
+.flair-489:before {
+	background-position: -140px -660px
+}
+
+.content a[href="/490"],
+.flair-490:before {
+	background-position: -140px -680px
+}
+
+.content a[href="/491"],
+.flair-491:before {
+	background-position: -140px -700px
+}
+
+.content a[href="/492"],
+.flair-492:before {
+	background-position: -140px -720px
+}
+
+.content a[href="/493"],
+.flair-493:before {
+	background-position: -140px -740px
+}
+
+.content a[href="/494"],
+.flair-494:before {
+	background-position: -140px -760px
+}
+
+.content a[href="/495"],
+.flair-495:before {
+	background-position: -140px -780px
+}
+
+.content a[href="/521"],
+.flair-521:before {
+	background-position: -160px 0
+}
+
+.content a[href="/522"],
+.flair-522:before {
+	background-position: -160px -20px
+}
+
+.content a[href="/523"],
+.flair-523:before {
+	background-position: -160px -40px
+}
+
+.content a[href="/524"],
+.flair-524:before {
+	background-position: -160px -60px
+}
+
+.content a[href="/525"],
+.flair-525:before {
+	background-position: -160px -80px
+}
+
+.content a[href="/526"],
+.flair-526:before {
+	background-position: -160px -100px
+}
+
+.content a[href="/527"],
+.flair-527:before {
+	background-position: -160px -120px
+}
+
+.content a[href="/528"],
+.flair-528:before {
+	background-position: -160px -140px
+}
+
+.content a[href="/586"],
+.flair-586:before {
+	background-position: -180px 0
+}
+
+.content a[href="/587"],
+.flair-587:before {
+	background-position: -180px -20px
+}
+
+.content a[href="/588"],
+.flair-588:before {
+	background-position: -180px -40px
+}
+
+.content a[href="/589"],
+.flair-589:before {
+	background-position: -180px -60px
+}
+
+.content a[href="/590"],
+.flair-590:before {
+	background-position: -180px -80px
+}
+
+.content a[href="/591"],
+.flair-591:before {
+	background-position: -180px -100px
+}
+
+.content a[href="/592"],
+.flair-592:before {
+	background-position: -180px -120px
+}
+
+.content a[href="/593"],
+.flair-593:before {
+	background-position: -180px -140px
+}
+
+.content a[href="/594"],
+.flair-594:before {
+	background-position: -180px -160px
+}
+
+.content a[href="/595"],
+.flair-595:before {
+	background-position: -180px -180px
+}
+
+.content a[href="/596"],
+.flair-596:before {
+	background-position: -180px -200px
+}
+
+.content a[href="/597"],
+.flair-597:before {
+	background-position: -180px -220px
+}
+
+.content a[href="/598"],
+.flair-598:before {
+	background-position: -180px -240px
+}
+
+.content a[href="/599"],
+.flair-599:before {
+	background-position: -180px -260px
+}
+
+.content a[href="/600"],
+.flair-600:before {
+	background-position: -180px -280px
+}
+
+.content a[href="/601"],
+.flair-601:before {
+	background-position: -180px -300px
+}
+
+.content a[href="/602"],
+.flair-602:before {
+	background-position: -180px -320px
+}
+
+.content a[href="/603"],
+.flair-603:before {
+	background-position: -180px -340px
+}
+
+.content a[href="/604"],
+.flair-604:before {
+	background-position: -180px -360px
+}
+
+.content a[href="/605"],
+.flair-605:before {
+	background-position: -180px -380px
+}
+
+.content a[href="/606"],
+.flair-606:before {
+	background-position: -180px -400px
+}
+
+.content a[href="/607"],
+.flair-607:before {
+	background-position: -180px -420px
+}
+
+.content a[href="/608"],
+.flair-608:before {
+	background-position: -180px -440px
+}
+
+.content a[href="/609"],
+.flair-609:before {
+	background-position: -180px -460px
+}
+
+.content a[href="/610"],
+.flair-610:before {
+	background-position: -180px -480px
+}
+
+.content a[href="/611"],
+.flair-611:before {
+	background-position: -180px -500px
+}
+
+.content a[href="/612"],
+.flair-612:before {
+	background-position: -180px -520px
+}
+
+.content a[href="/613"],
+.flair-613:before {
+	background-position: -180px -540px
+}
+
+.content a[href="/614"],
+.flair-614:before {
+	background-position: -180px -560px
+}
+
+.content a[href="/615"],
+.flair-615:before {
+	background-position: -180px -580px
+}
+
+.content a[href="/616"],
+.flair-616:before {
+	background-position: -180px -600px
+}
+
+.content a[href="/617"],
+.flair-617:before {
+	background-position: -180px -620px
+}
+
+.content a[href="/618"],
+.flair-618:before {
+	background-position: -180px -640px
+}
+
+.content a[href="/619"],
+.flair-619:before {
+	background-position: -180px -660px
+}
+
+.content a[href="/620"],
+.flair-620:before {
+	background-position: -180px -680px
+}
+
+.content a[href="/621"],
+.flair-621:before {
+	background-position: -180px -700px
+}
+
+.content a[href="/622"],
+.flair-622:before {
+	background-position: -180px -720px
+}
+
+.content a[href="/623"],
+.flair-623:before {
+	background-position: -180px -740px
+}
+
+.content a[href="/624"],
+.flair-624:before {
+	background-position: -180px -760px
+}
+
+.content a[href="/625"],
+.flair-625:before {
+	background-position: -180px -780px
+}
+
+.content a[href="/626"],
+.flair-626:before {
+	background-position: -180px -800px
+}
+
+.content a[href="/627"],
+.flair-627:before {
+	background-position: -180px -820px
+}
+
+.content a[href="/628"],
+.flair-628:before {
+	background-position: -180px -840px
+}
+
+.content a[href="/629"],
+.flair-629:before {
+	background-position: -180px -860px
+}
+
+.content a[href="/630"],
+.flair-630:before {
+	background-position: -180px -880px
+}
+
+.content a[href="/631"],
+.flair-631:before {
+	background-position: -180px -900px
+}
+
+.content a[href="/632"],
+.flair-632:before {
+	background-position: -180px -920px
+}
+
+.content a[href="/633"],
+.flair-633:before {
+	background-position: -180px -940px
+}
+
+.content a[href="/634"],
+.flair-634:before {
+	background-position: -180px -960px
+}
+
+.content a[href="/635"],
+.flair-635:before {
+	background-position: -180px -980px
+}
+
+.content a[href="/636"],
+.flair-636:before {
+	background-position: -180px -1000px
+}
+
+.content a[href="/637"],
+.flair-637:before {
+	background-position: -180px -1020px
+}
+
+.content a[href="/638"],
+.flair-638:before {
+	background-position: -180px -1040px
+}
+
+.content a[href="/639"],
+.flair-639:before {
+	background-position: -180px -1060px
+}
+
+.content a[href="/640"],
+.flair-640:before {
+	background-position: -180px -1080px
+}
+
+.content a[href="/641"],
+.flair-641:before {
+	background-position: -180px -1100px
+}
+
+.content a[href="/642"],
+.flair-642:before {
+	background-position: -180px -1180px
+}
+
+.content a[href="/643"],
+.flair-643:before {
+	background-position: -180px -1140px
+}
+
+.content a[href="/644"],
+.flair-644:before {
+	background-position: -180px -1160px
+}
+
+.content a[href="/645"],
+.flair-645:before {
+	background-position: -180px -1180px
+}
+
+.content a[href="/646"],
+.flair-646:before {
+	background-position: -180px -1200px
+}
+
+.content a[href="/647"],
+.flair-647:before {
+	background-position: -180px -1220px
+}
+
+.content a[href="/648"],
+.flair-648:before {
+	background-position: -180px -1240px
+}
+
+.content a[href="/649"],
+.flair-649:before {
+	background-position: -180px -1260px
+}
+
+.content a[href="/650"],
+.flair-650:before {
+	background-position: -180px -1280px
+}
+
+.content a[href="/651"],
+.flair-651:before {
+	background-position: -200px 0
+}
+
+.content a[href="/652"],
+.flair-652:before {
+	background-position: -200px -20px
+}
+
+.content a[href="/653"],
+.flair-653:before {
+	background-position: -200px -40px
+}
+
+.content a[href="/654"],
+.flair-654:before {
+	background-position: -200px -60px
+}
+
+.content a[href="/655"],
+.flair-655:before {
+	background-position: -200px -80px
+}
+
+.content a[href="/656"],
+.flair-656:before {
+	background-position: -200px -100px
+}
+
+.content a[href="/657"],
+.flair-657:before {
+	background-position: -200px -120px
+}
+
+.content a[href="/658"],
+.flair-658:before {
+	background-position: -200px -140px
+}
+
+.content a[href="/659"],
+.flair-659:before {
+	background-position: -200px -160px
+}
+
+.content a[href="/660"],
+.flair-660:before {
+	background-position: -200px -180px
+}
+
+.content a[href="/661"],
+.flair-661:before {
+	background-position: -200px -200px
+}
+
+.content a[href="/662"],
+.flair-662:before {
+	background-position: -200px -220px
+}
+
+.content a[href="/663"],
+.flair-663:before {
+	background-position: -200px -240px
+}
+
+.content a[href="/664"],
+.flair-664:before {
+	background-position: -200px -260px
+}
+
+.content a[href="/665"],
+.flair-665:before {
+	background-position: -200px -280px
+}
+
+.content a[href="/666"],
+.flair-666:before {
+	background-position: -200px -300px
+}
+
+.content a[href="/667"],
+.flair-667:before {
+	background-position: -200px -320px
+}
+
+.content a[href="/668"],
+.flair-668:before {
+	background-position: -200px -340px
+}
+
+.content a[href="/669"],
+.flair-669:before {
+	background-position: -200px -360px
+}
+
+.content a[href="/716"],
+.flair-716:before {
+	background-position: -220px 0
+}
+
+.content a[href="/717"],
+.flair-717:before {
+	background-position: -220px -20px
+}
+
+.content a[href="/718"],
+.flair-718:before {
+	background-position: -220px -40px
+}
+
+.content a[href="/719"],
+.flair-719:before {
+	background-position: -220px -60px
+}
+
+.content a[href="/720"],
+.flair-720:before {
+	background-position: -220px -80px
+}
+
+.content a[href="/721"],
+.flair-721:before {
+	background-position: -220px -100px
+}
+
+.content a[href="/722"],
+.flair-722:before {
+	background-position: -220px -120px
+}
+
+.content a[href="/723"],
+.flair-723:before {
+	background-position: -220px -140px
+}
+
+.content a[href="/724"],
+.flair-724:before {
+	background-position: -220px -160px
+}
+
+.content a[href="/725"],
+.flair-725:before {
+	background-position: -220px -180px
+}
+
+.content a[href="/726"],
+.flair-726:before {
+	background-position: -220px -200px
+}
+
+.content a[href="/727"],
+.flair-727:before {
+	background-position: -220px -220px
+}
+
+.content a[href="/728"],
+.flair-728:before {
+	background-position: -220px -240px
+}
+
+.content a[href="/729"],
+.flair-729:before {
+	background-position: -220px -260px
+}
+
+.content a[href="/730"],
+.flair-730:before {
+	background-position: -220px -280px
+}
+
+.content a[href="/731"],
+.flair-731:before {
+	background-position: -220px -300px
+}
+
+.content a[href="/732"],
+.flair-732:before {
+	background-position: -220px -320px
+}
+
+.content a[href="/733"],
+.flair-733:before {
+	background-position: -220px -340px
+}
+
+.content a[href="/CONCACAF"],
+.flair-concacaf:before {
+	background-position: -240px 0
+}
+
+.content a[href="/USA"],
+.flair-usa:before {
+	background-position: -240px -20px
+}
+
+.content a[href="/MEX"],
+.flair-mex:before {
+	background-position: -240px -40px
+}
+
+.content a[href="/CAN"],
+.flair-can:before {
+	background-position: -240px -60px
+}
+
+.content a[href="/AIA"],
+.flair-aia:before {
+	background-position: -240px -80px
+}
+
+.content a[href="/ATG"],
+.flair-atg:before {
+	background-position: -240px -100px
+}
+
+.content a[href="/ARU"],
+.flair-aru:before {
+	background-position: -240px -120px
+}
+
+.content a[href="/BAH"],
+.flair-bah:before {
+	background-position: -240px -140px
+}
+
+.content a[href="/BRB"],
+.flair-brb:before {
+	background-position: -240px -160px
+}
+
+.content a[href="/BLZ"],
+.flair-blz:before {
+	background-position: -240px -180px
+}
+
+.content a[href="/BER"],
+.flair-ber:before {
+	background-position: -240px -200px
+}
+
+.content a[href="/BOE"],
+.flair-boe:before {
+	background-position: -240px -220px
+}
+
+.content a[href="/VGB"],
+.flair-vgb:before {
+	background-position: -240px -240px
+}
+
+.content a[href="/CAY"],
+.flair-cay:before {
+	background-position: -240px -260px
+}
+
+.content a[href="/CRC"],
+.flair-crc:before {
+	background-position: -240px -280px
+}
+
+.content a[href="/CUB"],
+.flair-cub:before {
+	background-position: -240px -300px
+}
+
+.content a[href="/CUW"],
+.flair-cuw:before {
+	background-position: -240px -320px
+}
+
+.content a[href="/DMA"],
+.flair-dma:before {
+	background-position: -240px -340px
+}
+
+.content a[href="/DOM"],
+.flair-dom:before {
+	background-position: -240px -360px
+}
+
+.content a[href="/SLV"],
+.flair-slv:before {
+	background-position: -240px -380px
+}
+
+.content a[href="/GUF"],
+.flair-guf:before {
+	background-position: -240px -400px
+}
+
+.content a[href="/GRN"],
+.flair-grn:before {
+	background-position: -240px -420px
+}
+
+.content a[href="/GLP"],
+.flair-glp:before {
+	background-position: -240px -440px
+}
+
+.content a[href="/GUA"],
+.flair-gua:before {
+	background-position: -240px -460px
+}
+
+.content a[href="/GUY"],
+.flair-guy:before {
+	background-position: -240px -480px
+}
+
+.content a[href="/HAI"],
+.flair-hai:before {
+	background-position: -240px -500px
+}
+
+.content a[href="/HON"],
+.flair-hon:before {
+	background-position: -240px -520px
+}
+
+.content a[href="/JAM"],
+.flair-jam:before {
+	background-position: -240px -540px
+}
+
+.content a[href="/MTQ"],
+.flair-mtq:before {
+	background-position: -240px -560px
+}
+
+.content a[href="/MSR"],
+.flair-msr:before {
+	background-position: -240px -580px
+}
+
+.content a[href="/NCA"],
+.flair-nca:before {
+	background-position: -240px -600px
+}
+
+.content a[href="/PAN"],
+.flair-pan:before {
+	background-position: -240px -620px
+}
+
+.content a[href="/PUR"],
+.flair-pur:before {
+	background-position: -240px -640px
+}
+
+.content a[href="/SMN"],
+.flair-smn:before {
+	background-position: -240px -660px
+}
+
+.content a[href="/SMA"],
+.flair-sma:before {
+	background-position: -240px -680px
+}
+
+.content a[href="/SKN"],
+.flair-skn:before {
+	background-position: -240px -700px
+}
+
+.content a[href="/LCA"],
+.flair-lca:before {
+	background-position: -240px -720px
+}
+
+.content a[href="/VIN"],
+.flair-vin:before {
+	background-position: -240px -740px
+}
+
+.content a[href="/SUR"],
+.flair-sur:before {
+	background-position: -240px -760px
+}
+
+.content a[href="/TRI"],
+.flair-tri:before {
+	background-position: -240px -780px
+}
+
+.content a[href="/TCA"],
+.flair-tca:before {
+	background-position: -240px -800px
+}
+
+.content a[href="/VIR"],
+.flair-vir:before {
+	background-position: -240px -820px
+}
+
+.content a[href="/CONMEBOL"],
+.flair-conmebol:before {
+	background-position: -240px -840px
+}
+
+.content a[href="/ARG"],
+.flair-arg:before {
+	background-position: -240px -860px
+}
+
+.content a[href="/BOL"],
+.flair-bol:before {
+	background-position: -240px -880px
+}
+
+.content a[href="/BRA"],
+.flair-bra:before {
+	background-position: -240px -900px
+}
+
+.content a[href="/CHIL"],
+.flair-chil:before {
+	background-position: -240px -920px
+}
+
+.content a[href="/COLO"],
+.flair-colo:before {
+	background-position: -240px -940px
+}
+
+.content a[href="/ECU"],
+.flair-ecu:before {
+	background-position: -240px -960px
+}
+
+.content a[href="/PAR"],
+.flair-par:before {
+	background-position: -240px -980px
+}
+
+.content a[href="/PER"],
+.flair-per:before {
+	background-position: -240px -1000px
+}
+
+.content a[href="/URU"],
+.flair-uru:before {
+	background-position: -240px -1020px
+}
+
+.content a[href="/VEN"],
+.flair-ven:before {
+	background-position: -240px -1040px
+}
+
+.content a[href="/LALAS"],
+.flair-lalas:before {
+	background-position: -260px 0
+}
+
+.content a[href="/USOC"],
+.flair-usoc:before {
+	background-position: -260px -20px
+}
+
+.content a[href="/CCL"],
+.flair-ccl:before {
+	background-position: -260px -40px
+}
+
+.content a[href="/GOLD"],
+.flair-gold:before {
+	background-position: -260px -60px
+}
+
+.content a[href="/FIFA"],
+.flair-fifa:before {
+	background-position: -260px -80px
+}
+
+.content a[href="/1CUP"],
+.flair-1cup:before {
+	background-position: -260px -100px
+}
+
+.content a[href="/852"],
+.flair-852:before {
+	background-position: -260px -120px
+}
+
+.content a[href="/853"],
+.flair-853:before {
+	background-position: -260px -140px
+}
+
+.content a[href="/854"],
+.flair-854:before {
+	background-position: -260px -160px
+}
+
+.content a[href="/855"],
+.flair-855:before {
+	background-position: -260px -180px
+}
+
+.content a[href="/856"],
+.flair-856:before {
+	background-position: -260px -200px
+}
+
+.content a[href="/857"],
+.flair-857:before {
+	background-position: -260px -220px
+}
+
+.content a[href="/858"],
+.flair-858:before {
+	background-position: -260px -240px
+}
+
+.content a[href="/859"],
+.flair-859:before {
+	background-position: -260px -260px
+}
+
+.content a[href="/860"],
+.flair-860:before {
+	background-position: -260px -280px
+}
+
+.content a[href="/861"],
+.flair-861:before {
+	background-position: -260px -300px
+}
+
+.content a[href="/862"],
+.flair-862:before {
+	background-position: -260px -320px
+}
+
+.content a[href="/863"],
+.flair-863:before {
+	background-position: -260px -340px
+}
+
+.content a[href="/864"],
+.flair-864:before {
+	background-position: -260px -360px
+}
+
+.content a[href="/865"],
+.flair-865:before {
+	background-position: -260px -380px
+}
+
+.content a[href="/866"],
+.flair-866:before {
+	background-position: -260px -400px
+}
+
+.content a[href="/867"],
+.flair-867:before {
+	background-position: -260px -420px
+}
+
+.content a[href="/TWELLMAN"],
+.flair-twellman:before {
+	background-position: -260px -440px
+}
+
+.content a[href="/FIORE"],
+.flair-fiore:before {
+	background-position: -260px -460px
+}
+
+.content a[href="/PRO"],
+.flair-pro:before {
+	background-position: -260px -480px
+}
+
+.content a[href="/871"],
+.flair-871:before {
+	background-position: -260px -500px
+}
+
+.content a[href="/872"],
+.flair-872:before {
+	background-position: -260px -520px
+}
+
+.content a[href="/873"],
+.flair-873:before {
+	background-position: -260px -540px
+}
+
+.content a[href="/874"],
+.flair-874:before {
+	background-position: -260px -560px
+}
+
+.content a[href="/875"],
+.flair-875:before {
+	background-position: -260px -580px
+}
+
+.content a[href="/905"],
+.flair-905:before {
+	background-position: -260px -1180px
+}
+
+.content a[href="/906"],
+.flair-906:before {
+	background-position: -260px -1200px
+}
+
+.content a[href="/907"],
+.flair-907:before {
+	background-position: -260px -1220px
+}
+
+.content a[href="/908"],
+.flair-908:before {
+	background-position: -260px -1240px
+}
+
+.content a[href="/909"],
+.flair-909:before {
+	background-position: -260px -1260px
+}
+
+.content a[href="/CAI"],
+.flair-cai:before {
+	background-position: -280px 0
+}
+
+.content a[href="/GUASTATOYA"],
+.flair-guastatoya:before {
+	background-position: -280px -20px
+}
+
+.content a[href="/PANTOJA"],
+.flair-pantoja:before {
+	background-position: -280px -40px
+}
+
+.content a[href="/TOLUCA"],
+.flair-toluca:before {
+	background-position: -280px -60px
+}
+
+.content a[href="/HEREDIANO"],
+.flair-herediano:before {
+	background-position: -280px -80px
+}
+
+.content a[href="/SANTOS"],
+.flair-santos:before {
+	background-position: -280px -100px
+}
+
+.content a[href="/MONTERREY"],
+.flair-monterrey:before {
+	background-position: -280px -120px
+}
+
+.content a[href="/MARATHON"],
+.flair-marathon:before {
+	background-position: -280px -140px
+}
+
+.content a[href="/ALIANZA"],
+.flair-alianza:before {
+	background-position: -280px -160px
+}
+
+.content a[href="/SAPRISSA"],
+.flair-saprissa:before {
+	background-position: -280px -180px
+}
+
+.content a[href="/TIGRES"],
+.flair-tigres:before {
+	background-position: -280px -200px
+}
+
+.content a[href="/PACHUCA"],
+.flair-pachuca:before {
+	background-position: -280px -220px
+}
+
+.content a[href="/MORELIA"],
+.flair-morelia:before {
+	background-position: -280px -240px
+}
+
+.content a[href="/GUADALAJARA"],
+.flair-guadalajara:before {
+	background-position: -280px -260px
+}
+
+.content a[href="/AMERICA"],
+.flair-america:before {
+	background-position: -280px -280px
+}
+
+.content a[href="/CRUZAZUL"],
+.flair-cruzazul:before {
+	background-position: -280px -300px
+}
+
+.content a[href="/NECAXA"],
+.flair-necaxa:before {
+	background-position: -280px -320px
+}
+
+.content a[href="/TIJUANA"],
+.flair-tijuana:before {
+	background-position: -280px -340px
+}
+
+.content a[href="/PUEBLA"],
+.flair-puebla:before {
+	background-position: -280px -360px
+}
+
+.content a[href="/ATLAS"],
+.flair-atlas:before {
+	background-position: -280px -380px
+}
+
+.content a[href="/LEON"],
+.flair-leon:before {
+	background-position: -280px -400px
+}
+
+.content a[href="/LOBOS"],
+.flair-lobos:before {
+	background-position: -280px -420px
+}
+
+.content a[href="/QUERETARO"],
+.flair-queretaro:before {
+	background-position: -280px -440px
+}
+
+.content a[href="/VERACRUZ"],
+.flair-veracruz:before {
+	background-position: -280px -460px
+}
+
+.content a[href="/PUMAS"],
+.flair-pumas:before {
+	background-position: -280px -480px
+}
+
+.content a[href="/MX"],
+.flair-mx:before {
+	background-position: -280px -500px
+}
+
+.content {
+	margin-top: 20px;
+	margin-right: 310px
+}
+
+.side .md h3:nth-of-type(1) {
+	position: absolute;
+	font-size: 13px;
+	top: 170px;
+	left: 10px;
+	right: 11px;
+	height: 14px;
+	background: 0;
+	color: #474747;
+	padding: 3px 3px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-align: center;
+	padding-top: 3px
+}
+
+.side .md h3:nth-of-type(1) a:active,
+.side .md h3:nth-of-type(1) a:link,
+.side .md h3:nth-of-type(1) a:visited {
+	color: #000
+}
+
+.side .md h3:nth-of-type(1) a:hover {
+	color: #ff4500!important
+}
+
+.res-nightmode .side .md h3:nth-of-type(1) {
+	background-color: #transparent!important;
+	color: #474747!important
+}
